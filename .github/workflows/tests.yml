@@ -1,0 +1,49 @@
+name: Regression tests
+
+# Runs every automated test on each push and pull request, so a change that breaks
+# UC1-UC4 logic or the build shows a red cross before it reaches main.
+# No database or secrets: these tests use in-memory data only.
+# (tests/integration reads the live database and is run by hand: python -m pytest tests/integration)
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install Python packages
+        run: |
+          sudo apt-get install -y libpq-dev
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install npm packages
+        run: npm ci
+
+      - name: Engine unit tests (UC1, UC2)
+        run: python -m pytest tests/engines -v
+
+      - name: Page logic tests (UC1-UC4)
+        run: node --test "tests/frontend/**/*.mjs"
+
+      - name: Build the app
+        run: npm run build

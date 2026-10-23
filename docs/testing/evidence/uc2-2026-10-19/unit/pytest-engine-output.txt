@@ -1,0 +1,30 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.8, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\GRAM\AppData\Local\Python\pythoncore-3.14-64\python.exe
+rootdir: C:\Users\GRAM\Documents\GitHub\FYP_Medflow
+configfile: pyproject.toml
+plugins: platformdirs-4.12.2, anyio-4.15.1, langsmith-0.14.4
+collecting ... collected 21 items
+
+tests/engines/test_uc2_replenishment.py::test_ut001_pin_resolves_to_the_last_real_day PASSED [  4%]
+tests/engines/test_uc2_replenishment.py::test_ut002_settings_map_to_seed_arguments PASSED [  9%]
+tests/engines/test_uc2_replenishment.py::test_ut003_subsidiaries_exclude_central_and_are_sorted PASSED [ 14%]
+tests/engines/test_uc2_replenishment.py::test_ut004_schema_version_must_match_the_repo PASSED [ 19%]
+tests/engines/test_uc2_replenishment.py::test_ut005_daily_run_appends_consumption_then_rebuilds_policy PASSED [ 23%]
+tests/engines/test_uc2_replenishment.py::test_ut006_first_run_builds_consumption_in_buckets PASSED [ 28%]
+tests/engines/test_uc2_replenishment.py::test_ut007_pin_sets_the_policy_date PASSED [ 33%]
+tests/engines/test_uc2_replenishment.py::test_ut008_rebuild_empties_consumption_only_after_every_check_passes PASSED [ 38%]
+tests/engines/test_uc2_replenishment.py::test_ut009_stale_schema_stops_the_run_before_any_write PASSED [ 42%]
+tests/engines/test_uc2_replenishment.py::test_ut010_run_fails_cleanly_without_subsidiaries_or_ledger PASSED [ 47%]
+tests/engines/test_uc2_replenishment.py::test_ut011_service_level_class_by_form_then_category_then_default PASSED [ 52%]
+tests/engines/test_uc2_replenishment.py::test_ut012_demand_class_uses_adi_132_and_cv2_049[series0-dormant] PASSED [ 57%]
+tests/engines/test_uc2_replenishment.py::test_ut012_demand_class_uses_adi_132_and_cv2_049[series1-insufficient] PASSED [ 61%]
+tests/engines/test_uc2_replenishment.py::test_ut012_demand_class_uses_adi_132_and_cv2_049[series2-smooth] PASSED [ 66%]
+tests/engines/test_uc2_replenishment.py::test_ut012_demand_class_uses_adi_132_and_cv2_049[series3-erratic] PASSED [ 71%]
+tests/engines/test_uc2_replenishment.py::test_ut012_demand_class_uses_adi_132_and_cv2_049[series4-intermittent] PASSED [ 76%]
+tests/engines/test_uc2_replenishment.py::test_ut012_demand_class_uses_adi_132_and_cv2_049[series5-intermittent] PASSED [ 80%]
+tests/engines/test_uc2_replenishment.py::test_ut012_demand_class_uses_adi_132_and_cv2_049[series6-lumpy] PASSED [ 85%]
+tests/engines/test_uc2_replenishment.py::test_ut013_reorder_point_matches_hand_calculation PASSED [ 90%]
+tests/engines/test_uc2_replenishment.py::test_ut014_reorder_point_floors_sigma_and_handles_zero_demand PASSED [ 95%]
+tests/engines/test_uc2_replenishment.py::test_ut015_sba_forecast_removes_croston_bias PASSED [100%]
+
+============================= 21 passed in 0.33s ==============================

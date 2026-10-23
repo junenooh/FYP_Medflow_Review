@@ -1,0 +1,24 @@
+warehouseid,antecedent_productids,antecedent_productnames,consequent_productid,consequent_productname,itemsetsize,support,confidence,lift,strength
+WH001,MED0059,Pulmicort Budesonide Inhaler Original 200mg,MED0057,Ventolin Salbutamol Inhaler Original 100mg,2,0.0581013842028304,0.911633563032023,11.0460446642948,Strong
+WH001,MED0057,Ventolin Salbutamol Inhaler Original 100mg,MED0059,Pulmicort Budesonide Inhaler Original 200mg,2,0.0581013842028304,0.704000500845176,11.0460446642948,Strong
+WH001,MED0063,Prednisolone Prednisolone Original 5mg,MED0059,Pulmicort Budesonide Inhaler Original 200mg,2,0.0581427191137795,0.941122355105796,14.7665797916117,Strong
+WH001,MED0059,Pulmicort Budesonide Inhaler Original 200mg,MED0063,Prednisolone Prednisolone Original 5mg,2,0.0581427191137795,0.912282124037292,14.7665797916117,Strong
+WH001,MED0063,Prednisolone Prednisolone Original 5mg,MED0057,Ventolin Salbutamol Inhaler Original 100mg,2,0.0579670457422458,0.938278832483064,11.3688989868907,Strong
+WH001,MED0057,Ventolin Salbutamol Inhaler Original 100mg,MED0063,Prednisolone Prednisolone Original 5mg,2,0.0579670457422458,0.702372754022413,11.3688989868907,Strong
+WH001,MED0067,Otrivin Xylometazoline Spray Original 0.1%,MED0001,Panadol Paracetamol Original 500mg,2,0.058948749877287,0.872447809130535,7.07984995500766,Strong
+WH001,MED0050,Piriton Chlorpheniramine Original 4mg,MED0001,Panadol Paracetamol Original 500mg,2,0.0585974031342196,0.925644792686908,7.51153957322503,Strong
+WH001,MED0067,Otrivin Xylometazoline Spray Original 0.1%,MED0050,Piriton Chlorpheniramine Original 4mg,2,0.0581478859776481,0.860594937676837,13.594548223385,Strong
+WH001,MED0050,Piriton Chlorpheniramine Original 4mg,MED0067,Otrivin Xylometazoline Spray Original 0.1%,2,0.0581478859776481,0.918543911198172,13.594548223385,Strong
+WH001,MED0037,Tamiflu Oseltamivir Original 75mg,MED0001,Panadol Paracetamol Original 500mg,2,0.0586645723645119,0.954117647058824,7.74259469724997,Strong
+WH001,MED0019,MED0019,MED0069,Losec Omeprazole Original 20mg,2,0.0589435830134183,0.909003984063745,14.3405233191785,Strong
+WH001,MED0069,Losec Omeprazole Original 20mg,MED0019,MED0019,2,0.0589435830134183,0.929898924029997,14.3405233191785,Strong
+WH001,MED0077,Imodium Loperamide Original 2mg,MED0080,Smecta Diosmectite Original 3g,2,0.0573263546225348,0.930476350218048,14.0669679188839,Strong
+WH001,MED0080,Smecta Diosmectite Original 3g,MED0077,Imodium Loperamide Original 2mg,2,0.0573263546225348,0.866661459147008,14.0669679188839,Strong
+WH001,MED0081,Buscopan Hyoscine Original 10mg,MED0080,Smecta Diosmectite Original 3g,2,0.0574141913083016,0.943774418209614,14.2680084888851,Strong
+WH001,MED0080,Smecta Diosmectite Original 3g,MED0081,Buscopan Hyoscine Original 10mg,2,0.0574141913083016,0.867989376659897,14.2680084888851,Strong
+WH001,MED0081,Buscopan Hyoscine Original 10mg,MED0077,Imodium Loperamide Original 2mg,2,0.0573470220780093,0.942670290470528,15.3006835531664,Strong
+WH001,MED0077,Imodium Loperamide Original 2mg,MED0081,Buscopan Hyoscine Original 10mg,2,0.0573470220780093,0.930811808118081,15.3006835531664,Strong
+WH001,MED0019,MED0019,MED0025,Klacid Clarithromycin Original 500mg,2,0.0586852398199865,0.905019920318725,14.5965383665339,Strong
+WH001,MED0025,Klacid Clarithromycin Original 500mg,MED0019,MED0019,2,0.0586852398199865,0.9465,14.5965383665339,Strong
+WH001,MED0069,Losec Omeprazole Original 20mg,MED0025,Klacid Clarithromycin Original 500mg,2,0.0584423972181605,0.921992174763613,14.8702739579937,Strong
+WH001,MED0025,Klacid Clarithromycin Original 500mg,MED0069,Losec Omeprazole Original 20mg,2,0.0584423972181605,0.942583333333333,14.8702739579937,Strong

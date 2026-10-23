@@ -1,0 +1,17 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.8, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\GRAM\AppData\Local\Python\pythoncore-3.14-64\python.exe
+rootdir: C:\Users\GRAM\Documents\GitHub\FYP_Medflow
+configfile: pyproject.toml
+plugins: platformdirs-4.12.2, anyio-4.15.1, langsmith-0.14.4
+collecting ... collected 8 items
+
+tests/integration/test_uc2_policy_db.py::test_dv001_one_policy_row_per_subsidiary_product_with_run_record PASSED [ 12%]
+tests/integration/test_uc2_policy_db.py::test_dv002_safety_stock_matches_the_formula PASSED [ 25%]
+tests/integration/test_uc2_policy_db.py::test_dv003_reorder_point_matches_the_formula PASSED [ 37%]
+tests/integration/test_uc2_policy_db.py::test_dv004_order_up_to_level_matches_the_formula PASSED [ 50%]
+tests/integration/test_uc2_policy_db.py::test_dv005_demand_class_and_forecast_method_follow_adi_and_cv2 PASSED [ 62%]
+tests/integration/test_uc2_policy_db.py::test_dv006_stored_stock_status_follows_the_reorder_point PASSED [ 75%]
+tests/integration/test_uc2_policy_db.py::test_dv007_service_level_z_comes_from_the_product_override_or_the_default PASSED [ 87%]
+tests/integration/test_uc2_policy_db.py::test_dv008_restock_orders_are_whole_cartons PASSED [100%]
+
+============================== 8 passed in 8.56s ==============================

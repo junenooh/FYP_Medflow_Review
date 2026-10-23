@@ -1,0 +1,73 @@
+:root {
+  --yellow: #ffcc00;
+  --yellow-2: #ffe375;
+  --red: #d40511;
+  --red-deep: #a80410;
+  --ink: #1c1c1c;
+  --charcoal: #33383b;
+  --gray: #5f6b72;
+  --gray-2: #9aa3a9;
+  --sand: #f3f3f1;
+  --line: #e8e8e3;
+  --white: #fff;
+  --oos: #d40511;
+  --low: #f5a623;
+  --near: #2e77d0;
+  --ok: #1b9e5a;
+  --aff1: #0e7c86;
+  --aff2: #5fb2b8;
+  --aff3: #b9dddf;
+  --sans: "Mulish", sans-serif;
+  --mono: "IBM Plex Mono", monospace;
+  --topbar-h: 68px;
+  --sidebar-w: 218px;
+  --demo-min: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --radius-ctrl: 8px;
+  --radius-panel: 11px;
+  --radius-shell: 16px;
+  --shadow-sm: 0 1px 2px rgba(28, 28, 28, 0.035), 0 5px 16px rgba(28, 28, 28, 0.025);
+  --shadow-md: 0 14px 34px rgba(28, 28, 28, 0.1);
+  --shadow-shell: 0 22px 60px rgba(28, 28, 28, 0.13);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--sand);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+}
+
+#app.app-shell {
+  width: 100%;
+  min-width: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin: 0;
+  display: grid;
+  grid-template-rows: var(--topbar-h) 1fr;
+  overflow: hidden;
+  background: #fff;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}

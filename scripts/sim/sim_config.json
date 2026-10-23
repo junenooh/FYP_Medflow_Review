@@ -1,0 +1,375 @@
+{
+  "_about": "Simulator settings for the MedFlow history. Products, packaging, bins, zones, warehouses and hospitals are READ from the database (scripts/sim/db.py lists the table rules); this file says how they behave. Everything here is copied into ground_truth.json with the data.",
+  "seed": 20261014,
+  "_end_date": "null = the day before the run; or an ISO date",
+  "end_date": null,
+  "timezone_offset_hours": 8,
+  "products": {
+    "prefix": "MED",
+    "digits": 4
+  },
+  "_profiles": "the simulator uses EXACTLY the first n_products ids, MED0001 .. MED{n}",
+  "profiles": {
+    "dev": {
+      "n_products": 200,
+      "days": 120
+    },
+    "full": {
+      "n_products": 1000,
+      "days": 365
+    }
+  },
+  "central_warehouse": "WH001",
+  "_subsidiaries": "demand_multiplier = the subsidiary's share of network demand relative to the average subsidiary (they sum to 5.25 over five). Hospitals are the subsidiary's existing site rows; 'hospitals' is used only for a warehouse that has none.",
+  "subsidiaries": [
+    {
+      "id": "WH002",
+      "demand_multiplier": 1.5,
+      "hospitals": 6
+    },
+    {
+      "id": "WH003",
+      "demand_multiplier": 1.0,
+      "hospitals": 5
+    },
+    {
+      "id": "WH004",
+      "demand_multiplier": 1.0,
+      "hospitals": 5
+    },
+    {
+      "id": "WH005",
+      "demand_multiplier": 1.25,
+      "hospitals": 6
+    },
+    {
+      "id": "WH006",
+      "demand_multiplier": 0.5,
+      "hospitals": 4
+    }
+  ],
+  "demand": {
+    "_source": "product.manualbasedemand = annual NETWORK demand in dosage units (static). Hospitals request SALES PACKS (storage.salespackqty dosage units each). Network packs/day = manualbasedemand / 365 / salespackqty; a subsidiary gets that x its multiplier / 5.25.",
+    "_packs_per_line": "mean sales packs on one hospital request line, by product.velocityclass; drawn log-uniform per product. Lines per day = packs per day / packs per line.",
+    "packs_per_line_mean": {
+      "Super High": [
+        3.5,
+        6.0
+      ],
+      "High": [
+        2.5,
+        4.5
+      ],
+      "Medium": [
+        2.0,
+        3.5
+      ],
+      "Low": [
+        1.5,
+        3.0
+      ]
+    },
+    "_line_cv": "variability of the quantity on one request line",
+    "line_cv": {
+      "Super High": 0.35,
+      "High": 0.4,
+      "Medium": 0.5,
+      "Low": 0.7
+    },
+    "_request_regularity": "how many requests include a product each day is drawn as if several requesting wards each ask with probability at most this value: busy products are asked for steadily, slow ones sporadically",
+    "max_daily_request_prob": 0.8,
+    "_multiplier_split": "a subsidiary's multiplier is applied as multiplier^x to the number of request lines and multiplier^(1-x) to the quantity per line",
+    "multiplier_lines_exponent": 0.5,
+    "_day_of_week": "Mon..Sun factor, averages 1.0",
+    "day_of_week": [
+      1.05,
+      1.05,
+      1.05,
+      1.05,
+      1.05,
+      0.85,
+      0.9
+    ],
+    "_hour_weights": "relative request volume per hour of the day, 00:00 .. 23:00: peak 09:00-18:00, little to none 01:00-05:00",
+    "hour_weights": [
+      0.35,
+      0.05,
+      0.02,
+      0.02,
+      0.02,
+      0.15,
+      0.45,
+      0.9,
+      1.3,
+      1.6,
+      1.7,
+      1.7,
+      1.5,
+      1.6,
+      1.7,
+      1.7,
+      1.6,
+      1.4,
+      1.0,
+      0.8,
+      0.7,
+      0.6,
+      0.5,
+      0.4
+    ]
+  },
+  "requests": {
+    "mean_lines_per_request": 12
+  },
+  "bundles": {
+    "_what": "products that land on the same hospital request together: the ground truth for UC1. Each bundle appears on a share of a subsidiary's requests (support_target), with each member present with probability p_include. UC1 gates: support >= 0.02, confidence >= 0.50, lift >= 1.20.",
+    "support_target": {
+      "strong": 0.06,
+      "moderate": 0.036,
+      "weak": 0.025,
+      "below": 0.012
+    },
+    "p_include": {
+      "strong": 0.95,
+      "moderate": 0.9,
+      "weak": 0.85,
+      "below": 0.85
+    },
+    "_bands": "how UC1's rules are graded; the planted bands are designed to land here. Weak = passes the three gates only.",
+    "bands": {
+      "strong": {
+        "min_confidence": 0.7,
+        "min_support": 0.05
+      },
+      "moderate": {
+        "min_confidence": 0.6,
+        "min_support": 0.03
+      },
+      "gates": {
+        "min_support": 0.02,
+        "min_confidence": 0.5,
+        "min_lift": 1.2
+      }
+    },
+    "list": [
+      {
+        "id": "B01",
+        "band": "strong",
+        "members": [
+          "MED0050",
+          "MED0067",
+          "MED0001"
+        ],
+        "name": "Cold and flu",
+        "why": "symptomatic treatment: antihistamine (Piriton), decongestant spray (Otrivin), antipyretic (Panadol)"
+      },
+      {
+        "id": "B02",
+        "band": "strong",
+        "members": [
+          "MED0037",
+          "MED0001"
+        ],
+        "name": "Influenza",
+        "why": "antiviral (Tamiflu) with antipyretic (Panadol)"
+      },
+      {
+        "id": "B03",
+        "band": "strong",
+        "members": [
+          "MED0077",
+          "MED0080",
+          "MED0081"
+        ],
+        "name": "Acute gastroenteritis",
+        "why": "antidiarrhoeal (Imodium), adsorbent (Smecta), antispasmodic (Buscopan)"
+      },
+      {
+        "id": "B04",
+        "band": "strong",
+        "members": [
+          "MED0025",
+          "MED0019",
+          "MED0069"
+        ],
+        "name": "H. pylori triple therapy",
+        "why": "clarithromycin (Klacid) + amoxicillin (Amoxil) + omeprazole (Losec): the standard eradication regimen"
+      },
+      {
+        "id": "B05",
+        "band": "strong",
+        "members": [
+          "MED0059",
+          "MED0057",
+          "MED0063"
+        ],
+        "name": "Asthma exacerbation",
+        "why": "preventer inhaler (Pulmicort), reliever inhaler (Ventolin), short steroid course (prednisolone)"
+      },
+      {
+        "id": "B06",
+        "band": "moderate",
+        "members": [
+          "MED0097",
+          "MED0085",
+          "MED0086"
+        ],
+        "name": "Hypertension",
+        "why": "thiazide (HCTZ) with amlodipine (Norvasc) and losartan (Cozaar): common combination therapy"
+      },
+      {
+        "id": "B07",
+        "band": "moderate",
+        "members": [
+          "MED0111",
+          "MED0109",
+          "MED0101"
+        ],
+        "name": "Type 2 diabetes",
+        "why": "gliclazide (Diamicron) + metformin (Glucophage) with a statin (Lipitor)"
+      },
+      {
+        "id": "B08",
+        "band": "moderate",
+        "members": [
+          "MED0091",
+          "MED0104",
+          "MED0105",
+          "MED0102"
+        ],
+        "name": "Post-MI secondary prevention",
+        "why": "beta-blocker (Concor), dual antiplatelet (Plavix + Cardiprin), statin (Zocor)"
+      },
+      {
+        "id": "B09",
+        "band": "moderate",
+        "members": [
+          "MED0011",
+          "MED0070"
+        ],
+        "name": "NSAID with gastric protection",
+        "why": "naproxen (Naprosyn) with a PPI (Nexium)"
+      },
+      {
+        "id": "B10",
+        "band": "moderate",
+        "members": [
+          "MED0068",
+          "MED0065",
+          "MED0048"
+        ],
+        "name": "Allergic rhinitis",
+        "why": "saline rinse (Sterimar), steroid spray (Flixonase), antihistamine (Claritin)"
+      },
+      {
+        "id": "B11",
+        "band": "weak",
+        "members": [
+          "MED0017",
+          "MED0147"
+        ],
+        "name": "Gout flare",
+        "why": "colchicine (Colgout) alongside allopurinol (Zyloric)"
+      },
+      {
+        "id": "B12",
+        "band": "weak",
+        "members": [
+          "MED0018",
+          "MED0075"
+        ],
+        "name": "Migraine",
+        "why": "sumatriptan (Imigran) with metoclopramide (Maxolon) for nausea"
+      },
+      {
+        "id": "B13",
+        "band": "weak",
+        "members": [
+          "MED0044",
+          "MED0039"
+        ],
+        "name": "Tinea",
+        "why": "ketoconazole shampoo (Nizoral) with clotrimazole cream (Canesten)"
+      },
+      {
+        "id": "B14",
+        "band": "below",
+        "members": [
+          "MED0156",
+          "MED0160"
+        ],
+        "name": "Conjunctivitis",
+        "why": "chloramphenicol eye drops with a lubricant (Isopto Tears); planted below the support gate on purpose"
+      },
+      {
+        "id": "B15",
+        "band": "below",
+        "members": [
+          "MED0162",
+          "MED0020"
+        ],
+        "name": "Otitis externa",
+        "why": "ofloxacin ear drops with oral amoxicillin-clavulanate (Augmentin); planted below the support gate on purpose"
+      }
+    ],
+    "confidence_target": {
+      "strong": 0.8,
+      "moderate": 0.68,
+      "weak": 0.58
+    },
+    "_confidence_target": "the anchor -> member confidence each band aims for; 'below' bundles get no anchor and fail the gates on confidence and support"
+  },
+  "baseline_policy": {
+    "_what": "what the subsidiaries did BEFORE UC2 (the history). Daily review against their own reorder point and order-up-to level, in sales packs, but mis-sized and with timing slips: the inefficiency UC2 removes. Written to warehouseproduct.",
+    "rop_days": 3.5,
+    "oul_days": 10.0,
+    "_error_sigma": "each subsidiary x product's ROP and OUL carry a fixed error drawn once: log-normal with this sigma (0.35 = two thirds of SKUs within +-35%)",
+    "error_sigma": 0.35,
+    "_qty_noise": "each order quantity varies uniformly by +- this fraction before cartonising",
+    "qty_noise": 0.2,
+    "_timing": "early: on a day the position is within early_band above the ROP, order anyway with early_prob. late: with late_prob, skip the first day a product reaches its ROP.",
+    "early_prob": 0.1,
+    "early_band": 0.1,
+    "late_prob": 0.1,
+    "service_level": 0.95,
+    "ordering_cost_sgd": 25,
+    "holding_rate_per_year": 0.2
+  },
+  "_carton_rule": "Central -> subsidiary orders are whole cartons (storage.shippingcasepack sales packs): the number of cartons nearest to the gap up to the order-up-to level, never fewer than it takes to lift the position above the reorder point, at least one.",
+  "lead_time": {
+    "days": [
+      1,
+      2,
+      3
+    ],
+    "probs": [
+      0.1,
+      0.8,
+      0.1
+    ]
+  },
+  "central": {
+    "_what": "WH001 keeps a MAX stock per product in whole cartons: cover_days of mean dispatch to the subsidiaries plus safety stock at service_level_z on the daily dispatch. After each evening's dispatch every shipped product is topped back up to its max by the supplier (instant). Bins are sized to the max.",
+    "cover_days": 7,
+    "service_level_z": 1.88,
+    "_zone_by_class": "starting layout: the zone each velocity class is placed in; bins filled in id order (aisle, rack, level, face, bin)",
+    "zone_by_class": {
+      "Super High": "Z001",
+      "High": "Z002",
+      "Medium": "Z003",
+      "Low": "Z003"
+    },
+    "_opening_received_days_ago": "datereceived of the opening bin stock, days before the first day",
+    "opening_received_days_ago": 7
+  },
+  "times": {
+    "_what": "clock times of the daily cycle (local time)",
+    "arrivals": 8.0,
+    "handout_booking": 23.0,
+    "review": 23.5,
+    "central": 23.75
+  },
+  "inventory": {
+    "status": "Available"
+  }
+}

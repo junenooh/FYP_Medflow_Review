@@ -1,0 +1,17 @@
+✔ TC-UC2-UT-101 status bands: Out of Stock, Low Stock, Near ROP, Available (451.033ms)
+✔ TC-UC2-UT-102 a product with no demand is never flagged (0.4326ms)
+✔ TC-UC2-UT-103 inventory position counts units already on the way (16.9306ms)
+✔ TC-UC2-UT-104 restock quantity = order-up-to level - inventory position, only when due (0.735ms)
+✔ TC-UC2-UT-105 cartons: nearest to the gap, never fewer than it takes to clear the reorder point (3.0774ms)
+✔ TC-UC2-UT-106 order status, timing and companion lines (1.0153ms)
+✔ TC-UC2-UT-107 companion advice depends on the companion's own position (0.3464ms)
+✔ TC-UC2-UT-108 stock alerts: out of stock is urgent and says whether a restock is coming (21.8761ms)
+✔ TC-UC2-UT-109 headline leads with what needs action (1.2016ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1123.1377

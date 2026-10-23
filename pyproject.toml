@@ -1,0 +1,17 @@
+[project]
+name = "medflow"
+version = "0.1.0"
+requires-python = ">=3.11"
+# Install runtime deps with: pip install -r requirements.txt
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["engines", "scripts"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,41 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.8, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\GRAM\AppData\Local\Python\pythoncore-3.14-64\python.exe
+rootdir: C:\Users\GRAM\Documents\GitHub\FYP_Medflow
+configfile: pyproject.toml
+plugins: platformdirs-4.12.2, anyio-4.15.1, langsmith-0.14.4
+collecting ... collected 32 items
+
+tests/engines/test_uc1_arm.py::test_ut001_duplicate_product_lines_count_once PASSED [  3%]
+tests/engines/test_uc1_arm.py::test_ut002_single_item_requests_are_dropped PASSED [  6%]
+tests/engines/test_uc1_arm.py::test_ut003_only_expected_rules_pass_the_gates PASSED [  9%]
+tests/engines/test_uc1_arm.py::test_ut004_metrics_match_hand_calculation PASSED [ 12%]
+tests/engines/test_uc1_arm.py::test_ut005_low_confidence_and_low_lift_rules_are_filtered PASSED [ 15%]
+tests/engines/test_uc1_arm.py::test_ut006_thresholds_are_configurable PASSED [ 18%]
+tests/engines/test_uc1_arm.py::test_ut007_multi_item_consequents_are_excluded PASSED [ 21%]
+tests/engines/test_uc1_arm.py::test_ut008_empty_basket_matrix_returns_no_rules PASSED [ 25%]
+tests/engines/test_uc1_arm.py::test_ut019_confidence_between_040_and_050_is_rejected PASSED [ 28%]
+tests/engines/test_uc1_arm.py::test_ut020_support_below_002_is_rejected PASSED [ 31%]
+tests/engines/test_uc1_arm.py::test_ut024_rule_needs_at_least_20_baskets PASSED [ 34%]
+tests/engines/test_uc1_arm.py::test_ut025_itemsets_are_capped_at_four_products PASSED [ 37%]
+tests/engines/test_uc1_arm.py::test_ut009_classify_bands[0.05-0.7-1.2-Strong] PASSED [ 40%]
+tests/engines/test_uc1_arm.py::test_ut009_classify_bands[0.049-0.7-1.2-Moderate] PASSED [ 43%]
+tests/engines/test_uc1_arm.py::test_ut009_classify_bands[0.05-0.699-1.2-Moderate] PASSED [ 46%]
+tests/engines/test_uc1_arm.py::test_ut009_classify_bands[0.03-0.6-1.2-Moderate] PASSED [ 50%]
+tests/engines/test_uc1_arm.py::test_ut009_classify_bands[0.029-0.6-1.2-Weak] PASSED [ 53%]
+tests/engines/test_uc1_arm.py::test_ut009_classify_bands[0.03-0.599-1.2-Weak] PASSED [ 56%]
+tests/engines/test_uc1_arm.py::test_ut009_classify_bands[0.02-0.5-1.2-Weak] PASSED [ 59%]
+tests/engines/test_uc1_arm.py::test_ut010_lift_does_not_change_the_grade PASSED [ 62%]
+tests/engines/test_uc1_arm.py::test_ut011_rules_convert_to_linked_database_rows PASSED [ 65%]
+tests/engines/test_uc1_arm.py::test_ut012_scope_with_only_single_item_requests_gives_no_rules PASSED [ 68%]
+tests/engines/test_uc1_arm.py::test_ut013_scope_counts_requests_and_baskets PASSED [ 71%]
+tests/engines/test_uc1_arm.py::test_ut021_rerun_on_same_data_gives_same_rules PASSED [ 75%]
+tests/engines/test_uc1_arm.py::test_ut014_run_mines_network_and_each_subsidiary PASSED [ 78%]
+tests/engines/test_uc1_arm.py::test_ut015_subsidiary_rules_use_only_their_own_requests PASSED [ 81%]
+tests/engines/test_uc1_arm.py::test_ut016_single_site_run_skips_network_scope PASSED [ 84%]
+tests/engines/test_uc1_arm.py::test_ut017_no_requests_reports_failure PASSED [ 87%]
+tests/engines/test_uc1_arm.py::test_ut022_extract_reads_last_90_days_of_hospital_requests PASSED [ 90%]
+tests/engines/test_uc1_arm.py::test_ut026_single_site_extract_filters_by_subsidiary PASSED [ 93%]
+tests/engines/test_uc1_arm.py::test_ut018_write_replaces_rules_per_scope_in_one_transaction PASSED [ 96%]
+tests/engines/test_uc1_arm.py::test_ut023_modelrun_records_source_thresholds_and_bands PASSED [100%]
+
+============================= 32 passed in 3.32s ==============================

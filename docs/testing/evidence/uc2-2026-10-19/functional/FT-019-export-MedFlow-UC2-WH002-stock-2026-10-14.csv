@@ -1,0 +1,1001 @@
+﻿Warehouse,Product ID,Product,Status,On hand,On the way,Reorder point,Safety stock,Order-up-to level,Avg daily use,Days of stock left,Lead time (days),Restock,Restock ID,Expected arrival,Delivered,Units to order,Cartons to order,Often used with,Data as of
+WH002,MED0011,Naprosyn Naproxen Original 500mg,Out of stock,0,48,63,28,133,17.5,0,2,On its way,PO-WH002-20261013,2026-10-15,,96,4,Nexium Esomeprazole Original 40mg (MED0070): due as well,2026-10-14
+WH002,MED0015,MST Continus Morphine Sulfate Original 30mg,Out of stock,0,24,6,5,8,0.4,0,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0019,Amoxil Amoxicillin Original 500mg,Out of stock,0,504,625,306,1263,159.5,0,2,On its way,PO-WH002-20261013,2026-10-15,,768,32,Klacid Clarithromycin Original 500mg (MED0025): already on order; Losec Omeprazole Original 20mg (MED0069): already on order,2026-10-14
+WH002,MED0020,Augmentin Amox+Clavulanate Original 625mg,Out of stock,0,192,151,79,293,35.5,0,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0025,Klacid Clarithromycin Original 500mg,Out of stock,0,48,100,62,173,18.4,0,2,Restock ordered,PO-WH002-20261014,2026-10-16,,120,5,Losec Omeprazole Original 20mg (MED0069): coming on the same delivery; Amoxil Amoxicillin Original 500mg (MED0019): already on order,2026-10-14
+WH002,MED0037,Tamiflu Oseltamivir Original 75mg,Out of stock,0,24,57,34,102,11.2,0,2,Restock ordered,PO-WH002-20261014,2026-10-16,,72,3,Panadol Paracetamol Original 500mg (MED0001): due as well,2026-10-14
+WH002,MED0063,Prednisolone Prednisolone Original 5mg,Out of stock,0,360,137,62,286,37.1,0,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,Pulmicort Budesonide Inhaler Original 200mg (MED0059): already on order; Ventolin Salbutamol Inhaler Original 100mg (MED0057): coming on the same delivery,2026-10-14
+WH002,MED0068,Sterimar Sodium Chloride Nasal Original 0.9%,Out of stock,0,216,186,77,404,54.4,0,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,Claritin Loratadine Original 10mg (MED0048): not needed; Flixonase Fluticasone Nasal Original 50mg (MED0065): already on order,2026-10-14
+WH002,MED0075,Maxolon Metoclopramide Original 10mg,Out of stock,0,48,103,58,193,22.5,0,2,Restock ordered,PO-WH002-20261014,2026-10-16,,144,6,,2026-10-14
+WH002,MED0081,Buscopan Hyoscine Original 10mg,Out of stock,0,48,86,48,161,18.7,0,2,Restock ordered,PO-WH002-20261014,2026-10-16,,120,5,Imodium Loperamide Original 2mg (MED0077): coming on the same delivery; Smecta Diosmectite Original 3g (MED0080): not needed,2026-10-14
+WH002,MED0101,Lipitor Atorvastatin Original 10mg,Out of stock,0,360,403,175,859,113.8,0,2,On its way,PO-WH002-20261013,2026-10-15,,504,21,Diamicron Gliclazide Original 80mg (MED0111): due as well; Glucophage Metformin Original 500mg (MED0109): due as well,2026-10-14
+WH002,MED0139,Sinemet Levodopa/Carbidopa Original 250mg,Out of stock,0,24,7,6,10,0.7,0,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0182,Augmentin Amox+Clavulanate Regular 1g,Out of stock,0,120,62,29,126,16.1,0,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0471,Zyloric Allopurinol Maximum 100mg,Out of stock,0,24,23,11,47,5.9,0,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0533,Zyrtec Cetirizine Adult 10mg,Out of stock,0,408,137,42,326,47.2,0,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0550,Decadron Dexamethasone Adult 4mg,Out of stock,0,0,27,16,47,5.2,0,2,Order due,,,,48,2,,2026-10-14
+WH002,MED0621,Keppra Levetiracetam Adult 500mg,Out of stock,0,24,16,12,25,2,0,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0769,Prozac Fluoxetine Daily 20mg,Out of stock,0,96,35,15,73,9.6,0,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0784,Lamictal Lamotrigine Daily 100mg,Out of stock,0,24,9,7,13,1,0,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0787,Sinemet Levodopa/Carbidopa Daily 250mg,Out of stock,0,24,7,5,10,0.6,0,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0788,Sifrol Pramipexole Daily 0.25mg,Out of stock,0,24,3,2,5,0.3,0,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0841,Flagyl Metronidazole Day 400mg,Out of stock,0,96,56,29,111,13.6,0,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0864,Phenergan Promethazine Day 25mg,Out of stock,0,24,10,5,20,2.4,0,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0909,Aldactone Spironolactone Day 25mg,Out of stock,0,72,26,14,49,5.8,0,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0925,Jardiance Empagliflozin Day 10mg,Out of stock,0,24,15,9,25,2.6,0,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0959,Harnal Tamsulosin Day 0.4mg,Out of stock,0,24,10,6,18,1.9,0,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0962,Plan B Levonorgestrel Cool 1.5mg,Out of stock,0,24,5,3,6,0.4,0,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0077,Imodium Loperamide Original 2mg,Low stock,6,168,300,151,597,74.3,0.1,2,Restock ordered,PO-WH002-20261014,2026-10-16,,432,18,Buscopan Hyoscine Original 10mg (MED0081): coming on the same delivery; Smecta Diosmectite Original 3g (MED0080): not needed,2026-10-14
+WH002,MED0018,Imigran Sumatriptan Original 50mg,Low stock,4,0,39,20,74,8.9,0.4,2,Order due,,,,72,3,,2026-10-14
+WH002,MED0104,Plavix Clopidogrel Original 75mg,Low stock,43,168,267,129,541,68.6,0.6,2,Restock ordered,PO-WH002-20261014,2026-10-16,,336,14,Concor Bisoprolol Original 5mg (MED0091): already on order; Zocor Simvastatin Original 20mg (MED0102): due as well; Cardiprin Aspirin Low-Dose Original 100mg (MED0105): coming on the same delivery,2026-10-14
+WH002,MED0931,Prozac Fluoxetine Day 20mg,Low stock,8,24,37,15,78,10.4,0.8,2,On its way,PO-WH002-20261013,2026-10-15,,48,2,,2026-10-14
+WH002,MED0069,Losec Omeprazole Original 20mg,Low stock,82,120,328,148,687,89.7,0.9,2,Restock ordered,PO-WH002-20261014,2026-10-16,,480,20,Klacid Clarithromycin Original 500mg (MED0025): coming on the same delivery; Amoxil Amoxicillin Original 500mg (MED0019): already on order,2026-10-14
+WH002,MED0026,Eryc Erythromycin Original 250mg,Low stock,6,0,20,11,35,3.9,1.5,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0070,Nexium Esomeprazole Original 40mg,Low stock,59,0,188,91,381,48.3,1.2,2,Order due,,,,312,13,Naprosyn Naproxen Original 500mg (MED0011): already on order,2026-10-14
+WH002,MED0102,Zocor Simvastatin Original 20mg,Low stock,74,0,226,99,480,63.3,1.2,2,Order due,,,,408,17,Concor Bisoprolol Original 5mg (MED0091): already on order; Plavix Clopidogrel Original 75mg (MED0104): already on order; Cardiprin Aspirin Low-Dose Original 100mg (MED0105): already on order,2026-10-14
+WH002,MED0147,Zyloric Allopurinol Original 100mg,Low stock,45,0,125,71,232,26.9,1.7,2,Order due,,,,192,8,,2026-10-14
+WH002,MED0965,Progynova Estradiol Cool 1mg,Low stock,3,0,8,5,12,1,3.1,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0017,Colgout Colchicine Original 500mg,Low stock,13,0,32,16,63,7.7,1.7,2,Order due,,,,48,2,,2026-10-14
+WH002,MED0681,Macrodantin Nitrofurantoin Daily 100mg,Low stock,3,0,7,6,10,0.7,4.5,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0085,Norvasc Amlodipine Original 5mg,Low stock,190,0,393,199,779,96.7,2,2,Order due,,,,600,25,HCTZ Hydrochlorothiazide Original 25mg (MED0097): worth adding; Cozaar Losartan Original 50mg (MED0086): due as well,2026-10-14
+WH002,MED0086,Cozaar Losartan Original 50mg,Low stock,167,0,333,172,654,80.3,2.1,2,Order due,,,,480,20,HCTZ Hydrochlorothiazide Original 25mg (MED0097): worth adding; Norvasc Amlodipine Original 5mg (MED0085): due as well,2026-10-14
+WH002,MED0755,Xarelto Rivaroxaban Daily 20mg,Low stock,8,0,14,9,24,2.5,3.2,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0528,Lamisil Terbinafine Cream Adult 1%,Low stock,62,0,102,36,234,32.9,1.9,2,Order due,,,,168,7,,2026-10-14
+WH002,MED0137,Neurontin Gabapentin Original 300mg,Low stock,22,0,36,19,69,8.2,2.7,2,Order due,,,,48,2,,2026-10-14
+WH002,MED0100,Natrilix Indapamide Original 2.5mg,Low stock,15,0,24,14,44,4.9,3.1,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0281,Imovane Zopiclone Regular 3.75mg,Low stock,5,0,8,5,15,1.7,3,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0939,Zyprexa Olanzapine Day 10mg,Low stock,5,0,8,6,10,0.5,9.1,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0468,Euthyrox Levothyroxine Maximum 50mg,Low stock,59,0,93,42,193,25,2.4,2,Order due,,,,144,6,,2026-10-14
+WH002,MED0929,Imovane Zopiclone Day 7.5mg,Low stock,7,0,11,7,19,1.9,3.8,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0599,Minidiab Glipizide Adult 5mg,Low stock,23,0,36,21,66,7.4,3.1,2,Order due,,,,48,2,,2026-10-14
+WH002,MED0111,Diamicron Gliclazide Original 80mg,Low stock,62,0,96,41,204,27,2.3,2,Order due,,,,144,6,Lipitor Atorvastatin Original 10mg (MED0101): already on order; Glucophage Metformin Original 500mg (MED0109): due as well,2026-10-14
+WH002,MED0712,Decadron Dexamethasone Daily 4mg,Low stock,15,0,23,13,44,5.1,3,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0465,Aricept Donepezil Maximum 5mg,Low stock,4,0,6,4,8,0.6,6.6,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0704,Claritin Loratadine Syrup Daily 5mg,Low stock,100,0,142,42,341,49.7,2,2,Order due,,,,240,10,,2026-10-14
+WH002,MED0001,Panadol Paracetamol Original 500mg,Low stock,662,0,940,393,2034,273.4,2.4,2,Order due,,,,1368,57,Tamiflu Oseltamivir Original 75mg (MED0037): already on order; Piriton Chlorpheniramine Original 4mg (MED0050): worth adding; Otrivin Xylometazoline Spray Original 0.1% (MED0067): not needed,2026-10-14
+WH002,MED0514,Achromycin Tetracycline Adult 250mg,Low stock,5,0,7,4,11,1.1,4.5,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0908,Lasix Furosemide Day 40mg,Low stock,35,0,49,24,99,12.5,2.8,2,Order due,,,,72,3,,2026-10-14
+WH002,MED0187,Klacid Clarithromycin Regular 250mg,Low stock,18,0,25,14,47,5.4,3.3,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0508,Zinnat Cefuroxime Adult 500mg,Low stock,13,0,18,11,32,3.4,3.9,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0437,Minidiab Glipizide Maximum 5mg,Low stock,29,0,39,22,72,8.3,3.5,2,Order due,,,,48,2,,2026-10-14
+WH002,MED0341,Colgout Colchicine Maximum 500mg,Low stock,3,0,4,2,6,0.5,5.8,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0515,Ciprobay Ciprofloxacin Adult 500mg,Low stock,36,0,48,24,93,11.4,3.2,2,Order due,,,,48,2,,2026-10-14
+WH002,MED0952,Ebixa Memantine Day 10mg,Low stock,3,0,4,3,5,0.4,7.7,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0419,Tritace Ramipril Maximum 5mg,Low stock,25,0,33,18,60,6.9,3.6,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0262,Natrilix Indapamide Regular 1.5mg,Low stock,16,0,21,11,38,4.4,3.6,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0616,Seroquel Quetiapine Adult 100mg,Low stock,10,0,13,9,21,2,5,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0420,Adalat Nifedipine Maximum 10mg,Low stock,28,0,36,20,66,7.6,3.7,2,Order due,,,,48,2,,2026-10-14
+WH002,MED0450,Elavil Amitriptyline Maximum 25mg,Low stock,21,0,27,13,53,6.7,3.2,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0261,Aldactone Spironolactone Regular 100mg,Low stock,19,0,24,13,45,5.3,3.6,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0196,Dalacin Clindamycin Regular 150mg,Low stock,8,0,10,7,16,1.5,5.2,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0561,Maxolon Metoclopramide Adult 10mg,Low stock,12,0,15,9,27,2.8,4.3,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0734,Cozaar Losartan Daily 50mg,Low stock,68,0,85,37,181,24,2.8,2,Order due,,,,120,5,,2026-10-14
+WH002,MED0348,Keflex Cephalexin Maximum 500mg,Low stock,25,0,31,17,59,6.9,3.6,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0225,Prednisolone Prednisolone Regular 10mg,Low stock,44,0,53,25,109,13.8,3.2,2,Order due,,,,72,3,,2026-10-14
+WH002,MED0109,Glucophage Metformin Original 500mg,Low stock,358,0,431,183,924,123.4,2.9,2,Order due,,,,576,24,Diamicron Gliclazide Original 80mg (MED0111): due as well; Lipitor Atorvastatin Original 10mg (MED0101): already on order,2026-10-14
+WH002,MED0447,Seroxat Paroxetine Maximum 20mg,Low stock,15,0,18,8,36,4.6,3.3,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0986,Tramal Tramadol Honey 50mg,Low stock,5,0,6,4,9,0.7,7.6,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0277,Jardiance Empagliflozin Regular 25mg,Low stock,16,0,19,11,34,3.7,4.4,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0275,Minidiab Glipizide Regular 10mg,Low stock,28,0,33,17,64,7.9,3.5,2,Order due,,,,48,2,,2026-10-14
+WH002,MED0807,Xalatan Latanoprost Eye Drops Night 0.005%,Low stock,17,0,20,10,39,4.8,3.6,2,Order due,,,,48,1,,2026-10-14
+WH002,MED0753,Cardiprin Aspirin Low-Dose Daily 100mg,Low stock,183,0,215,90,465,62.5,2.9,2,Order due,,,,288,12,,2026-10-14
+WH002,MED0555,Losec Omeprazole Adult 20mg,Low stock,53,0,62,23,138,19.1,2.8,2,Order due,,,,96,4,,2026-10-14
+WH002,MED0056,Claritin Loratadine Syrup Original 5mg,Low stock,119,0,139,39,339,49.8,2.4,2,Order due,,,,216,9,,2026-10-14
+WH002,MED0127,Effexor Venlafaxine Original 75mg,Low stock,12,0,14,7,28,3.5,3.4,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0559,Pepcid Famotidine Adult 20mg,Low stock,18,0,21,12,39,4.4,4.1,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0438,Januvia Sitagliptin Maximum 100mg,Low stock,19,0,22,12,40,4.7,4,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0744,Adalat Nifedipine Daily 10mg,Low stock,27,0,31,16,61,7.4,3.6,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0421,HCTZ Hydrochlorothiazide Maximum 25mg,Low stock,61,0,70,33,143,18.3,3.3,2,Order due,,,,72,3,,2026-10-14
+WH002,MED0354,Levaquin Levofloxacin Maximum 500mg,Low stock,17,0,19,11,34,3.9,4.4,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0745,HCTZ Hydrochlorothiazide Daily 25mg,Low stock,62,0,69,32,143,18.3,3.4,2,Order due,,,,72,3,,2026-10-14
+WH002,MED0360,Zovirax Acyclovir Cream Maximum 5%,Low stock,94,0,104,37,238,33.5,2.8,2,Order due,,,,144,6,,2026-10-14
+WH002,MED0845,Zovirax Acyclovir Day 400mg,Low stock,20,0,22,11,42,5,4,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0604,Xanax Alprazolam Adult 0.5mg,Low stock,13,0,14,8,25,2.7,4.8,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0135,Keppra Levetiracetam Original 500mg,Low stock,15,0,16,10,28,2.9,5.1,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0092,Dilatrend Carvedilol Original 12.5mg,Low stock,31,0,33,17,63,7.6,4.1,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0840,Levaquin Levofloxacin Day 500mg,Low stock,16,0,17,11,29,3,5.3,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0350,Eryc Erythromycin Maximum 250mg,Low stock,20,0,21,13,34,3.4,5.9,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0040,Daktarin Miconazole Original 2%,Low stock,146,0,152,52,350,49.7,2.9,2,Order due,,,,216,9,,2026-10-14
+WH002,MED0646,Isopto Tears Hypromellose Eye Drops Senior 0.3%,Low stock,98,0,101,38,226,31.4,3.1,2,Order due,,,,144,3,,2026-10-14
+WH002,MED0715,Otrivin Xylometazoline Spray Daily 0.1%,Low stock,317,0,326,106,764,109.4,2.9,2,Order due,,,,456,19,,2026-10-14
+WH002,MED0393,Losec Omeprazole Maximum 20mg,Low stock,63,0,64,28,137,18.2,3.5,2,Order due,,,,72,3,,2026-10-14
+WH002,MED0095,Tritace Ramipril Original 5mg,Low stock,30,0,30,15,59,7.2,4.1,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0131,Haldol Haloperidol Original 5mg,Low stock,8,0,8,6,10,0.6,12.4,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0179,Colgout Colchicine Regular 500mg,Low stock,5,0,5,3,9,0.8,6.3,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0195,Macrodantin Nitrofurantoin Regular 50mg,Low stock,6,0,6,4,8,0.7,8.3,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0257,Tritace Ramipril Regular 10mg,Low stock,29,0,29,16,54,6.2,4.7,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0423,Aldactone Spironolactone Maximum 25mg,Low stock,25,0,25,14,45,5.2,4.8,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0460,Lamictal Lamotrigine Maximum 100mg,Low stock,12,0,12,9,18,1.4,8.3,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0547,Singulair Montelukast Adult 10mg,Low stock,22,0,22,11,43,5.2,4.2,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0585,Aldactone Spironolactone Adult 25mg,Low stock,24,0,24,13,44,5,4.8,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0613,Effexor Venlafaxine Adult 75mg,Low stock,15,0,15,9,28,3.2,4.7,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0686,Valtrex Valacyclovir Daily 500mg,Low stock,7,0,7,4,12,1.1,6.3,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0691,Nizoral Ketoconazole Daily 200mg,Low stock,4,0,4,3,6,0.4,9.5,2,Order due,,,,24,1,,2026-10-14
+WH002,MED0618,Tegretol Carbamazepine Adult 200mg,Near ROP,1,24,17,11,28,2.8,0.4,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0105,Cardiprin Aspirin Low-Dose Original 100mg,Near ROP,45,672,504,236,1038,133.6,0.3,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,Concor Bisoprolol Original 5mg (MED0091): in stock; Plavix Clopidogrel Original 75mg (MED0104): coming on the same delivery; Zocor Simvastatin Original 20mg (MED0102): running low,2026-10-14
+WH002,MED0424,Natrilix Indapamide Maximum 2.5mg,Near ROP,3,24,22,12,39,4.3,0.7,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0032,Monotrim Trimethoprim Original 200mg,Near ROP,3,24,20,13,34,3.3,0.9,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0924,Januvia Sitagliptin Day 100mg,Near ROP,4,24,22,14,36,3.7,1.1,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0226,Decadron Dexamethasone Regular 0.5mg,Near ROP,6,24,26,14,47,5.4,1.1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0145,Neo-Mercazole Carbimazole Original 5mg,Near ROP,6,24,18,12,29,2.9,2.1,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0206,Nizoral Ketoconazole Shampoo Regular 1%,Near ROP,22,48,63,25,138,18.8,1.2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0351,Vibramycin Doxycycline Maximum 100mg,Near ROP,12,24,34,17,66,8.1,1.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0418,Coversyl Perindopril Maximum 4mg,Near ROP,12,24,33,17,64,7.6,1.6,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0831,Zithromax Azithromycin Day 500mg,Near ROP,12,24,33,16,67,8.5,1.4,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0060,Qvar Beclomethasone Inhaler Original 100mg,Near ROP,30,60,75,34,154,19.9,1.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0184,Zinnat Cefuroxime Regular 250mg,Near ROP,9,24,22,14,37,3.8,2.3,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0353,Ciprobay Ciprofloxacin Maximum 500mg,Near ROP,19,48,46,21,95,12.3,1.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0573,Diovan Valsartan Adult 80mg,Near ROP,29,48,68,31,142,18.4,1.6,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0762,Januvia Sitagliptin Daily 100mg,Near ROP,11,24,23,13,42,4.7,2.3,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0462,Lyrica Pregabalin Maximum 75mg,Near ROP,25,48,49,25,95,11.5,2.2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0596,Glucophage SR Metformin MR Adult 500mg,Near ROP,91,144,170,72,365,48.7,1.9,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0532,Mycostatin Nystatin Adult 100mg,Near ROP,15,24,28,13,57,7.2,2.1,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0024,Keflex Cephalexin Original 500mg,Near ROP,20,24,34,18,65,7.7,2.6,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0859,Telfast Fexofenadine Day 180mg,Near ROP,21,24,34,13,77,10.6,2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0888,Dulcolax Bisacodyl Day 5mg,Near ROP,24,24,37,16,78,10.1,2.4,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0839,Ciprobay Ciprofloxacin Day 500mg,Near ROP,41,24,45,23,89,10.9,3.8,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0138,Lyrica Pregabalin Original 75mg,Near ROP,49,24,51,25,104,13.1,3.7,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0505,Amoxil Amoxicillin Adult 500mg,Near ROP,158,0,157,66,339,45.6,3.5,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0739,Concor Bisoprolol Daily 5mg,Near ROP,54,0,53,26,106,13.2,4.1,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0655,Voltaren Diclofenac Sodium Daily 50mg,Near ROP,31,0,30,10,69,9.8,3.2,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0804,Chloramphenicol Chloramphenicol Eye Drops Night 0.5%,Near ROP,25,0,24,10,50,6.5,3.8,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0285,Seroxat Paroxetine Regular 10mg,Near ROP,22,0,21,10,44,5.6,3.9,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0835,Klacid Clarithromycin Day 500mg,Near ROP,20,0,19,10,34,3.9,5.1,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0254,Dilatrend Carvedilol Regular 25mg,Near ROP,34,0,32,17,60,7.2,4.7,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0836,Eryc Erythromycin Day 250mg,Near ROP,17,0,16,10,29,3,5.6,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0098,Lasix Furosemide Original 40mg,Near ROP,58,0,54,26,110,13.9,4.2,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0664,Codeine Codeine Phosphate Daily 30mg,Near ROP,14,0,13,8,22,2.3,6.1,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0556,Nexium Esomeprazole Adult 40mg,Near ROP,41,0,38,16,82,10.8,3.8,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0602,Valium Diazepam Adult 5mg,Near ROP,13,0,12,6,22,2.6,5,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0988,Codeine Codeine Phosphate Honey 30mg,Near ROP,13,0,12,8,20,1.9,6.9,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0808,Isopto Tears Hypromellose Eye Drops Night 0.3%,Near ROP,103,0,95,34,217,30.5,3.4,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0870,Qvar Beclomethasone Inhaler Day 100mg,Near ROP,64,0,59,27,122,15.6,4.1,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0435,Diamicron Gliclazide Maximum 80mg,Near ROP,99,0,91,41,191,24.9,4,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0693,Diflucan Fluconazole Daily 150mg,Near ROP,12,0,11,6,20,2.3,5.3,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0583,HCTZ Hydrochlorothiazide Adult 25mg,Near ROP,82,0,75,35,153,19.7,4.2,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0349,Klacid Clarithromycin Maximum 500mg,Near ROP,23,0,21,12,38,4.3,5.4,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0883,Pepcid Famotidine Day 20mg,Near ROP,22,0,20,9,41,5.2,4.2,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0248,Cozaar Losartan Regular 100mg,Near ROP,103,0,93,39,199,26.5,3.9,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0291,Zyprexa Olanzapine Regular 5mg,Near ROP,10,0,9,6,13,1,10,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0358,Dalacin Clindamycin Maximum 300mg,Near ROP,10,0,9,6,14,1.3,7.9,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0170,Voltaren Emulgel Diclofenac Gel Regular 2%,Near ROP,216,0,194,54,473,69.7,3.1,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0998,Eryc Erythromycin Honey 250mg,Near ROP,19,0,17,11,27,2.6,7.3,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0004,Panadol Osteo Paracetamol MR Senior 665mg,Near ROP,129,0,115,35,275,39.9,3.2,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0463,Sinemet Levodopa/Carbidopa Maximum 250mg,Near ROP,9,0,8,6,11,0.8,10.6,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0050,Piriton Chlorpheniramine Original 4mg,Near ROP,130,0,115,33,280,41.1,3.2,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,Otrivin Xylometazoline Spray Original 0.1% (MED0067): in stock; Panadol Paracetamol Original 500mg (MED0001): running low,2026-10-14
+WH002,MED0997,Klacid Clarithromycin Honey 500mg,Near ROP,26,0,23,15,38,3.9,6.7,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0600,Januvia Sitagliptin Adult 100mg,Near ROP,32,0,28,17,48,5,6.4,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0822,Celebrex Celecoxib Day 200mg,Near ROP,8,0,7,4,12,1.2,6.6,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0619,Epilim Valproate Sodium Adult 200mg,Near ROP,23,0,20,11,36,4,5.7,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0087,Diovan Valsartan Original 80mg,Near ROP,89,0,77,35,159,20.4,4.4,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0521,Zovirax Acyclovir Adult 400mg,Near ROP,28,0,24,11,48,6.1,4.6,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0724,Zofran Ondansetron Daily 8mg,Near ROP,21,0,18,10,32,3.6,5.9,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0582,Adalat Nifedipine Adult 10mg,Near ROP,41,0,35,19,65,7.5,5.5,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0749,Lipitor Atorvastatin Daily 10mg,Near ROP,164,0,139,51,316,44.1,3.7,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0119,Imovane Zopiclone Original 7.5mg,Near ROP,13,0,11,7,17,1.7,7.7,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0133,Epilim Valproate Sodium Original 200mg,Near ROP,26,0,22,14,38,4,6.5,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0235,Pepcid Famotidine Regular 40mg,Near ROP,26,0,22,11,43,5.3,4.9,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0713,Flixonase Fluticasone Nasal Daily 50mg,Near ROP,160,0,134,48,305,42.8,3.7,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0299,Neurontin Gabapentin Regular 100mg,Near ROP,41,0,34,18,66,8,5.1,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0157,Gentamicin Gentamicin Eye Drops Extra 0.3%,Near ROP,29,0,24,11,48,6.1,4.7,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0709,Singulair Montelukast Daily 10mg,Near ROP,29,0,24,12,47,5.9,4.9,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0544,Ventolin Salbutamol Nebule Adult 5mg,Near ROP,394,0,325,128,719,98.4,4,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0045,Diflucan Fluconazole Original 150mg,Near ROP,17,0,14,8,25,2.8,6,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0134,Dilantin Phenytoin Original 100mg,Near ROP,11,0,9,5,14,1.4,7.9,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0951,Aricept Donepezil Day 5mg,Near ROP,11,0,9,7,12,0.6,18.2,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0910,Natrilix Indapamide Day 2.5mg,Near ROP,27,0,22,13,38,4.1,6.6,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0766,Xanax Alprazolam Daily 0.5mg,Near ROP,16,0,13,8,24,2.6,6.1,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0383,Pulmicort Budesonide Inhaler Maximum 200mg,Near ROP,142,0,115,46,250,33.9,4.2,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0276,Januvia Sitagliptin Regular 50mg,Near ROP,26,0,21,11,38,4.3,6.1,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0403,Duphalac Lactulose Maximum 10g,Near ROP,131,0,105,38,237,33.1,4,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0289,Effexor Venlafaxine Regular 37.5mg,Near ROP,25,0,20,12,36,3.9,6.4,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0370,Mycostatin Nystatin Maximum 100mg,Near ROP,35,0,28,12,58,7.5,4.7,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0637,Cialis Tadalafil Adult 20mg,Near ROP,5,0,4,3,6,0.3,14.6,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0832,Zinnat Cefuroxime Day 500mg,Near ROP,20,0,16,10,28,2.9,6.9,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0936,Elavil Amitriptyline Day 25mg,Near ROP,30,0,24,11,48,6,5,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0577,Concor Bisoprolol Adult 5mg,Near ROP,64,0,51,25,104,13.2,4.9,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0917,Xarelto Rivaroxaban Day 20mg,Near ROP,19,0,15,9,25,2.6,7.3,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0490,Panadol Osteo Paracetamol MR Adult 665mg,Near ROP,134,0,105,33,249,36,3.7,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0436,Amaryl Glimepiride Maximum 2mg,Near ROP,92,0,72,33,148,19.1,4.8,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0548,Atrovent Ipratropium Nebule Adult 0.5mg,Near ROP,68,0,53,26,104,12.9,5.3,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0013,Arcoxia Etoricoxib Original 90mg,Near ROP,18,0,14,6,30,4,4.5,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0114,Januvia Sitagliptin Original 100mg,Near ROP,27,0,21,12,38,4.3,6.2,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0207,Diflucan Fluconazole Regular 50mg,Near ROP,18,0,14,8,24,2.5,7.2,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0313,Cialis Tadalafil Regular 10mg,Near ROP,9,0,7,5,9,0.6,15,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0430,Coumadin Warfarin Maximum 5mg,Near ROP,18,0,14,9,23,2.3,7.7,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0603,Ativan Lorazepam Adult 1mg,Near ROP,9,0,7,4,11,1.1,8.3,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0955,Neo-Mercazole Carbimazole Day 5mg,Near ROP,18,0,14,10,22,2,8.8,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0934,Lexapro Escitalopram Day 10mg,Near ROP,40,0,31,14,63,8.1,5,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0670,Zinnat Cefuroxime Daily 500mg,Near ROP,22,0,17,11,29,2.8,7.9,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0410,Cozaar Losartan Maximum 50mg,Near ROP,122,0,94,42,198,26,4.7,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0211,Telfast Fexofenadine Regular 120mg,Near ROP,39,0,30,10,67,9.5,4.1,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0178,Codeine Codeine Phosphate Regular 15mg,Near ROP,17,0,13,8,21,2.1,8.1,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0669,Zithromax Azithromycin Daily 500mg,Near ROP,51,0,39,20,74,8.9,5.8,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0760,Amaryl Glimepiride Daily 2mg,Near ROP,84,0,64,28,135,17.7,4.7,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0402,Dulcolax Bisacodyl Maximum 5mg,Near ROP,46,0,35,16,74,9.6,4.8,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0563,Imodium Loperamide Adult 2mg,Near ROP,71,0,54,22,118,16,4.4,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0907,HCTZ Hydrochlorothiazide Day 25mg,Near ROP,78,0,59,26,123,16,4.9,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0710,Atrovent Ipratropium Nebule Daily 0.5mg,Near ROP,57,0,43,20,90,11.6,4.9,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0115,Jardiance Empagliflozin Original 10mg,Near ROP,28,0,21,13,35,3.5,8,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0385,Singulair Montelukast Maximum 10mg,Near ROP,36,0,27,13,54,6.8,5.3,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0414,Betaloc Metoprolol Maximum 50mg,Near ROP,96,0,72,31,151,19.8,4.8,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0469,Neo-Mercazole Carbimazole Maximum 5mg,Near ROP,20,0,15,9,25,2.5,8,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0844,Dalacin Clindamycin Day 300mg,Near ROP,8,0,6,4,9,0.8,9.7,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0953,Maxalt Rizatriptan Day 10mg,Near ROP,8,0,6,4,9,0.6,13.2,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0989,Colgout Colchicine Honey 500mg,Near ROP,4,0,3,2,5,0.5,8.5,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0954,Euthyrox Levothyroxine Day 50mg,Near ROP,122,0,91,41,190,24.8,4.9,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0564,Dulcolax Bisacodyl Adult 5mg,Near ROP,51,0,38,17,80,10.5,4.9,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0036,Zovirax Acyclovir Cream Original 5%,Near ROP,165,0,122,44,277,38.7,4.3,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0456,Tegretol Carbamazepine Maximum 200mg,Near ROP,23,0,17,10,31,3.4,6.8,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0775,Effexor Venlafaxine Daily 75mg,Near ROP,19,0,14,8,26,3,6.4,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0692,Nizoral Ketoconazole Shampoo Daily 2%,Near ROP,72,0,53,19,120,16.9,4.3,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0278,Valium Diazepam Regular 2mg,Near ROP,15,0,11,7,20,2.1,7.1,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0449,Celexa Citalopram Maximum 20mg,Near ROP,26,0,19,10,36,4.2,6.2,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0061,Singulair Montelukast Original 10mg,Near ROP,33,0,24,10,49,6.4,5.1,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0956,Medrol Methylprednisolone Day 4mg,Near ROP,11,0,8,6,11,0.8,13.1,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0830,Augmentin Amox+Clavulanate Day 625mg,Near ROP,76,0,55,26,110,13.9,5.5,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0106,Coumadin Warfarin Original 5mg,Near ROP,18,0,13,8,22,2.4,7.6,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0793,Neo-Mercazole Carbimazole Daily 5mg,Near ROP,18,0,13,8,22,2.2,8,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0757,Glucophage Metformin Daily 500mg,Near ROP,340,0,245,100,535,72.3,4.7,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0097,HCTZ Hydrochlorothiazide Original 25mg,Near ROP,131,0,94,40,201,26.7,4.9,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,Norvasc Amlodipine Original 5mg (MED0085): running low; Cozaar Losartan Original 50mg (MED0086): running low,2026-10-14
+WH002,MED0073,Pepcid Famotidine Original 20mg,Near ROP,28,0,20,10,40,4.9,5.7,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0152,Plan B Levonorgestrel Extra 1.5mg,Near ROP,7,0,5,4,6,0.3,20.8,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0442,Xanax Alprazolam Maximum 0.5mg,Near ROP,21,0,15,8,28,3.3,6.4,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0578,Dilatrend Carvedilol Adult 12.5mg,Near ROP,42,0,30,16,57,6.8,6.2,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0663,MST Continus Morphine Sulfate Daily 30mg,Near ROP,7,0,5,4,6,0.3,20.8,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0796,Proscar Finasteride Daily 5mg,Near ROP,7,0,5,3,7,0.5,13.4,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0799,Cialis Tadalafil Daily 20mg,Near ROP,7,0,5,3,7,0.5,13.4,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0088,Avapro Irbesartan Original 150mg,Near ROP,62,0,44,22,86,10.6,5.8,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0707,Pulmicort Budesonide Inhaler Daily 200mg,Near ROP,148,0,105,43,227,30.5,4.8,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0395,Protonix Pantoprazole Maximum 40mg,Near ROP,41,0,29,13,60,7.7,5.3,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0761,Minidiab Glipizide Daily 5mg,Near ROP,44,0,31,15,62,7.7,5.7,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0117,Ativan Lorazepam Original 1mg,Near ROP,10,0,7,4,12,1.2,8,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0310,Proscar Finasteride Regular 1mg,Near ROP,10,0,7,5,9,0.7,14.3,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0311,Harnal Tamsulosin Regular 0.2mg,Near ROP,20,0,14,8,26,2.9,6.8,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0347,Suprax Cefixime Maximum 400mg,Near ROP,20,0,14,10,21,1.7,11.6,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0359,Zovirax Acyclovir Maximum 400mg,Near ROP,30,0,21,10,41,5,6,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0733,Norvasc Amlodipine Daily 5mg,Near ROP,170,0,119,52,252,33.1,5.1,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0957,Zyloric Allopurinol Day 100mg,Near ROP,30,0,21,10,40,4.8,6.3,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0247,Norvasc Amlodipine Regular 10mg,Near ROP,202,0,141,62,296,38.9,5.2,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0502,Codeine Codeine Phosphate Adult 30mg,Near ROP,23,0,16,11,26,2.5,9.3,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0623,Neurontin Gabapentin Adult 300mg,Near ROP,46,0,32,16,62,7.7,6,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0677,Ciprobay Ciprofloxacin Daily 500mg,Near ROP,69,0,48,24,95,11.7,5.9,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0992,Augmentin Amox+Clavulanate Honey 625mg,Near ROP,83,0,57,28,113,14,5.9,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0806,Timoptol Timolol Eye Drops Night 0.25%,Near ROP,51,0,35,16,73,9.4,5.4,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0995,Suprax Cefixime Honey 400mg,Near ROP,19,0,13,9,20,1.7,10.9,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0415,Concor Bisoprolol Maximum 5mg,Near ROP,79,0,54,25,110,14,5.7,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0680,Monotrim Trimethoprim Daily 200mg,Near ROP,22,0,15,10,24,2.3,9.6,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0132,Tegretol Carbamazepine Original 200mg,Near ROP,28,0,19,12,33,3.5,7.9,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0035,Zovirax Acyclovir Original 400mg,Near ROP,34,0,23,11,46,5.8,5.9,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0199,Tamiflu Oseltamivir Regular 30mg,Near ROP,9,0,6,4,7,0.4,23.5,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0352,Achromycin Tetracycline Maximum 250mg,Near ROP,15,0,10,7,16,1.3,11.6,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0365,Lamisil Terbinafine Maximum 250mg,Near ROP,9,0,6,4,9,0.8,10.7,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0624,Lyrica Pregabalin Adult 75mg,Near ROP,66,0,44,22,89,11,6,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0763,Jardiance Empagliflozin Daily 10mg,Near ROP,24,0,16,10,29,3.1,7.8,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0797,Harnal Tamsulosin Daily 0.4mg,Near ROP,18,0,12,7,20,2.1,8.7,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0945,Keppra Levetiracetam Day 500mg,Near ROP,15,0,10,6,16,1.6,9.2,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0961,Cialis Tadalafil Day 20mg,Near ROP,6,0,4,2,5,0.4,16.9,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0399,Maxolon Metoclopramide Maximum 10mg,Near ROP,23,0,15,9,26,2.8,8.3,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0743,Tritace Ramipril Daily 5mg,Near ROP,40,0,26,14,51,6.1,6.5,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0885,Maxolon Metoclopramide Day 10mg,Near ROP,20,0,13,7,23,2.6,7.8,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0308,Medrol Methylprednisolone Regular 8mg,Near ROP,17,0,11,7,17,1.6,10.8,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0432,Eliquis Apixaban Maximum 5mg,Near ROP,17,0,11,8,18,1.6,10.5,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0176,Tramal Tramadol Regular 100mg,Near ROP,14,0,9,6,15,1.4,9.8,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0520,Dalacin Clindamycin Adult 300mg,Near ROP,14,0,9,6,13,1.1,13.2,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0474,Viagra Sildenafil Maximum 50mg,Near ROP,11,0,7,4,11,1,10.9,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0834,Keflex Cephalexin Day 500mg,Near ROP,44,0,28,16,51,5.8,7.6,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0987,MST Continus Morphine Sulfate Honey 30mg,Near ROP,11,0,7,5,8,0.4,27.9,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0842,Monotrim Trimethoprim Day 200mg,Near ROP,19,0,12,7,20,2.1,9.1,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0367,Nizoral Ketoconazole Maximum 200mg,Near ROP,8,0,5,3,7,0.6,13,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0777,Zyprexa Olanzapine Daily 10mg,Near ROP,8,0,5,4,7,0.5,16.9,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0754,Coumadin Warfarin Daily 5mg,Near ROP,21,0,13,8,22,2.1,9.8,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0676,Achromycin Tetracycline Daily 250mg,Near ROP,13,0,8,6,12,1,12.9,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0298,Lamictal Lamotrigine Regular 25mg,Near ROP,20,0,12,8,18,1.6,12.9,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0512,Eryc Erythromycin Adult 250mg,Near ROP,30,0,18,12,30,3,9.9,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0452,Risperdal Risperidone Maximum 2mg,Near ROP,17,0,10,7,15,1.3,13,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0464,Sifrol Pramipexole Maximum 0.25mg,Near ROP,12,0,7,6,9,0.5,21.8,2,Monitoring,,,,0,0,,2026-10-14
+WH002,MED0344,Augmentin Amox+Clavulanate Maximum 625mg,In stock,1,168,63,29,129,16.7,0.1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0091,Concor Bisoprolol Original 5mg,In stock,3,144,92,40,196,25.9,0.1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,Plavix Clopidogrel Original 75mg (MED0104): running low; Zocor Simvastatin Original 20mg (MED0102): running low; Cardiprin Aspirin Low-Dose Original 100mg (MED0105): close to its reorder point,2026-10-14
+WH002,MED0969,Xalatan Latanoprost Eye Drops Cool 0.005%,In stock,1,96,20,10,39,4.8,0.2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0010,Ponstan Mefenamic Acid Original 250mg,In stock,2,144,29,10,65,9.1,0.2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0296,Dilantin Phenytoin Regular 50mg,In stock,1,24,10,7,15,1.3,0.8,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0500,Tramal Tramadol Adult 50mg,In stock,1,24,9,7,13,1,1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0431,Xarelto Rivaroxaban Maximum 20mg,In stock,2,24,16,9,30,3.4,0.6,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0606,Stilnox Zolpidem Adult 10mg,In stock,1,24,8,5,12,1.1,0.9,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0230,Sterimar Sodium Chloride Nasal Regular 0.9%,In stock,8,144,57,20,129,18.1,0.4,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0850,Daktarin Miconazole Day 2%,In stock,17,192,121,42,278,39.2,0.4,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0006,Nurofen Children Ibuprofen Susp Children 100mg,In stock,64,1872,397,106,978,145.2,0.4,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0305,Maxalt Rizatriptan Regular 5mg,In stock,1,24,6,4,8,0.5,1.9,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0185,Suprax Cefixime Regular 200mg,In stock,2,24,11,7,18,1.8,1.1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0620,Dilantin Phenytoin Adult 100mg,In stock,2,24,11,8,16,1.2,1.7,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0215,Xyzal Levocetirizine Regular 2.5mg,In stock,3,24,16,8,32,3.9,0.8,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0674,Eryc Erythromycin Daily 250mg,In stock,3,24,15,9,25,2.6,1.2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0125,Celexa Citalopram Original 20mg,In stock,5,48,24,14,44,4.9,1,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0516,Levaquin Levofloxacin Adult 500mg,In stock,4,48,18,11,32,3.4,1.2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0678,Levaquin Levofloxacin Daily 500mg,In stock,4,48,17,10,28,2.8,1.4,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0593,Xarelto Rivaroxaban Adult 20mg,In stock,5,48,21,13,36,3.8,1.3,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0446,Zoloft Sertraline Maximum 50mg,In stock,15,264,62,24,137,18.7,0.8,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0517,Flagyl Metronidazole Adult 400mg,In stock,15,144,53,25,108,13.6,1.1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0641,Progynova Estradiol Senior 1mg,In stock,2,24,7,4,11,1.1,1.9,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0943,Epilim Valproate Sodium Day 200mg,In stock,6,48,21,14,36,3.6,1.7,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0267,Cardiprin Aspirin Low-Dose Regular 75mg,In stock,70,336,237,96,517,70,1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0741,Renitec Enalapril Daily 10mg,In stock,12,72,39,19,77,9.6,1.3,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0756,Eliquis Apixaban Daily 5mg,In stock,5,24,16,11,23,1.9,2.7,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0729,Buscopan Hyoscine Daily 10mg,In stock,6,24,19,9,38,4.7,1.3,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0506,Augmentin Amox+Clavulanate Adult 625mg,In stock,22,144,69,34,138,17.3,1.3,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0216,Phenergan Promethazine Regular 10mg,In stock,4,24,12,6,23,2.9,1.4,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0223,Singulair Montelukast Regular 5mg,In stock,8,48,24,11,48,6.1,1.3,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0702,Phenergan Promethazine Daily 25mg,In stock,3,24,9,4,18,2.3,1.3,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0812,Panadol Extra Paracetamol+Caffeine Day 650mg,In stock,69,600,205,58,498,73.2,0.9,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0977,Nurofen Ibuprofen Honey 200mg,In stock,60,288,167,48,403,59.2,1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0059,Pulmicort Budesonide Inhaler Original 200mg,In stock,165,588,451,183,985,133.5,1.2,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,Prednisolone Prednisolone Original 5mg (MED0063): out of stock; Ventolin Salbutamol Inhaler Original 100mg (MED0057): in stock,2026-10-14
+WH002,MED0922,Amaryl Glimepiride Day 2mg,In stock,26,144,69,32,143,18.5,1.4,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0242,Smecta Diosmectite Regular 1.5g,In stock,79,456,209,71,485,69,1.1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0167,Nurofen Ibuprofen Regular 400mg,In stock,76,312,194,54,472,69.6,1.1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0237,Maxolon Metoclopramide Regular 5mg,In stock,6,24,15,7,29,3.6,1.7,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0507,Zithromax Azithromycin Adult 500mg,In stock,14,48,35,17,72,9.1,1.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0518,Monotrim Trimethoprim Adult 200mg,In stock,6,24,15,9,25,2.5,2.4,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0416,Dilatrend Carvedilol Maximum 12.5mg,In stock,14,48,34,19,61,6.9,2,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0144,Euthyrox Levothyroxine Original 50mg,In stock,40,144,97,42,206,27.3,1.5,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0337,Arcoxia Etoricoxib Maximum 90mg,In stock,7,24,16,8,31,3.7,1.9,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0258,Adalat Nifedipine Regular 20mg,In stock,15,96,34,17,68,8.4,1.8,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0093,Renitec Enalapril Original 10mg,In stock,19,48,43,22,84,10.3,1.8,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0862,Aerius Desloratadine Day 5mg,In stock,8,24,18,7,41,5.6,1.4,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0625,Sinemet Levodopa/Carbidopa Adult 250mg,In stock,5,24,11,8,14,0.8,6.4,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0052,Aerius Desloratadine Original 5mg,In stock,12,48,26,11,56,7.4,1.6,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0356,Monotrim Trimethoprim Maximum 200mg,In stock,7,24,15,9,25,2.6,2.7,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0546,Qvar Beclomethasone Inhaler Adult 100mg,In stock,29,96,62,26,132,17.6,1.6,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0381,Ventolin Salbutamol Inhaler Maximum 100mg,In stock,307,2040,651,250,1451,200.1,1.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0904,Coversyl Perindopril Day 4mg,In stock,17,48,36,18,69,8.4,2,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0878,Sterimar Sodium Chloride Nasal Day 0.9%,In stock,27,240,57,22,125,17,1.6,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0029,Ciprobay Ciprofloxacin Original 500mg,In stock,23,96,48,24,95,11.7,2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0923,Minidiab Glipizide Day 5mg,In stock,13,72,27,13,52,6.4,2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0587,Lipitor Atorvastatin Adult 10mg,In stock,68,1008,141,51,321,45,1.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0122,Zoloft Sertraline Original 50mg,In stock,34,96,70,26,156,21.6,1.6,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0214,Aerius Desloratadine Regular 2.5mg,In stock,12,24,24,9,52,7.1,1.7,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0417,Renitec Enalapril Maximum 10mg,In stock,21,48,42,22,79,9.4,2.2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0611,Celexa Citalopram Adult 20mg,In stock,9,24,18,9,35,4.3,2.1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0510,Keflex Cephalexin Adult 500mg,In stock,15,48,29,16,55,6.4,2.3,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0610,Lexapro Escitalopram Adult 10mg,In stock,14,72,27,11,57,7.5,1.9,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0042,Lamisil Terbinafine Cream Original 1%,In stock,57,120,107,37,246,34.7,1.6,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0905,Tritace Ramipril Day 5mg,In stock,15,48,28,15,53,6.2,2.4,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0064,Decadron Dexamethasone Original 4mg,In stock,13,24,24,12,48,6,2.2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0856,Mycostatin Nystatin Day 100mg,In stock,13,24,24,10,51,6.8,1.9,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0153,Microgynon Ethinylestradiol/Levonorgestrel Extra 30mg,In stock,12,24,22,10,43,5.3,2.2,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0773,Celexa Citalopram Daily 20mg,In stock,12,48,22,11,42,4.9,2.4,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0855,Diflucan Fluconazole Day 150mg,In stock,5,24,9,5,17,1.9,2.7,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0057,Ventolin Salbutamol Inhaler Original 100mg,In stock,397,3108,714,284,1572,214.7,1.8,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,Prednisolone Prednisolone Original 5mg (MED0063): coming on the same delivery; Pulmicort Budesonide Inhaler Original 200mg (MED0059): in stock,2026-10-14
+WH002,MED0705,Ventolin Salbutamol Inhaler Daily 100mg,In stock,331,1164,593,226,1328,183.6,1.8,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0288,Elavil Amitriptyline Regular 10mg,In stock,14,48,25,11,52,6.9,2,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0268,Coumadin Warfarin Regular 1mg,In stock,8,24,14,9,23,2.3,3.5,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0149,Harnal Tamsulosin Original 0.4mg,In stock,7,24,12,7,22,2.4,2.9,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0880,Nexium Esomeprazole Day 40mg,In stock,21,48,36,15,76,10.2,2.1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0601,Jardiance Empagliflozin Adult 10mg,In stock,10,24,17,10,28,2.9,3.4,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0445,Prozac Fluoxetine Maximum 20mg,In stock,24,48,40,16,87,11.6,2.1,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0249,Diovan Valsartan Regular 160mg,In stock,44,144,73,33,153,19.8,2.2,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0364,Daktarin Miconazole Maximum 2%,In stock,85,312,141,48,326,46.4,1.8,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0903,Renitec Enalapril Day 10mg,In stock,23,96,38,19,75,9.3,2.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0454,Seroquel Quetiapine Maximum 100mg,In stock,11,24,18,11,30,3.1,3.6,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0589,Crestor Rosuvastatin Adult 10mg,In stock,30,48,49,19,108,14.9,2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0005,Nurofen Ibuprofen Original 200mg,In stock,123,672,197,54,483,71.4,1.7,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0084,Actal Calcium Carbonate Original 500mg,In stock,10,24,16,8,32,3.9,2.6,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0866,Claritin Loratadine Syrup Day 5mg,In stock,86,384,137,39,333,48.9,1.8,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0786,Lyrica Pregabalin Daily 75mg,In stock,31,72,49,24,98,12.2,2.5,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0161,Opticrom Sodium Cromoglycate Eye Drops Extra 2%,In stock,19,48,30,13,63,8.2,2.3,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0940,Seroquel Quetiapine Day 100mg,In stock,7,24,11,7,19,1.9,3.7,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0389,Flixonase Fluticasone Nasal Maximum 50mg,In stock,89,336,137,46,316,44.8,2,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0245,Gaviscon Sodium Alginate Regular 250mg,In stock,1041,2424,1599,422,3952,588.1,1.8,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0884,Motilium Domperidone Day 10mg,In stock,15,48,23,11,46,5.7,2.6,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0496,Ponstan Mefenamic Acid Adult 250mg,In stock,19,48,29,11,64,8.7,2.2,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0406,Maalox Al/Mg Hydroxide Maximum 200mg,In stock,120,312,183,52,444,65.2,1.8,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0169,Voltaren Diclofenac Sodium Regular 25mg,In stock,21,48,32,12,73,10.1,2.1,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0186,Keflex Cephalexin Regular 250mg,In stock,23,48,35,19,68,8.2,2.8,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0028,Achromycin Tetracycline Original 250mg,In stock,6,24,9,5,15,1.5,4,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0260,Lasix Furosemide Regular 20mg,In stock,36,144,54,25,113,14.6,2.5,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0405,Buscopan Hyoscine Maximum 10mg,In stock,14,24,21,9,43,5.6,2.5,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0539,Xyzal Levocetirizine Adult 5mg,In stock,10,24,15,6,32,4.3,2.3,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0937,Effexor Venlafaxine Day 75mg,In stock,8,24,12,6,22,2.6,3.1,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0960,Viagra Sildenafil Day 50mg,In stock,4,24,6,4,10,0.9,4.7,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0252,Betaloc Metoprolol Regular 100mg,In stock,48,72,71,32,149,19.3,2.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0721,Pepcid Famotidine Daily 20mg,In stock,17,24,25,11,52,6.7,2.5,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0535,Telfast Fexofenadine Adult 180mg,In stock,22,72,32,11,72,10.1,2.2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0974,Panadol Extra Paracetamol+Caffeine Honey 650mg,In stock,137,384,199,56,484,71.2,1.9,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0900,Betaloc Metoprolol Day 50mg,In stock,45,96,65,29,136,17.6,2.6,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0591,Cardiprin Aspirin Low-Dose Adult 100mg,In stock,157,456,221,90,481,65.1,2.4,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0882,Zantac Ranitidine Day 150mg,In stock,23,24,32,13,69,9.3,2.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0116,Valium Diazepam Original 5mg,In stock,8,24,11,6,20,2.2,3.7,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0748,Natrilix Indapamide Daily 2.5mg,In stock,16,24,22,13,40,4.3,3.7,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0933,Seroxat Paroxetine Day 20mg,In stock,14,24,19,9,37,4.6,3,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0231,Losec Omeprazole Regular 10mg,In stock,47,120,63,24,139,19,2.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0265,Crestor Rosuvastatin Regular 20mg,In stock,42,72,56,23,122,16.5,2.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0531,Diflucan Fluconazole Adult 150mg,In stock,9,24,12,6,22,2.5,3.6,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0717,Losec Omeprazole Daily 20mg,In stock,46,144,61,24,135,18.4,2.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0543,Ventolin Salbutamol Inhaler Adult 100mg,In stock,465,1116,612,235,1365,188.3,2.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0892,Maalox Al/Mg Hydroxide Day 200mg,In stock,131,312,172,48,418,61.6,2.1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0363,Canesten Clotrimazole Maximum 1%,In stock,151,288,198,64,465,66.7,2.3,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0630,Euthyrox Levothyroxine Adult 50mg,In stock,69,96,90,39,192,25.5,2.7,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0189,Vibramycin Doxycycline Regular 50mg,In stock,28,48,36,19,70,8.3,3.4,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0896,Cozaar Losartan Day 50mg,In stock,70,168,90,41,188,24.4,2.9,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0918,Eliquis Apixaban Day 5mg,In stock,7,24,9,6,15,1.4,4.9,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0318,Chloramphenicol Chloramphenicol Eye Drops Rapid 0.5%,In stock,22,48,28,13,57,7.3,3,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0326,Panadol Extra Paracetamol+Caffeine Maximum 650mg,In stock,174,168,218,61,531,78.3,2.2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0322,Isopto Tears Hypromellose Eye Drops Rapid 0.3%,In stock,88,192,110,39,252,35.4,2.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0333,Disprin Aspirin Maximum 500mg,In stock,44,144,55,18,130,18.7,2.4,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0413,Tenormin Atenolol Maximum 50mg,In stock,69,144,86,41,175,22.3,3.1,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0375,Benadryl Diphenhydramine Maximum 25mg,In stock,29,96,36,14,81,11.1,2.6,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0066,Iliadin Oxymetazoline Spray Original 0.05%,In stock,216,432,268,90,623,88.6,2.4,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0947,Neurontin Gabapentin Day 300mg,In stock,25,24,31,16,61,7.5,3.3,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0283,Prozac Fluoxetine Regular 10mg,In stock,34,96,42,19,87,11.3,3,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0287,Celexa Citalopram Regular 10mg,In stock,13,24,16,8,31,3.7,3.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0942,Tegretol Carbamazepine Day 200mg,In stock,13,24,16,10,26,2.5,5.2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0999,Vibramycin Doxycycline Honey 100mg,In stock,28,48,34,18,64,7.5,3.7,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0346,Zinnat Cefuroxime Maximum 500mg,In stock,19,24,23,14,40,4.4,4.4,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0250,Avapro Irbesartan Regular 300mg,In stock,44,96,52,26,104,13,3.4,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0240,Dulcolax Bisacodyl Regular 10mg,In stock,30,120,35,16,72,9.4,3.2,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0737,Tenormin Atenolol Daily 50mg,In stock,73,120,85,39,177,23,3.2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0382,Ventolin Salbutamol Nebule Maximum 5mg,In stock,284,390,330,130,730,100,2.8,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0253,Concor Bisoprolol Regular 10mg,In stock,45,192,52,25,104,13,3.5,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0493,Voltaren Diclofenac Sodium Adult 50mg,In stock,27,48,31,12,69,9.4,2.9,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0801,Microgynon Ethinylestradiol/Levonorgestrel Night 30mg,In stock,16,24,18,9,36,4.4,3.6,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0867,Ventolin Salbutamol Inhaler Day 100mg,In stock,502,948,564,216,1260,174,2.9,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0331,Voltaren Diclofenac Sodium Maximum 50mg,In stock,26,24,29,11,65,8.9,2.9,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0411,Diovan Valsartan Maximum 80mg,In stock,69,48,76,36,157,20.1,3.4,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0813,Panadol Children Paracetamol Susp Day 120mg/5ml,In stock,440,1008,484,131,1189,176.1,2.5,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0921,Diamicron Gliclazide Day 80mg,In stock,75,48,82,35,175,23.2,3.2,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0160,Isopto Tears Hypromellose Eye Drops Extra 0.3%,In stock,100,96,109,42,244,33.6,3,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0772,Lexapro Escitalopram Daily 10mg,In stock,24,24,26,11,55,7.2,3.3,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0239,Imodium Loperamide Regular 1mg,In stock,50,120,54,22,117,15.7,3.2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0886,Zofran Ondansetron Day 8mg,In stock,15,24,16,9,31,3.6,4.2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0065,Flixonase Fluticasone Nasal Original 50mg,In stock,199,192,210,73,482,68.1,2.9,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,Claritin Loratadine Original 10mg (MED0048): in stock; Sterimar Sodium Chloride Nasal Original 0.9% (MED0068): out of stock,2026-10-14
+WH002,MED0871,Singulair Montelukast Day 10mg,In stock,20,48,21,10,44,5.5,3.6,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0386,Atrovent Ipratropium Nebule Maximum 0.5mg,In stock,45,30,47,21,98,12.7,3.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0553,Otrivin Xylometazoline Spray Adult 0.1%,In stock,324,216,338,111,790,113.1,2.9,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0401,Imodium Loperamide Maximum 2mg,In stock,57,120,59,23,131,18,3.2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0168,Nurofen Children Ibuprofen Susp Regular 200mg,In stock,377,432,386,103,952,141.5,2.7,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0329,Nurofen Ibuprofen Maximum 200mg,In stock,187,264,188,55,454,66.5,2.8,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0136,Lamictal Lamotrigine Original 100mg,In stock,9,24,9,6,15,1.4,6.2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0551,Flixonase Fluticasone Nasal Adult 50mg,In stock,133,504,133,46,306,43.3,3.1,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0570,Actal Calcium Carbonate Adult 500mg,In stock,13,24,13,6,28,3.5,3.7,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0581,Tritace Ramipril Adult 5mg,In stock,25,48,25,12,49,6.1,4.1,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0306,Euthyrox Levothyroxine Regular 100mg,In stock,94,48,93,42,195,25.5,3.7,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0220,Ventolin Salbutamol Nebule Regular 2.5mg,In stock,355,480,342,136,753,102.8,3.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0243,Buscopan Hyoscine Regular 20mg,In stock,19,48,18,8,37,4.7,4,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0407,Gaviscon Sodium Alginate Maximum 500mg,In stock,1654,1320,1566,402,3891,581.5,2.8,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0720,Zantac Ranitidine Daily 150mg,In stock,34,48,32,14,67,8.7,3.9,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0805,Gentamicin Gentamicin Eye Drops Night 0.3%,In stock,17,48,16,8,32,3.9,4.3,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0031,Flagyl Metronidazole Original 400mg,In stock,60,24,56,26,117,15.1,4,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0213,Benadryl Diphenhydramine Regular 50mg,In stock,44,24,41,16,90,12.3,3.6,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0759,Diamicron Gliclazide Daily 80mg,In stock,94,72,85,38,178,23.1,4.1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0852,Lamisil Terbinafine Cream Day 1%,In stock,97,168,87,32,196,27.3,3.6,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0495,Disprin Aspirin Adult 500mg,In stock,69,72,61,21,141,19.8,3.5,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0897,Diovan Valsartan Day 80mg,In stock,82,120,72,34,146,18.6,4.4,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0571,Norvasc Amlodipine Adult 5mg,In stock,163,240,143,65,298,38.8,4.2,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0021,Zithromax Azithromycin Original 500mg,In stock,40,120,35,18,68,8.3,4.8,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0857,Zyrtec Cetirizine Day 10mg,In stock,134,264,117,37,277,39.9,3.4,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0384,Qvar Beclomethasone Inhaler Maximum 100mg,In stock,78,216,68,31,140,18,4.3,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0731,Gaviscon Sodium Alginate Daily 500mg,In stock,1763,1752,1529,399,3789,565,3.1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0110,Glucophage SR Metformin MR Original 500mg,In stock,225,168,194,80,421,56.9,4,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0090,Betaloc Metoprolol Original 50mg,In stock,90,48,76,33,161,21.2,4.2,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0049,Telfast Fexofenadine Original 180mg,In stock,42,24,35,13,77,10.6,4,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0898,Avapro Irbesartan Day 150mg,In stock,48,24,40,21,78,9.5,5,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0972,Ofloxacin Ofloxacin Ear Drops Cool 0.3%,In stock,24,48,20,10,38,4.7,5.1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0598,Amaryl Glimepiride Adult 2mg,In stock,81,96,67,31,138,17.7,4.6,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0874,Decadron Dexamethasone Day 4mg,In stock,28,48,23,12,43,5.1,5.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0837,Vibramycin Doxycycline Day 100mg,In stock,39,24,32,16,62,7.5,5.2,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0525,Canesten Clotrimazole Adult 1%,In stock,232,216,190,63,442,63,3.7,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0875,Flixonase Fluticasone Nasal Day 50mg,In stock,154,336,126,43,290,40.9,3.8,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0979,Voltaren Diclofenac Sodium Honey 50mg,In stock,33,24,27,10,61,8.4,3.9,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0751,Crestor Rosuvastatin Daily 10mg,In stock,64,48,52,21,113,15.4,4.2,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0212,Piriton Chlorpheniramine Regular 8mg,In stock,93,96,75,22,180,26.1,3.6,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0485,Opticrom Sodium Cromoglycate Eye Drops Children 2%,In stock,31,48,25,11,52,6.7,4.6,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0560,Motilium Domperidone Adult 10mg,In stock,31,24,25,11,51,6.5,4.8,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0973,Panadol Paracetamol Honey 500mg,In stock,291,576,232,66,565,83.1,3.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0071,Protonix Pantoprazole Original 40mg,In stock,39,24,31,13,67,9,4.3,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0983,Naprosyn Naproxen Honey 500mg,In stock,18,24,14,6,29,3.7,4.8,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0688,Daktarin Miconazole Daily 2%,In stock,166,312,129,44,297,42.2,3.9,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0380,Claritin Loratadine Syrup Maximum 5mg,In stock,182,0,140,38,342,50.6,3.6,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0963,Microgynon Ethinylestradiol/Levonorgestrel Cool 30mg,In stock,26,24,20,12,36,4,6.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0978,Nurofen Children Ibuprofen Susp Honey 100mg,In stock,470,0,359,95,884,131.3,3.6,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0335,Naprosyn Naproxen Maximum 500mg,In stock,21,24,16,7,34,4.4,4.7,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0557,Protonix Pantoprazole Adult 40mg,In stock,44,24,33,17,65,8,5.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0201,Canesten Clotrimazole Regular 2%,In stock,285,0,210,72,486,68.9,4.1,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0434,Glucophage SR Metformin MR Maximum 500mg,In stock,226,96,164,70,352,46.9,4.8,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0861,Benadryl Diphenhydramine Day 25mg,In stock,47,0,34,12,78,10.9,4.3,2,,,,,0,0,,2026-10-14
+WH002,MED0191,Ciprobay Ciprofloxacin Regular 250mg,In stock,65,48,47,22,97,12.3,5.3,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0647,Opticrom Sodium Cromoglycate Eye Drops Senior 2%,In stock,36,48,26,13,51,6.3,5.7,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0706,Ventolin Salbutamol Nebule Daily 5mg,In stock,435,360,314,127,686,93.1,4.7,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0022,Zinnat Cefuroxime Original 500mg,In stock,25,24,18,11,32,3.5,7.1,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0271,Glucophage Metformin Regular 850mg,In stock,392,0,275,110,604,82.3,4.8,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0427,Crestor Rosuvastatin Maximum 10mg,In stock,85,0,59,23,129,17.6,4.8,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0814,Panadol Osteo Paracetamol MR Day 665mg,In stock,150,96,104,34,243,34.7,4.3,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0164,Panadol Extra Paracetamol+Caffeine Regular 500mg,In stock,317,288,219,62,532,78.4,4,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0334,Ponstan Mefenamic Acid Maximum 250mg,In stock,38,24,26,9,60,8.4,4.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0584,Lasix Furosemide Adult 40mg,In stock,76,96,52,23,108,14.1,5.4,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0722,Motilium Domperidone Daily 10mg,In stock,38,48,26,12,53,6.8,5.6,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0858,Claritin Loratadine Day 10mg,In stock,114,168,78,24,184,26.6,4.3,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0222,Qvar Beclomethasone Inhaler Regular 50mg,In stock,101,0,69,29,150,20.1,5,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0204,Lamisil Terbinafine Cream Regular 2%,In stock,160,0,109,39,250,35.1,4.6,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0078,Dulcolax Bisacodyl Original 5mg,In stock,53,0,36,16,74,9.6,5.5,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0259,HCTZ Hydrochlorothiazide Regular 50mg,In stock,106,0,72,31,153,20.2,5.2,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0750,Zocor Simvastatin Daily 20mg,In stock,115,0,78,30,172,23.5,4.9,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0372,Claritin Loratadine Maximum 10mg,In stock,129,0,87,30,200,28.3,4.6,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0718,Nexium Esomeprazole Daily 40mg,In stock,55,0,37,14,82,11.2,4.9,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0482,Timoptol Timolol Eye Drops Children 0.25%,In stock,73,0,49,22,103,13.5,5.4,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0890,Smecta Diosmectite Day 3g,In stock,264,240,177,61,408,57.7,4.6,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0198,Zovirax Acyclovir Cream Regular 5%,In stock,151,0,101,35,232,32.8,4.6,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0639,Microgynon Ethinylestradiol/Levonorgestrel Senior 30mg,In stock,27,0,18,8,36,4.5,6,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0984,Celebrex Celecoxib Honey 200mg,In stock,9,24,6,3,11,1.2,7.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0522,Zovirax Acyclovir Cream Adult 5%,In stock,149,0,99,36,224,31.2,4.8,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0679,Flagyl Metronidazole Daily 400mg,In stock,80,0,53,26,106,13.3,6,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0217,Zyrtec Cetirizine Syrup Regular 1mg,In stock,347,264,228,60,563,83.8,4.1,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0810,Ofloxacin Ofloxacin Ear Drops Night 0.3%,In stock,29,0,19,9,36,4.3,6.8,2,,,,,0,0,,2026-10-14
+WH002,MED0173,Naprosyn Naproxen Regular 250mg,In stock,26,0,17,8,36,4.6,5.6,2,,,,,0,0,,2026-10-14
+WH002,MED0817,Voltaren Diclofenac Sodium Day 50mg,In stock,46,0,30,11,67,9.3,4.9,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0906,Adalat Nifedipine Day 10mg,In stock,46,0,30,15,59,7.3,6.3,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0877,Otrivin Xylometazoline Spray Day 0.1%,In stock,498,432,322,107,753,107.7,4.6,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0881,Protonix Pantoprazole Day 40mg,In stock,42,0,27,12,57,7.4,5.7,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0083,Gaviscon Sodium Alginate Original 500mg,In stock,2490,0,1599,419,3960,590.1,4.2,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0549,Prednisolone Prednisolone Adult 5mg,In stock,81,0,52,26,102,12.6,6.5,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0887,Imodium Loperamide Day 2mg,In stock,81,0,52,21,114,15.4,5.3,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0487,Panadol Paracetamol Adult 500mg,In stock,378,1512,242,67,591,87.2,4.3,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0156,Chloramphenicol Chloramphenicol Eye Drops Extra 0.5%,In stock,50,0,32,13,68,9,5.5,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0448,Lexapro Escitalopram Maximum 10mg,In stock,44,0,28,12,60,7.9,5.5,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0652,Panadol Osteo Paracetamol MR Daily 665mg,In stock,159,0,101,31,240,34.8,4.6,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0726,Dulcolax Bisacodyl Daily 5mg,In stock,52,48,33,14,69,9,5.8,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0650,Panadol Extra Paracetamol+Caffeine Daily 650mg,In stock,327,0,207,58,504,74.3,4.4,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0234,Zantac Ranitidine Regular 300mg,In stock,54,24,34,13,74,9.9,5.4,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0849,Canesten Clotrimazole Day 1%,In stock,296,264,186,65,427,60.2,4.9,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0295,Epilim Valproate Sodium Regular 500mg,In stock,32,0,20,10,38,4.5,7.1,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0051,Benadryl Diphenhydramine Original 25mg,In stock,61,0,38,14,85,11.6,5.2,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0192,Levaquin Levofloxacin Regular 750mg,In stock,29,0,18,10,31,3.4,8.6,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0579,Renitec Enalapril Adult 10mg,In stock,63,0,39,21,76,9.1,6.9,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0928,Xanax Alprazolam Day 0.5mg,In stock,21,0,13,7,24,2.8,7.6,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0901,Concor Bisoprolol Day 5mg,In stock,81,0,50,24,102,13.1,6.2,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0976,Panadol Osteo Paracetamol MR Honey 665mg,In stock,162,0,100,34,232,33,4.9,2,,,,,0,0,,2026-10-14
+WH002,MED0229,Otrivin Xylometazoline Spray Regular 0.05%,In stock,595,0,367,122,855,122.1,4.9,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0575,Tenormin Atenolol Adult 50mg,In stock,133,0,82,39,168,21.4,6.2,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0224,Atrovent Ipratropium Nebule Regular 0.25mg,In stock,86,0,53,24,111,14.5,5.9,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0074,Motilium Domperidone Original 10mg,In stock,39,0,24,10,51,6.7,5.8,2,,,,,0,0,,2026-10-14
+WH002,MED0162,Ofloxacin Ofloxacin Ear Drops Extra 0.3%,In stock,44,0,27,12,56,7.3,6,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0740,Dilatrend Carvedilol Daily 12.5mg,In stock,44,0,27,15,50,5.9,7.5,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0820,Ponstan Mefenamic Acid Day 250mg,In stock,44,0,27,10,60,8.3,5.3,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0171,Disprin Aspirin Regular 300mg,In stock,98,0,60,20,140,20,4.9,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0894,Actal Calcium Carbonate Day 500mg,In stock,18,0,11,5,20,2.4,7.5,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0742,Coversyl Perindopril Daily 4mg,In stock,51,0,31,16,61,7.5,6.8,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0818,Voltaren Emulgel Diclofenac Gel Day 1%,In stock,325,0,197,53,485,72,4.5,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0368,Nizoral Ketoconazole Shampoo Maximum 2%,In stock,101,0,61,22,139,19.4,5.2,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0039,Canesten Clotrimazole Original 1%,In stock,362,0,218,74,504,71.5,5.1,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0509,Suprax Cefixime Adult 400mg,In stock,20,0,12,7,20,2,9.9,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0605,Imovane Zopiclone Adult 7.5mg,In stock,15,0,9,5,15,1.7,8.7,2,,,,,0,0,,2026-10-14
+WH002,MED0774,Elavil Amitriptyline Daily 25mg,In stock,35,24,21,11,42,5.2,6.8,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0821,Naprosyn Naproxen Day 500mg,In stock,25,0,15,6,32,4.1,6.1,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0398,Motilium Domperidone Maximum 10mg,In stock,47,0,28,13,57,7.3,6.4,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0099,Aldactone Spironolactone Original 25mg,In stock,42,0,25,13,47,5.5,7.7,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0094,Coversyl Perindopril Original 4mg,In stock,54,0,32,16,64,7.8,6.9,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0300,Lyrica Pregabalin Regular 25mg,In stock,76,0,45,21,92,11.8,6.4,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0373,Telfast Fexofenadine Maximum 180mg,In stock,49,24,29,10,65,9.1,5.4,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0080,Smecta Diosmectite Original 3g,In stock,595,0,352,121,813,115.3,5.2,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,Buscopan Hyoscine Original 10mg (MED0081): out of stock; Imodium Loperamide Original 2mg (MED0077): running low,2026-10-14
+WH002,MED0034,Dalacin Clindamycin Original 300mg,In stock,17,0,10,6,16,1.7,10.3,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0499,Arcoxia Etoricoxib Adult 90mg,In stock,17,0,10,5,19,2.3,7.4,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0227,Flixonase Fluticasone Nasal Regular 100mg,In stock,242,192,142,49,326,45.9,5.3,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0269,Xarelto Rivaroxaban Regular 10mg,In stock,29,0,17,10,30,3.2,9,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0315,Microgynon Ethinylestradiol/Levonorgestrel Rapid 20mg,In stock,29,0,17,8,36,4.6,6.3,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0659,Naprosyn Naproxen Daily 500mg,In stock,29,0,17,7,35,4.6,6.3,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0780,Tegretol Carbamazepine Daily 200mg,In stock,29,0,17,11,29,2.9,10,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0643,Gentamicin Gentamicin Eye Drops Senior 0.3%,In stock,41,0,24,12,47,5.8,7.1,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0716,Sterimar Sodium Chloride Nasal Daily 0.9%,In stock,94,0,55,20,125,17.4,5.4,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0183,Zithromax Azithromycin Regular 250mg,In stock,60,0,35,18,68,8.3,7.2,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0994,Zinnat Cefuroxime Honey 500mg,In stock,24,0,14,9,24,2.4,10.1,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0007,Voltaren Diclofenac Sodium Original 50mg,In stock,55,0,32,12,73,10.2,5.4,2,,,,,0,0,,2026-10-14
+WH002,MED0251,Tenormin Atenolol Regular 100mg,In stock,148,0,86,39,177,22.9,6.5,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0238,Zofran Ondansetron Regular 4mg,In stock,31,0,18,9,36,4.4,7,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0672,Keflex Cephalexin Daily 500mg,In stock,50,0,29,16,53,6.1,8.2,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0190,Achromycin Tetracycline Regular 500mg,In stock,19,0,11,7,16,1.4,13.4,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0708,Qvar Beclomethasone Inhaler Daily 100mg,In stock,114,0,66,31,136,17.3,6.6,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0058,Ventolin Salbutamol Nebule Original 5mg,In stock,587,0,338,133,746,102,5.8,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0400,Zofran Ondansetron Maximum 8mg,In stock,33,0,19,9,37,4.6,7.1,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0736,Avapro Irbesartan Daily 150mg,In stock,73,0,42,23,80,9.5,7.7,2,,,,,0,0,,2026-10-14
+WH002,MED0159,Xalatan Latanoprost Eye Drops Extra 0.005%,In stock,40,0,23,11,45,5.6,7.1,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0932,Zoloft Sertraline Day 50mg,In stock,96,48,55,22,120,16.3,5.9,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0811,Panadol Paracetamol Day 500mg,In stock,421,0,241,68,587,86.4,4.9,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0328,Panadol Osteo Paracetamol MR Maximum 665mg,In stock,194,72,111,33,265,38.6,5,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0451,Effexor Venlafaxine Maximum 75mg,In stock,28,0,16,9,30,3.3,8.6,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0457,Epilim Valproate Sodium Maximum 200mg,In stock,42,0,24,14,41,4.3,9.7,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0478,Provera Medroxyprogesterone Children 10mg,In stock,7,0,4,2,6,0.6,12.3,2,,,,,0,0,,2026-10-14
+WH002,MED0497,Naprosyn Naproxen Adult 500mg,In stock,28,0,16,7,34,4.4,6.4,2,,,,,0,0,,2026-10-14
+WH002,MED0727,Duphalac Lactulose Daily 10g,In stock,168,0,96,38,212,28.8,5.8,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0165,Panadol Children Paracetamol Susp Regular 250mg/5ml,In stock,976,0,556,145,1377,205.3,4.8,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0027,Vibramycin Doxycycline Original 100mg,In stock,65,0,37,19,72,8.8,7.4,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0297,Keppra Levetiracetam Regular 250mg,In stock,30,0,17,11,29,2.9,10.2,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0576,Betaloc Metoprolol Adult 50mg,In stock,122,0,69,32,141,18,6.8,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0642,Chloramphenicol Chloramphenicol Eye Drops Senior 0.5%,In stock,46,0,26,12,55,7.2,6.4,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0826,Codeine Codeine Phosphate Day 30mg,In stock,23,0,13,8,22,2.3,10,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0916,Coumadin Warfarin Day 5mg,In stock,23,0,13,8,22,2.2,10.4,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0752,Plavix Clopidogrel Daily 75mg,In stock,144,0,81,37,170,22.1,6.5,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0513,Vibramycin Doxycycline Adult 100mg,In stock,57,0,32,16,63,7.7,7.4,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0869,Pulmicort Budesonide Inhaler Day 200mg,In stock,157,0,88,37,189,25.3,6.2,2,,,,,0,0,,2026-10-14
+WH002,MED0130,Seroquel Quetiapine Original 100mg,In stock,25,0,14,9,24,2.4,10.6,2,,,,,0,0,,2026-10-14
+WH002,MED0338,Tramal Tramadol Maximum 50mg,In stock,25,0,14,10,20,1.5,16.4,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0067,Otrivin Xylometazoline Spray Original 0.1%,In stock,1013,0,567,200,1299,183.1,5.5,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,Piriton Chlorpheniramine Original 4mg (MED0050): close to its reorder point; Panadol Paracetamol Original 500mg (MED0001): running low,2026-10-14
+WH002,MED0439,Jardiance Empagliflozin Maximum 10mg,In stock,34,0,19,12,32,3.1,10.9,2,,,,,0,0,,2026-10-14
+WH002,MED0477,Microgynon Ethinylestradiol/Levonorgestrel Children 30mg,In stock,27,0,15,7,30,3.6,7.4,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0554,Sterimar Sodium Chloride Nasal Adult 0.9%,In stock,99,0,55,20,125,17.4,5.7,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0194,Monotrim Trimethoprim Regular 100mg,In stock,29,0,16,11,26,2.6,11.3,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0082,Maalox Al/Mg Hydroxide Original 200mg,In stock,339,0,187,51,459,67.9,5,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0671,Suprax Cefixime Daily 400mg,In stock,20,0,11,7,18,1.9,10.8,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0294,Tegretol Carbamazepine Regular 100mg,In stock,31,0,17,10,30,3.2,9.6,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0236,Motilium Domperidone Regular 5mg,In stock,42,0,23,10,49,6.3,6.6,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0388,Decadron Dexamethasone Maximum 4mg,In stock,42,0,23,12,44,5.2,8.1,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0270,Eliquis Apixaban Regular 2.5mg,In stock,22,0,12,8,18,1.7,13.3,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0340,Codeine Codeine Phosphate Maximum 60mg,In stock,22,0,12,8,20,1.9,11.4,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0440,Valium Diazepam Maximum 5mg,In stock,22,0,12,7,22,2.5,8.7,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0723,Maxolon Metoclopramide Daily 10mg,In stock,24,0,13,7,25,3,8,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0076,Zofran Ondansetron Original 8mg,In stock,37,0,20,11,39,4.5,8.2,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0572,Cozaar Losartan Adult 50mg,In stock,168,0,90,39,190,25.2,6.7,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0696,Claritin Loratadine Daily 10mg,In stock,155,0,83,26,197,28.3,5.5,2,,,,,0,0,,2026-10-14
+WH002,MED0580,Coversyl Perindopril Adult 4mg,In stock,58,0,31,15,60,7.4,7.8,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0927,Ativan Lorazepam Day 1mg,In stock,15,0,8,5,12,1,15.2,2,,,,,0,0,,2026-10-14
+WH002,MED0118,Xanax Alprazolam Original 0.5mg,In stock,32,0,17,10,30,3.3,9.7,2,,,,,0,0,,2026-10-14
+WH002,MED0332,Voltaren Emulgel Diclofenac Gel Maximum 1%,In stock,358,0,190,52,464,68.6,5.2,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0263,Lipitor Atorvastatin Regular 20mg,In stock,299,0,158,57,360,50.4,5.9,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0158,Timoptol Timolol Eye Drops Extra 0.25%,In stock,89,0,47,17,106,14.7,6.1,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0486,Ofloxacin Ofloxacin Ear Drops Children 0.3%,In stock,36,0,19,9,38,4.7,7.6,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0343,Amoxil Amoxicillin Maximum 500mg,In stock,319,0,168,70,362,48.6,6.6,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0458,Dilantin Phenytoin Maximum 100mg,In stock,19,0,10,7,16,1.5,12.9,2,,,,,0,0,,2026-10-14
+WH002,MED0540,Phenergan Promethazine Adult 25mg,In stock,19,0,10,5,19,2.3,8.1,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0632,Medrol Methylprednisolone Adult 4mg,In stock,19,0,10,7,15,1.1,16.6,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0770,Zoloft Sertraline Daily 50mg,In stock,116,24,61,25,132,17.7,6.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0428,Plavix Clopidogrel Maximum 75mg,In stock,162,0,85,38,177,23,7,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0833,Suprax Cefixime Day 400mg,In stock,23,0,12,8,18,1.5,15.6,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0926,Valium Diazepam Day 5mg,In stock,23,0,12,6,21,2.4,9.4,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0511,Klacid Clarithromycin Adult 500mg,In stock,48,0,25,17,41,4,11.9,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0387,Prednisolone Prednisolone Maximum 25mg,In stock,98,0,51,24,104,13.3,7.4,2,,,,,0,0,,2026-10-14
+WH002,MED0274,Amaryl Glimepiride Regular 4mg,In stock,150,0,78,38,158,19.9,7.5,2,,,,,0,0,,2026-10-14
+WH002,MED0612,Elavil Amitriptyline Adult 25mg,In stock,50,0,26,11,55,7.2,7,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0631,Neo-Mercazole Carbimazole Adult 5mg,In stock,25,0,13,8,20,1.9,13,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0783,Keppra Levetiracetam Daily 500mg,In stock,25,0,13,8,21,2.2,11.6,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0404,Smecta Diosmectite Maximum 3g,In stock,372,192,193,64,450,64.2,5.8,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0459,Keppra Levetiracetam Maximum 500mg,In stock,27,0,14,8,23,2.5,10.9,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0675,Vibramycin Doxycycline Daily 100mg,In stock,56,0,29,15,56,6.9,8.2,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0209,Zyrtec Cetirizine Regular 5mg,In stock,290,120,150,43,362,53,5.5,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0863,Xyzal Levocetirizine Day 5mg,In stock,29,24,15,7,32,4.1,7.1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0574,Avapro Irbesartan Adult 150mg,In stock,89,48,46,23,91,11.3,7.9,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0096,Adalat Nifedipine Original 10mg,In stock,62,0,32,16,64,8,7.7,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0891,Buscopan Hyoscine Day 10mg,In stock,31,0,16,8,30,3.6,8.6,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0089,Tenormin Atenolol Original 50mg,In stock,157,0,81,35,171,22.6,6.9,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0771,Seroxat Paroxetine Daily 20mg,In stock,35,0,18,8,36,4.5,7.8,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0321,Xalatan Latanoprost Eye Drops Rapid 0.005%,In stock,39,0,20,8,42,5.5,7.1,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0481,Gentamicin Gentamicin Eye Drops Children 0.3%,In stock,41,0,21,10,44,5.6,7.3,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0633,Zyloric Allopurinol Adult 100mg,In stock,45,0,23,12,46,5.6,8,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0645,Xalatan Latanoprost Eye Drops Senior 0.005%,In stock,45,0,23,11,46,5.7,7.8,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0494,Voltaren Emulgel Diclofenac Gel Adult 1%,In stock,386,0,197,54,483,71.4,5.4,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0480,Chloramphenicol Chloramphenicol Eye Drops Children 0.5%,In stock,55,0,28,12,58,7.6,7.3,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0193,Flagyl Metronidazole Regular 200mg,In stock,116,0,59,30,116,14.2,8.2,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0396,Zantac Ranitidine Maximum 150mg,In stock,75,0,38,18,79,10.2,7.4,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0816,Nurofen Children Ibuprofen Susp Day 100mg,In stock,714,0,359,96,885,131.5,5.4,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0545,Pulmicort Budesonide Inhaler Adult 200mg,In stock,205,0,103,42,225,30.4,6.7,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0667,Amoxil Amoxicillin Daily 500mg,In stock,313,216,157,69,331,43.7,7.2,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0038,Valtrex Valacyclovir Original 500mg,In stock,20,0,10,6,16,1.6,12.4,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0108,Eliquis Apixaban Original 5mg,In stock,24,0,12,8,19,1.9,12.9,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0202,Daktarin Miconazole Regular 1%,In stock,290,120,145,50,334,47.2,6.1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0233,Protonix Pantoprazole Regular 20mg,In stock,62,0,31,12,67,9.1,6.8,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0292,Seroquel Quetiapine Regular 25mg,In stock,28,0,14,8,23,2.4,11.8,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0317,Progynova Estradiol Rapid 2mg,In stock,18,0,9,6,15,1.4,12.7,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0345,Zithromax Azithromycin Maximum 500mg,In stock,70,0,35,17,71,8.9,7.9,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0377,Xyzal Levocetirizine Maximum 5mg,In stock,30,0,15,6,33,4.5,6.7,2,,,,,0,0,,2026-10-14
+WH002,MED0519,Macrodantin Nitrofurantoin Adult 100mg,In stock,16,0,8,6,12,0.8,19,2,,,,,0,0,,2026-10-14
+WH002,MED0567,Buscopan Hyoscine Adult 10mg,In stock,30,0,15,8,29,3.5,8.5,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0629,Maxalt Rizatriptan Adult 10mg,In stock,8,0,4,3,6,0.5,16.7,2,,,,,0,0,,2026-10-14
+WH002,MED0662,Tramal Tramadol Daily 50mg,In stock,18,0,9,6,14,1.3,14.2,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0764,Valium Diazepam Daily 5mg,In stock,22,0,11,7,20,2.2,10.1,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0824,Tramal Tramadol Day 50mg,In stock,18,0,9,7,13,1,18.3,2,,,,,0,0,,2026-10-14
+WH002,MED0853,Nizoral Ketoconazole Day 200mg,In stock,10,0,5,3,6,0.4,24.3,2,,,,,0,0,,2026-10-14
+WH002,MED0492,Nurofen Children Ibuprofen Susp Adult 100mg,In stock,746,0,372,99,918,136.4,5.5,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0062,Atrovent Ipratropium Nebule Original 0.5mg,In stock,121,0,60,26,127,16.7,7.2,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0607,Prozac Fluoxetine Adult 20mg,In stock,79,0,39,16,84,11.2,7,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0697,Telfast Fexofenadine Daily 180mg,In stock,61,0,30,10,69,9.7,6.3,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0366,Lamisil Terbinafine Cream Maximum 1%,In stock,222,0,109,39,247,34.5,6.4,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0241,Duphalac Lactulose Regular 5g,In stock,218,0,107,37,247,34.9,6.2,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0971,Opticrom Sodium Cromoglycate Eye Drops Cool 2%,In stock,53,0,26,12,51,6.3,8.4,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0912,Zocor Simvastatin Day 20mg,In stock,157,0,77,31,168,22.9,6.9,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0683,Zovirax Acyclovir Daily 400mg,In stock,47,0,23,11,45,5.5,8.6,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0188,Eryc Erythromycin Regular 500mg,In stock,45,0,22,13,38,4.1,10.9,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0609,Seroxat Paroxetine Adult 20mg,In stock,43,0,21,10,41,5,8.5,2,,,,,0,0,,2026-10-14
+WH002,MED0608,Zoloft Sertraline Adult 50mg,In stock,123,0,60,23,132,18,6.8,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0648,Ofloxacin Ofloxacin Ear Drops Senior 0.3%,In stock,41,0,20,11,39,4.6,8.9,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0568,Maalox Al/Mg Hydroxide Adult 200mg,In stock,364,0,177,49,431,63.6,5.7,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0484,Isopto Tears Hypromellose Eye Drops Children 0.3%,In stock,204,0,99,35,225,31.6,6.5,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0412,Avapro Irbesartan Maximum 150mg,In stock,96,0,46,23,90,11.2,8.6,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0470,Medrol Methylprednisolone Maximum 4mg,In stock,23,0,11,8,17,1.5,15.5,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0566,Smecta Diosmectite Adult 3g,In stock,406,0,194,63,454,65.1,6.2,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0653,Nurofen Ibuprofen Daily 200mg,In stock,371,0,177,50,430,63.2,5.9,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0357,Macrodantin Nitrofurantoin Maximum 100mg,In stock,21,0,10,7,14,0.9,22.7,2,,,,,0,0,,2026-10-14
+WH002,MED0920,Glucophage SR Metformin MR Day 500mg,In stock,303,0,144,62,307,40.7,7.4,2,,,,,0,0,,2026-10-14
+WH002,MED0488,Panadol Extra Paracetamol+Caffeine Adult 650mg,In stock,464,0,220,63,532,78,5.9,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0682,Dalacin Clindamycin Daily 300mg,In stock,19,0,9,6,12,0.9,20.7,2,,,,,0,0,,2026-10-14
+WH002,MED0012,Celebrex Celecoxib Original 200mg,In stock,17,0,8,4,15,1.9,9.2,2,,,,,0,0,,2026-10-14
+WH002,MED0660,Celebrex Celecoxib Daily 200mg,In stock,17,0,8,3,15,1.9,9,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0948,Lyrica Pregabalin Day 75mg,In stock,85,0,40,19,81,10.2,8.3,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED1000,Achromycin Tetracycline Honey 250mg,In stock,17,0,8,6,12,0.9,17.9,2,,,,,0,0,,2026-10-14
+WH002,MED0392,Sterimar Sodium Chloride Nasal Maximum 0.9%,In stock,134,48,63,25,138,18.8,7.1,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0218,Claritin Loratadine Syrup Regular 1mg,In stock,309,0,145,43,348,50.8,6.1,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0172,Ponstan Mefenamic Acid Regular 500mg,In stock,64,0,30,12,66,9,7.1,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0272,Glucophage SR Metformin MR Regular 1000mg,In stock,377,96,176,74,379,50.8,7.4,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0768,Stilnox Zolpidem Daily 10mg,In stock,15,0,7,4,11,1.1,14.1,2,,,,,0,0,,2026-10-14
+WH002,MED0327,Panadol Children Paracetamol Susp Maximum 120mg/5ml,In stock,1160,0,540,148,1325,196.1,5.9,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0429,Cardiprin Aspirin Low-Dose Maximum 100mg,In stock,490,0,228,91,501,68.3,7.2,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0746,Lasix Furosemide Daily 40mg,In stock,112,0,52,26,105,13.2,8.5,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0530,Nizoral Ketoconazole Shampoo Adult 2%,In stock,123,0,57,22,125,17.1,7.2,2,,,,,0,0,,2026-10-14
+WH002,MED0126,Elavil Amitriptyline Original 25mg,In stock,54,0,25,13,49,6,9.1,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0371,Zyrtec Cetirizine Maximum 10mg,In stock,303,96,140,40,339,49.7,6.1,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0279,Ativan Lorazepam Regular 2mg,In stock,13,0,6,3,11,1.2,10.8,2,,,,,0,0,,2026-10-14
+WH002,MED0902,Dilatrend Carvedilol Day 12.5mg,In stock,65,0,30,16,55,6.3,10.2,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0993,Zithromax Azithromycin Honey 500mg,In stock,76,0,35,18,68,8.2,9.2,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0113,Minidiab Glipizide Original 5mg,In stock,74,0,34,19,64,7.5,9.8,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0324,Ofloxacin Ofloxacin Ear Drops Rapid 0.3%,In stock,37,0,17,8,35,4.4,8.3,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0255,Renitec Enalapril Regular 20mg,In stock,83,0,38,18,76,9.7,8.6,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0023,Suprax Cefixime Original 400mg,In stock,22,0,10,6,17,1.8,12.4,2,,,,,0,0,,2026-10-14
+WH002,MED0919,Glucophage Metformin Day 500mg,In stock,540,0,245,99,537,72.9,7.4,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0966,Chloramphenicol Chloramphenicol Eye Drops Cool 0.5%,In stock,53,0,24,11,48,6.1,8.7,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0325,Panadol Paracetamol Maximum 500mg,In stock,557,0,252,68,620,91.8,6.1,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0690,Lamisil Terbinafine Cream Daily 1%,In stock,230,0,104,44,225,30.2,7.6,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0121,Prozac Fluoxetine Original 20mg,In stock,93,0,42,17,90,12,7.8,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0996,Keflex Cephalexin Honey 500mg,In stock,62,0,28,15,53,6.3,9.9,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0054,Phenergan Promethazine Original 25mg,In stock,29,0,13,6,26,3.2,9,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0809,Opticrom Sodium Cromoglycate Eye Drops Night 2%,In stock,56,0,25,11,52,6.7,8.3,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0046,Mycostatin Nystatin Original 100mg,In stock,72,0,32,15,66,8.6,8.4,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0129,Zyprexa Olanzapine Original 10mg,In stock,18,0,8,6,11,0.8,23.6,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0638,Plan B Levonorgestrel Senior 1.5mg,In stock,9,0,4,3,6,0.4,24.2,2,,,,,0,0,,2026-10-14
+WH002,MED0794,Medrol Methylprednisolone Daily 4mg,In stock,18,0,8,6,12,1,17.6,2,,,,,0,0,,2026-10-14
+WH002,MED0914,Plavix Clopidogrel Day 75mg,In stock,179,0,79,38,161,20.5,8.7,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0123,Seroxat Paroxetine Original 20mg,In stock,50,0,22,11,43,5.2,9.5,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0617,Haldol Haloperidol Adult 5mg,In stock,16,0,7,5,9,0.5,32.5,2,,,,,0,0,,2026-10-14
+WH002,MED0798,Viagra Sildenafil Daily 50mg,In stock,16,0,7,5,11,1,15.9,2,,,,,0,0,,2026-10-14
+WH002,MED0879,Losec Omeprazole Day 20mg,In stock,133,0,58,24,125,16.8,7.9,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0425,Lipitor Atorvastatin Maximum 10mg,In stock,354,0,154,54,352,49.7,7.1,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0120,Stilnox Zolpidem Original 10mg,In stock,23,0,10,6,17,1.6,14,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0651,Panadol Children Paracetamol Susp Daily 120mg/5ml,In stock,1132,0,490,129,1211,180.4,6.3,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0376,Aerius Desloratadine Maximum 5mg,In stock,67,0,29,13,60,7.8,8.6,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0725,Imodium Loperamide Daily 2mg,In stock,118,0,51,20,111,15.1,7.8,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0394,Nexium Esomeprazole Maximum 40mg,In stock,95,0,41,18,85,11.2,8.5,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0175,Arcoxia Etoricoxib Regular 60mg,In stock,35,0,15,7,31,3.9,8.9,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0628,Ebixa Memantine Adult 10mg,In stock,7,0,3,2,4,0.3,22.8,2,,,,,0,0,,2026-10-14
+WH002,MED0872,Atrovent Ipratropium Nebule Day 0.5mg,In stock,84,0,36,16,74,9.6,8.7,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0009,Disprin Aspirin Original 500mg,In stock,150,0,64,20,153,22.1,6.8,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0668,Augmentin Amox+Clavulanate Daily 625mg,In stock,136,0,58,28,116,14.6,9.3,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0409,Norvasc Amlodipine Maximum 5mg,In stock,312,0,133,60,279,36.6,8.5,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0534,Claritin Loratadine Adult 10mg,In stock,195,0,83,24,199,29.1,6.7,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0244,Maalox Al/Mg Hydroxide Regular 400mg,In stock,436,0,185,50,454,67.1,6.5,2,,,,,0,0,,2026-10-14
+WH002,MED0895,Norvasc Amlodipine Day 5mg,In stock,292,96,123,54,262,34.6,8.4,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0016,Codeine Codeine Phosphate Original 30mg,In stock,38,0,16,10,27,2.8,13.5,2,,,,,0,0,,2026-10-14
+WH002,MED0694,Mycostatin Nystatin Daily 100mg,In stock,57,0,24,11,49,6.3,9.1,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0701,Xyzal Levocetirizine Daily 5mg,In stock,38,0,16,6,35,4.7,8.1,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0944,Dilantin Phenytoin Day 100mg,In stock,19,0,8,6,13,1,18.1,2,,,,,0,0,,2026-10-14
+WH002,MED0472,Proscar Finasteride Maximum 5mg,In stock,12,0,5,4,7,0.5,23.6,2,,,,,0,0,,2026-10-14
+WH002,MED0526,Daktarin Miconazole Adult 2%,In stock,317,0,132,46,304,42.8,7.4,2,,,,,0,0,,2026-10-14
+WH002,MED0369,Diflucan Fluconazole Maximum 150mg,In stock,29,0,12,6,22,2.5,11.8,2,,,,,0,0,,2026-10-14
+WH002,MED0284,Zoloft Sertraline Regular 100mg,In stock,160,0,66,25,147,20.3,7.9,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0033,Macrodantin Nitrofurantoin Original 100mg,In stock,17,0,7,5,11,0.9,18.2,2,,,,,0,0,,2026-10-14
+WH002,MED0280,Xanax Alprazolam Regular 1mg,In stock,34,0,14,7,27,3.2,10.8,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0443,Imovane Zopiclone Maximum 7.5mg,In stock,17,0,7,4,13,1.3,12.7,2,,,,,0,0,,2026-10-14
+WH002,MED0155,Progynova Estradiol Extra 1mg,In stock,22,0,9,5,16,1.6,13.8,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0792,Euthyrox Levothyroxine Daily 50mg,In stock,211,0,86,37,182,24,8.8,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0868,Ventolin Salbutamol Nebule Day 5mg,In stock,746,0,304,120,670,91.7,8.1,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0378,Phenergan Promethazine Maximum 25mg,In stock,27,0,11,5,21,2.6,10.4,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0558,Zantac Ranitidine Adult 150mg,In stock,81,24,33,14,70,9.2,8.8,2,On its way,PO-WH002-20261013,2026-10-15,,0,0,,2026-10-14
+WH002,MED0711,Prednisolone Prednisolone Daily 5mg,In stock,133,0,54,28,105,12.8,10.4,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0146,Medrol Methylprednisolone Original 4mg,In stock,25,0,10,7,16,1.4,17.6,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0323,Opticrom Sodium Cromoglycate Eye Drops Rapid 2%,In stock,70,0,28,12,58,7.5,9.3,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0397,Pepcid Famotidine Maximum 20mg,In stock,50,0,20,9,40,5,10.1,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0673,Klacid Clarithromycin Daily 500mg,In stock,60,0,24,15,42,4.4,13.7,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0795,Zyloric Allopurinol Daily 100mg,In stock,55,0,22,11,45,5.6,9.9,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0166,Panadol Osteo Paracetamol MR Regular 500mg,In stock,282,120,112,34,266,38.4,7.3,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0730,Maalox Al/Mg Hydroxide Daily 200mg,In stock,406,0,161,44,395,58.4,7,2,,,,,0,0,,2026-10-14
+WH002,MED0935,Celexa Citalopram Day 20mg,In stock,38,0,15,7,31,3.9,9.8,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0320,Timoptol Timolol Eye Drops Rapid 0.5%,In stock,122,0,48,20,102,13.7,8.9,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0644,Timoptol Timolol Eye Drops Senior 0.25%,In stock,102,0,40,18,85,11.1,9.2,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0975,Panadol Children Paracetamol Susp Honey 120mg/5ml,In stock,1191,0,467,124,1151,171.1,7,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0913,Crestor Rosuvastatin Day 10mg,In stock,125,0,49,19,108,14.8,8.5,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0586,Natrilix Indapamide Adult 2.5mg,In stock,46,0,18,10,33,3.7,12.4,2,,,,,0,0,,2026-10-14
+WH002,MED0079,Duphalac Lactulose Original 10g,In stock,302,0,118,42,268,37.7,8,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0391,Otrivin Xylometazoline Spray Maximum 0.1%,In stock,891,0,348,115,813,116.1,7.7,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0654,Nurofen Children Ibuprofen Susp Daily 100mg,In stock,916,0,357,94,883,131.4,7,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0154,Provera Medroxyprogesterone Extra 10mg,In stock,18,0,7,4,11,1.1,17,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0441,Ativan Lorazepam Maximum 1mg,In stock,18,0,7,4,12,1.2,15.3,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0479,Progynova Estradiol Children 1mg,In stock,18,0,7,4,11,1.1,17.1,2,,,,,0,0,,2026-10-14
+WH002,MED0003,Panadol Children Paracetamol Susp Children 120mg/5ml,In stock,1488,528,576,152,1423,211.7,7,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0985,Arcoxia Etoricoxib Honey 90mg,In stock,31,0,12,6,24,2.8,11,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0273,Diamicron Gliclazide Regular 30mg,In stock,256,0,99,45,206,26.8,9.6,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0719,Protonix Pantoprazole Daily 40mg,In stock,73,0,28,12,59,7.7,9.5,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0700,Aerius Desloratadine Daily 5mg,In stock,60,0,23,10,48,6.2,9.7,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0823,Arcoxia Etoricoxib Day 90mg,In stock,29,0,11,5,22,2.6,11,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0107,Xarelto Rivaroxaban Original 20mg,In stock,37,0,14,8,26,3,12.3,2,,,,,0,0,,2026-10-14
+WH002,MED0684,Zovirax Acyclovir Cream Daily 5%,In stock,269,0,101,35,232,32.7,8.2,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0491,Nurofen Ibuprofen Adult 200mg,In stock,517,0,194,60,462,67.1,7.7,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0246,Actal Calcium Carbonate Regular 250mg,In stock,32,0,12,6,24,2.9,10.9,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0453,Zyprexa Olanzapine Maximum 10mg,In stock,24,0,9,7,13,0.8,28.5,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0527,Lamisil Terbinafine Adult 250mg,In stock,16,0,6,4,7,0.5,34,2,,,,,0,0,,2026-10-14
+WH002,MED0698,Piriton Chlorpheniramine Daily 4mg,In stock,192,0,72,22,171,24.8,7.7,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0732,Actal Calcium Carbonate Daily 500mg,In stock,32,0,12,6,23,2.8,11.3,2,,,,,0,0,,2026-10-14
+WH002,MED0946,Lamictal Lamotrigine Day 100mg,In stock,24,0,9,6,12,0.9,26.5,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0103,Crestor Rosuvastatin Original 10mg,In stock,154,0,57,23,125,16.8,9.1,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0899,Tenormin Atenolol Day 50mg,In stock,217,0,80,34,172,23,9.4,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0301,Sinemet Levodopa/Carbidopa Regular 100mg,In stock,19,0,7,5,10,0.7,25.7,2,,,,,0,0,,2026-10-14
+WH002,MED0950,Sifrol Pramipexole Day 0.25mg,In stock,19,0,7,6,9,0.4,44.6,2,,,,,0,0,,2026-10-14
+WH002,MED0778,Seroquel Quetiapine Daily 100mg,In stock,30,0,11,6,18,1.9,15.8,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0197,Zovirax Acyclovir Regular 200mg,In stock,55,0,20,9,40,5.2,10.6,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0336,Celebrex Celecoxib Maximum 200mg,In stock,22,0,8,4,16,1.9,11.9,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0433,Glucophage Metformin Maximum 500mg,In stock,726,0,264,104,583,79.7,9.1,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0444,Stilnox Zolpidem Maximum 10mg,In stock,22,0,8,5,14,1.4,15.7,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0661,Arcoxia Etoricoxib Daily 90mg,In stock,33,0,12,6,23,2.7,12,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0789,Aricept Donepezil Daily 5mg,In stock,11,0,4,3,5,0.4,29.9,2,,,,,0,0,,2026-10-14
+WH002,MED0967,Gentamicin Gentamicin Eye Drops Cool 0.3%,In stock,47,0,17,8,35,4.5,10.5,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0758,Glucophage SR Metformin MR Daily 500mg,In stock,410,0,148,62,319,42.6,9.6,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0541,Zyrtec Cetirizine Syrup Adult 5mg,In stock,588,0,212,58,519,76.6,7.7,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0829,Amoxil Amoxicillin Day 500mg,In stock,431,0,155,67,329,43.7,9.9,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0143,Maxalt Rizatriptan Original 10mg,In stock,14,0,5,4,8,0.6,22.4,2,,,,,0,0,,2026-10-14
+WH002,MED0501,MST Continus Morphine Sulfate Adult 30mg,In stock,14,0,5,3,6,0.4,39,2,,,,,0,0,,2026-10-14
+WH002,MED0614,Risperdal Risperidone Adult 2mg,In stock,28,0,10,7,15,1.2,24.1,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0689,Lamisil Terbinafine Daily 250mg,In stock,14,0,5,3,7,0.6,24.4,2,,,,,0,0,,2026-10-14
+WH002,MED0958,Proscar Finasteride Day 5mg,In stock,14,0,5,3,8,0.6,22.5,2,,,,,0,0,,2026-10-14
+WH002,MED0041,Lamisil Terbinafine Original 250mg,In stock,17,0,6,4,9,0.8,20.8,2,,,,,0,0,,2026-10-14
+WH002,MED0781,Epilim Valproate Sodium Daily 200mg,In stock,54,0,19,12,33,3.5,15.5,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0282,Stilnox Zolpidem Regular 5mg,In stock,20,0,7,4,13,1.4,14.2,2,,,,,0,0,,2026-10-14
+WH002,MED0964,Provera Medroxyprogesterone Cool 10mg,In stock,20,0,7,5,10,0.7,27.5,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0128,Risperdal Risperidone Original 2mg,In stock,23,0,8,5,14,1.4,15.9,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0362,Valtrex Valacyclovir Maximum 500mg,In stock,23,0,8,5,14,1.4,17,2,,,,,0,0,,2026-10-14
+WH002,MED0048,Claritin Loratadine Original 10mg,In stock,251,0,87,24,212,31.1,8.1,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,Sterimar Sodium Chloride Nasal Original 0.9% (MED0068): out of stock; Flixonase Fluticasone Nasal Original 50mg (MED0065): in stock,2026-10-14
+WH002,MED0785,Neurontin Gabapentin Daily 300mg,In stock,104,0,36,18,71,8.7,11.9,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0053,Xyzal Levocetirizine Original 5mg,In stock,55,0,19,8,40,5.2,10.6,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0355,Flagyl Metronidazole Maximum 400mg,In stock,165,0,57,28,113,14.2,11.6,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0597,Diamicron Gliclazide Adult 80mg,In stock,253,0,87,38,185,24.4,10.4,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0124,Lexapro Escitalopram Original 10mg,In stock,85,0,29,13,59,7.6,11.2,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0687,Canesten Clotrimazole Daily 1%,In stock,567,0,193,67,444,62.8,9,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0112,Amaryl Glimepiride Original 2mg,In stock,241,0,82,39,168,21.5,11.2,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0657,Disprin Aspirin Daily 500mg,In stock,162,0,55,17,129,18.7,8.7,2,,,,,0,0,,2026-10-14
+WH002,MED0565,Duphalac Lactulose Adult 10g,In stock,283,0,96,33,221,31.2,9.1,2,,,,,0,0,,2026-10-14
+WH002,MED0390,Iliadin Oxymetazoline Spray Maximum 0.05%,In stock,712,0,239,82,553,78.5,9.1,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0140,Sifrol Pramipexole Original 0.25mg,In stock,18,0,6,4,7,0.5,37.3,2,,,,,0,0,,2026-10-14
+WH002,MED0174,Celebrex Celecoxib Regular 100mg,In stock,24,0,8,4,16,1.8,13.1,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0339,MST Continus Morphine Sulfate Maximum 60mg,In stock,12,0,4,3,5,0.3,38.4,2,,,,,0,0,,2026-10-14
+WH002,MED0467,Maxalt Rizatriptan Maximum 10mg,In stock,12,0,4,3,6,0.5,24.4,2,,,,,0,0,,2026-10-14
+WH002,MED0622,Lamictal Lamotrigine Adult 100mg,In stock,27,0,9,7,13,1,25.8,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0635,Harnal Tamsulosin Adult 0.4mg,In stock,30,0,10,5,18,2.1,14.2,2,,,,,0,0,,2026-10-14
+WH002,MED0776,Risperdal Risperidone Daily 2mg,In stock,21,0,7,4,11,1,21.1,2,,,,,0,0,,2026-10-14
+WH002,MED0782,Dilantin Phenytoin Daily 100mg,In stock,21,0,7,5,12,1.1,19.3,2,,,,,0,0,,2026-10-14
+WH002,MED0800,Plan B Levonorgestrel Night 1.5mg,In stock,12,0,4,3,6,0.5,24.3,2,,,,,0,0,,2026-10-14
+WH002,MED0847,Tamiflu Oseltamivir Day 75mg,In stock,12,0,4,3,6,0.4,28.8,2,,,,,0,0,,2026-10-14
+WH002,MED0930,Stilnox Zolpidem Day 10mg,In stock,18,0,6,4,10,0.9,19.5,2,,,,,0,0,,2026-10-14
+WH002,MED0938,Risperdal Risperidone Day 2mg,In stock,18,0,6,4,10,0.8,22.2,2,,,,,0,0,,2026-10-14
+WH002,MED0941,Haldol Haloperidol Day 5mg,In stock,15,0,5,4,7,0.4,35.7,2,,,,,0,0,,2026-10-14
+WH002,MED0228,Iliadin Oxymetazoline Spray Regular 0.025%,In stock,738,0,245,82,570,81.1,9.1,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0981,Disprin Aspirin Honey 500mg,In stock,157,0,52,20,116,15.9,9.8,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0208,Mycostatin Nystatin Regular 500mg,In stock,91,0,30,14,62,7.9,11.6,2,,,,,0,0,,2026-10-14
+WH002,MED0286,Lexapro Escitalopram Regular 5mg,In stock,91,0,30,14,61,7.7,11.8,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0915,Cardiprin Aspirin Low-Dose Day 100mg,In stock,635,0,209,85,455,61.5,10.3,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0747,Aldactone Spironolactone Daily 25mg,In stock,70,0,23,13,43,5,14.1,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0210,Claritin Loratadine Regular 5mg,In stock,265,0,87,28,204,29.1,9.1,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0307,Neo-Mercazole Carbimazole Regular 10mg,In stock,49,0,16,10,26,2.6,19.1,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0594,Eliquis Apixaban Adult 5mg,In stock,31,0,10,6,16,1.5,21.1,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0002,Panadol Extra Paracetamol+Caffeine Original 650mg,In stock,703,0,226,61,554,82,8.6,2,,,,,0,0,,2026-10-14
+WH002,MED0970,Isopto Tears Hypromellose Eye Drops Cool 0.3%,In stock,259,0,83,30,189,26.3,9.8,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0695,Zyrtec Cetirizine Daily 10mg,In stock,394,0,126,38,301,43.7,9,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0699,Benadryl Diphenhydramine Daily 25mg,In stock,113,0,36,12,83,11.8,9.6,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0714,Iliadin Oxymetazoline Spray Daily 0.05%,In stock,697,0,222,73,520,74.3,9.4,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0043,Nizoral Ketoconazole Original 200mg,In stock,19,0,6,4,10,0.8,24.8,2,,,,,0,0,,2026-10-14
+WH002,MED0627,Aricept Donepezil Adult 5mg,In stock,19,0,6,5,8,0.5,35.5,2,,,,,0,0,,2026-10-14
+WH002,MED0802,Provera Medroxyprogesterone Night 10mg,In stock,19,0,6,4,9,0.6,29.3,2,,,,,0,0,,2026-10-14
+WH002,MED0991,Amoxil Amoxicillin Honey 500mg,In stock,438,0,138,57,299,40.2,10.9,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0473,Harnal Tamsulosin Maximum 0.4mg,In stock,35,0,11,6,21,2.4,14.7,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0426,Zocor Simvastatin Maximum 20mg,In stock,261,0,82,29,185,25.9,10.1,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0815,Nurofen Ibuprofen Day 200mg,In stock,550,0,171,47,418,61.7,8.9,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0150,Viagra Sildenafil Original 50mg,In stock,29,0,9,5,16,1.8,16.1,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0542,Claritin Loratadine Syrup Adult 5mg,In stock,442,0,137,39,331,48.5,9.1,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0044,Nizoral Ketoconazole Shampoo Original 2%,In stock,220,0,68,24,154,21.5,10.2,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0219,Ventolin Salbutamol Inhaler Regular 200mg,In stock,2200,0,680,264,1511,207.8,10.6,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0982,Ponstan Mefenamic Acid Honey 250mg,In stock,88,0,27,9,62,8.6,10.2,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0312,Viagra Sildenafil Regular 100mg,In stock,23,0,7,4,11,1.2,19.2,2,,,,,0,0,,2026-10-14
+WH002,MED0767,Imovane Zopiclone Daily 7.5mg,In stock,23,0,7,4,13,1.4,15.9,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0408,Actal Calcium Carbonate Maximum 500mg,In stock,33,0,10,4,20,2.5,13.1,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0703,Zyrtec Cetirizine Syrup Daily 5mg,In stock,720,0,217,59,531,78.5,9.2,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0851,Lamisil Terbinafine Day 250mg,In stock,20,0,6,4,9,0.7,28.1,2,,,,,0,0,,2026-10-14
+WH002,MED0893,Gaviscon Sodium Alginate Day 500mg,In stock,5153,0,1518,392,3769,562.6,9.2,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0309,Zyloric Allopurinol Regular 300mg,In stock,68,0,20,10,38,4.7,14.6,2,,,,,0,0,,2026-10-14
+WH002,MED0968,Timoptol Timolol Eye Drops Cool 0.25%,In stock,109,0,32,14,67,8.8,12.4,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0735,Diovan Valsartan Daily 80mg,In stock,222,0,65,29,136,17.7,12.6,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0455,Haldol Haloperidol Maximum 5mg,In stock,24,0,7,5,9,0.6,41.8,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0592,Coumadin Warfarin Adult 5mg,In stock,48,0,14,9,24,2.4,19.7,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0980,Voltaren Emulgel Diclofenac Gel Honey 1%,In stock,673,0,195,54,477,70.5,9.6,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0562,Zofran Ondansetron Adult 8mg,In stock,59,0,17,8,33,4.1,14.4,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0658,Ponstan Mefenamic Acid Daily 250mg,In stock,101,0,29,11,65,9,11.3,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0014,Tramal Tramadol Original 50mg,In stock,28,0,8,5,13,1.2,22.7,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0293,Haldol Haloperidol Regular 1.5mg,In stock,21,0,6,5,8,0.5,41.8,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0304,Ebixa Memantine Regular 20mg,In stock,14,0,4,3,6,0.4,31.6,2,,,,,0,0,,2026-10-14
+WH002,MED0466,Ebixa Memantine Maximum 10mg,In stock,14,0,4,3,5,0.4,38.6,2,,,,,0,0,,2026-10-14
+WH002,MED0476,Plan B Levonorgestrel Children 1.5mg,In stock,14,0,4,3,5,0.3,46.9,2,,,,,0,0,,2026-10-14
+WH002,MED0790,Ebixa Memantine Daily 10mg,In stock,21,0,6,5,8,0.5,46.3,2,,,,,0,0,,2026-10-14
+WH002,MED0838,Achromycin Tetracycline Day 250mg,In stock,28,0,8,6,12,0.9,30.1,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0290,Risperdal Risperidone Regular 1mg,In stock,25,0,7,4,12,1.2,20.1,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0524,Valtrex Valacyclovir Adult 500mg,In stock,25,0,7,4,12,1.1,21.9,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0595,Glucophage Metformin Adult 500mg,In stock,900,0,251,101,550,74.7,12,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0876,Iliadin Oxymetazoline Spray Day 0.05%,In stock,789,0,220,73,512,73.1,10.8,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0141,Aricept Donepezil Original 5mg,In stock,18,0,5,3,7,0.6,30.2,2,,,,,0,0,,2026-10-14
+WH002,MED0503,Colgout Colchicine Adult 500mg,In stock,18,0,5,3,7,0.5,34.8,2,,,,,0,0,,2026-10-14
+WH002,MED0685,Tamiflu Oseltamivir Daily 75mg,In stock,18,0,5,4,6,0.4,48.6,2,,,,,0,0,,2026-10-14
+WH002,MED0848,Valtrex Valacyclovir Day 500mg,In stock,18,0,5,3,9,0.8,22,2,,,,,0,0,,2026-10-14
+WH002,MED0266,Plavix Clopidogrel Regular 300mg,In stock,303,0,84,38,175,22.8,13.3,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0588,Zocor Simvastatin Adult 20mg,In stock,285,0,79,32,172,23.2,12.3,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0873,Prednisolone Prednisolone Day 5mg,In stock,184,0,51,28,96,11.4,16.1,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0590,Plavix Clopidogrel Adult 75mg,In stock,290,0,80,34,170,22.6,12.8,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0379,Zyrtec Cetirizine Syrup Maximum 5mg,In stock,824,0,225,61,554,82.1,10,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0205,Nizoral Ketoconazole Regular 100mg,In stock,22,0,6,4,8,0.5,41.9,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0854,Nizoral Ketoconazole Shampoo Day 2%,In stock,207,0,56,22,121,16.4,12.7,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0422,Lasix Furosemide Maximum 40mg,In stock,185,0,50,25,99,12.3,15.1,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0314,Plan B Levonorgestrel Rapid 0.75mg,In stock,15,0,4,2,6,0.5,29.2,2,,,,,0,0,,2026-10-14
+WH002,MED0330,Nurofen Children Ibuprofen Susp Maximum 100mg,In stock,1410,0,376,97,931,138.9,10.2,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0634,Proscar Finasteride Adult 5mg,In stock,15,0,4,3,7,0.6,26,2,,,,,0,0,,2026-10-14
+WH002,MED0827,Colgout Colchicine Day 500mg,In stock,15,0,4,2,5,0.4,35.9,2,,,,,0,0,,2026-10-14
+WH002,MED0030,Levaquin Levofloxacin Original 500mg,In stock,76,0,20,11,37,4.2,17.9,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0461,Neurontin Gabapentin Maximum 300mg,In stock,134,0,35,18,67,8.1,16.6,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0640,Provera Medroxyprogesterone Senior 10mg,In stock,23,0,6,5,9,0.6,37.9,2,,,,,0,0,,2026-10-14
+WH002,MED0843,Macrodantin Nitrofurantoin Day 100mg,In stock,23,0,6,4,9,0.7,32.8,2,Delivered,PO-WH002-20261006,,2026-10-08,0,0,,2026-10-14
+WH002,MED0200,Valtrex Valacyclovir Regular 1g,In stock,27,0,7,4,12,1.3,20.3,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0911,Lipitor Atorvastatin Day 10mg,In stock,521,0,135,50,306,42.7,12.2,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0483,Xalatan Latanoprost Eye Drops Children 0.005%,In stock,78,0,20,9,42,5.5,14.2,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0728,Smecta Diosmectite Daily 3g,In stock,732,0,186,65,428,60.4,12.1,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0489,Panadol Children Paracetamol Susp Adult 120mg/5ml,In stock,2039,0,518,137,1281,190.5,10.7,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0846,Zovirax Acyclovir Cream Day 5%,In stock,335,0,85,33,189,26,12.9,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0374,Piriton Chlorpheniramine Maximum 4mg,In stock,280,0,71,22,170,24.6,11.4,2,,,,,0,0,,2026-10-14
+WH002,MED0536,Piriton Chlorpheniramine Adult 4mg,In stock,298,0,75,22,179,26.1,11.4,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0865,Zyrtec Cetirizine Syrup Day 5mg,In stock,799,0,201,54,494,73.3,10.9,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0203,Lamisil Terbinafine Regular 125mg,In stock,24,0,6,4,8,0.7,34.7,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0498,Celebrex Celecoxib Adult 200mg,In stock,28,0,7,3,13,1.5,18.8,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0765,Ativan Lorazepam Daily 1mg,In stock,24,0,6,4,10,1,24.7,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0819,Disprin Aspirin Day 500mg,In stock,204,0,51,16,121,17.3,11.8,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0860,Piriton Chlorpheniramine Day 4mg,In stock,276,48,69,24,159,22.5,12.2,2,Restock ordered,PO-WH002-20261014,2026-10-16,,0,0,,2026-10-14
+WH002,MED0256,Coversyl Perindopril Regular 8mg,In stock,146,0,36,19,71,8.6,17,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0072,Zantac Ranitidine Original 150mg,In stock,159,0,39,17,82,10.7,14.8,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0319,Gentamicin Gentamicin Eye Drops Rapid 0.3%,In stock,82,0,20,9,41,5.2,15.7,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0055,Zyrtec Cetirizine Syrup Original 5mg,In stock,949,0,230,62,565,83.6,11.3,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0636,Viagra Sildenafil Adult 50mg,In stock,25,0,6,4,10,0.9,27.3,2,,,,,0,0,,2026-10-14
+WH002,MED0779,Haldol Haloperidol Daily 5mg,In stock,25,0,6,4,8,0.5,51.5,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0529,Nizoral Ketoconazole Adult 200mg,In stock,21,0,5,3,6,0.5,43.9,2,,,,,0,0,,2026-10-14
+WH002,MED0666,Imigran Sumatriptan Daily 50mg,In stock,21,0,5,3,7,0.6,32.5,2,,,,,0,0,,2026-10-14
+WH002,MED0008,Voltaren Emulgel Diclofenac Gel Original 1%,In stock,846,0,199,55,486,71.7,11.8,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0552,Iliadin Oxymetazoline Spray Adult 0.05%,In stock,1001,0,232,78,540,77,13,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0264,Zocor Simvastatin Regular 40mg,In stock,382,0,88,32,199,27.8,13.7,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0047,Zyrtec Cetirizine Original 10mg,In stock,678,0,155,44,376,55.2,12.3,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0177,MST Continus Morphine Sulfate Regular 10mg,In stock,22,0,5,4,7,0.4,51.8,2,,,,,0,0,,2026-10-14
+WH002,MED0180,Imigran Sumatriptan Regular 100mg,In stock,22,0,5,3,8,0.7,30.6,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0232,Nexium Esomeprazole Regular 20mg,In stock,202,0,45,20,95,12.3,16.4,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0803,Progynova Estradiol Night 1mg,In stock,27,0,6,4,11,1.1,24.8,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0626,Sifrol Pramipexole Adult 0.25mg,In stock,23,0,5,3,6,0.3,66.8,2,,,,,0,0,,2026-10-14
+WH002,MED0163,Panadol Paracetamol Regular 200mg,In stock,1187,0,254,71,619,91.2,13,2,,,,,0,0,,2026-10-14
+WH002,MED0151,Cialis Tadalafil Original 20mg,In stock,19,0,4,3,7,0.5,36.7,2,,,,,0,0,,2026-10-14
+WH002,MED0523,Tamiflu Oseltamivir Adult 75mg,In stock,19,0,4,3,5,0.3,55.7,2,,,,,0,0,,2026-10-14
+WH002,MED0537,Benadryl Diphenhydramine Adult 25mg,In stock,163,0,34,12,78,11,14.9,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0302,Sifrol Pramipexole Regular 1mg,In stock,24,0,5,4,7,0.5,49.7,2,,,,,0,0,,2026-10-14
+WH002,MED0738,Betaloc Metoprolol Daily 50mg,In stock,320,0,66,30,139,18.1,17.7,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0181,Amoxil Amoxicillin Regular 250mg,In stock,844,0,174,72,378,50.8,16.6,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0148,Proscar Finasteride Original 5mg,In stock,25,0,5,3,9,0.8,32.5,2,Delivered,PO-WH002-20261010,,2026-10-12,0,0,,2026-10-14
+WH002,MED0615,Zyprexa Olanzapine Adult 10mg,In stock,25,0,5,4,8,0.6,42.6,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0221,Pulmicort Budesonide Inhaler Regular 100mg,In stock,596,0,117,48,256,34.6,17.2,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0990,Imigran Sumatriptan Honey 50mg,In stock,27,0,5,4,8,0.6,45.5,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0303,Aricept Donepezil Regular 10mg,In stock,22,0,4,3,7,0.6,39.9,2,,,,,0,0,,2026-10-14
+WH002,MED0342,Imigran Sumatriptan Maximum 50mg,In stock,22,0,4,2,6,0.6,36.2,2,,,,,0,0,,2026-10-14
+WH002,MED0825,MST Continus Morphine Sulfate Day 30mg,In stock,22,0,4,3,6,0.3,65.7,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0828,Imigran Sumatriptan Day 50mg,In stock,22,0,4,2,7,0.7,33.2,2,Delivered,PO-WH002-20261007,,2026-10-09,0,0,,2026-10-14
+WH002,MED0316,Provera Medroxyprogesterone Rapid 5mg,In stock,28,0,5,3,9,0.8,34.8,2,Delivered,PO-WH002-20261009,,2026-10-11,0,0,,2026-10-14
+WH002,MED0949,Sinemet Levodopa/Carbidopa Day 250mg,In stock,28,0,5,4,7,0.4,63.2,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0791,Maxalt Rizatriptan Daily 10mg,In stock,17,0,3,2,4,0.3,48.7,2,,,,,0,0,,2026-10-14
+WH002,MED0475,Cialis Tadalafil Maximum 20mg,In stock,23,0,4,3,6,0.5,47.5,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0656,Voltaren Emulgel Diclofenac Gel Daily 1%,In stock,1123,0,191,52,469,69.3,16.2,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0142,Ebixa Memantine Original 10mg,In stock,24,0,4,2,5,0.4,58.5,2,Delivered,PO-WH002-20261008,,2026-10-10,0,0,,2026-10-14
+WH002,MED0538,Aerius Desloratadine Adult 5mg,In stock,122,0,20,7,44,6,20.2,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0665,Colgout Colchicine Daily 500mg,In stock,25,0,4,3,6,0.4,55.6,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0649,Panadol Paracetamol Daily 500mg,In stock,1490,0,231,64,565,83.3,17.9,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14
+WH002,MED0361,Tamiflu Oseltamivir Maximum 75mg,In stock,26,0,4,3,6,0.4,59.3,2,,,,,0,0,,2026-10-14
+WH002,MED0504,Imigran Sumatriptan Adult 50mg,In stock,27,0,4,2,7,0.6,44.6,2,,,,,0,0,,2026-10-14
+WH002,MED0889,Duphalac Lactulose Day 10g,In stock,632,0,91,34,204,28.3,22.4,2,Delivered,PO-WH002-20261012,,2026-10-14,0,0,,2026-10-14
+WH002,MED0569,Gaviscon Sodium Alginate Adult 500mg,In stock,10649,0,1529,395,3796,566.8,18.8,2,Delivered,PO-WH002-20261011,,2026-10-14,0,0,,2026-10-14

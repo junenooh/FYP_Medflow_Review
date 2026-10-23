@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MedFlow — Brand Guide (for DHL)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --yellow:#FFCC00; --red:#D40511; --red-deep:#A80410;
+    --ink:#1C1C1C; --charcoal:#33383B; --gray:#5F6B72;
+    --surface:#F7F6F2; --line:#E6E6E1; --white:#FFFFFF;
+    --st-oos:#D40511; --st-low:#F5A623; --st-near:#2E77D0; --st-ok:#1B9E5A;
+    --aff-strong:#0E7C86; --aff-mod:#5FB2B8; --aff-weak:#B9DDDF;
+    --sans:"Mulish",sans-serif; --mono:"IBM Plex Mono",monospace; --maxw:1180px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto;}}
+  body{margin:0;font-family:var(--sans);color:var(--ink);background:var(--white);
+    line-height:1.6;-webkit-font-smoothing:antialiased;font-size:16px;}
+  .wm{font-family:var(--sans);font-weight:800;letter-spacing:-.01em;}
+
+  .topbar{position:sticky;top:0;z-index:50;background:var(--yellow);border-bottom:3px solid var(--red);}
+  .topbar-in{max-width:var(--maxw);margin:0 auto;padding:12px 28px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .brandlock{display:flex;align-items:center;gap:11px;}
+  .topbar .wm{font-size:20px;color:var(--ink);}
+  .topbar .endorse{font-family:var(--mono);font-size:11.5px;color:var(--red-deep);border-left:1.5px solid rgba(168,4,16,.4);padding-left:12px;}
+
+  .shell{max-width:var(--maxw);margin:0 auto;padding:0 28px;display:grid;grid-template-columns:212px 1fr;gap:56px;}
+  nav.side{position:sticky;top:74px;align-self:start;height:calc(100vh - 94px);padding-top:40px;display:flex;flex-direction:column;gap:2px;}
+  nav.side a{text-decoration:none;color:var(--gray);font-size:14.5px;padding:7px 12px;border-radius:7px;border-left:2px solid transparent;transition:color .15s,background .15s;}
+  nav.side a:hover{color:var(--ink);background:var(--surface);}
+  nav.side a.active{color:var(--ink);font-weight:700;border-left-color:var(--red);background:var(--surface);}
+  nav.side .navhead{font-family:var(--mono);font-size:11px;color:#a7aca4;padding:0 12px;margin:0 0 6px;}
+  main{padding:40px 0 120px;min-width:0;}
+
+  .hero{position:relative;overflow:hidden;background:var(--yellow);padding:58px 48px 46px;margin-bottom:14px;}
+  .hero .speed{position:absolute;right:-60px;top:0;height:100%;width:340px;opacity:.9;}
+  .hero-content{position:relative;z-index:2;max-width:660px;}
+  .hero .lockup{display:flex;align-items:center;gap:18px;margin-bottom:30px;}
+  .hero .lockup .wm{font-size:34px;color:var(--ink);}
+  .hero .divider{width:2px;height:38px;background:rgba(28,28,28,.28);}
+  .hero h1{font-family:var(--sans);font-weight:900;font-size:46px;line-height:1.02;letter-spacing:-.02em;margin:0 0 16px;color:var(--ink);}
+  .hero h1 em{font-style:normal;color:var(--red);}
+  .hero p.lede{font-size:17px;color:#3a3a34;margin:0;max-width:560px;}
+
+  .dhl-slot{font-family:var(--mono);font-size:10.5px;color:var(--red-deep);border:1px solid rgba(168,4,16,.35);border-radius:4px;padding:12px 18px;text-align:center;line-height:1.35;background:var(--white);}
+  .dhl-slot b{display:block;font-family:var(--sans);font-weight:800;font-size:20px;color:var(--red);letter-spacing:.02em;margin-bottom:2px;}
+
+  section{padding:62px 0;border-bottom:1px solid var(--line);scroll-margin-top:78px;}
+  section:last-of-type{border-bottom:none;}
+  .kicker{font-family:var(--mono);font-size:12px;color:var(--red);margin:0 0 10px;}
+  h2{font-family:var(--sans);font-weight:800;font-size:30px;letter-spacing:-.015em;margin:0 0 14px;color:var(--ink);}
+  h3{font-family:var(--sans);font-weight:800;font-size:16px;margin:34px 0 12px;color:var(--ink);text-transform:uppercase;letter-spacing:.03em;}
+  p.body{max-width:66ch;color:var(--charcoal);}
+  .lead{font-size:18px;color:var(--charcoal);max-width:60ch;margin:0 0 6px;}
+  .note{font-size:13px;color:var(--gray);background:var(--surface);border-left:3px solid var(--yellow);padding:12px 16px;border-radius:0 8px 8px 0;margin-top:20px;max-width:70ch;}
+  .note b{color:var(--ink);}
+
+  .principles{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-top:28px;}
+  .principle{background:var(--white);padding:24px 22px;}
+  .principle .num{font-family:var(--mono);font-size:12px;color:var(--red);}
+  .principle h4{font-weight:800;font-size:16px;margin:10px 0 8px;color:var(--ink);}
+  .principle p{font-size:14px;color:var(--gray);margin:0;}
+
+  .cobrand-stage{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:44px;margin:26px 0 10px;display:flex;align-items:center;justify-content:center;gap:26px;}
+  .cobrand-stage .divider{width:2px;height:52px;background:var(--line);}
+  .cobrand-stage .mfblock{display:flex;align-items:center;gap:13px;}
+  .cobrand-stage .wm{font-size:30px;color:var(--ink);}
+  .cobrand-stage .dhl-slot b{font-size:26px;}
+
+  .lock-variants{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px;}
+  .lv{border:1px solid var(--line);border-radius:12px;overflow:hidden;}
+  .lv .frame{height:120px;display:flex;align-items:center;justify-content:center;gap:14px;padding:0 18px;}
+  .lv .frame.light{background:var(--surface);}
+  .lv .frame.red{background:var(--red);}
+  .lv .cap{font-family:var(--mono);font-size:11.5px;color:var(--gray);padding:10px 14px;border-top:1px solid var(--line);}
+  .lv .wm{font-size:22px;}
+  .lv .divider{width:1.5px;height:36px;background:rgba(28,28,28,.22);}
+  .lv .frame.red .divider{background:rgba(255,255,255,.45);}
+  .lv .frame.red .wm{color:#fff;}
+  .lv .dhl-slot{font-size:9px;padding:9px 13px;}
+  .lv .dhl-slot b{font-size:18px;}
+  .lv .frame.red .dhl-slot{background:transparent;border-color:rgba(255,255,255,.6);color:#fff;}
+  .lv .frame.red .dhl-slot b{color:#fff;}
+
+  .rules{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:26px;}
+  .rulecol h4{font-size:14px;margin:0 0 12px;display:flex;align-items:center;gap:8px;text-transform:uppercase;letter-spacing:.04em;font-weight:800;}
+  .rulecol.do h4{color:var(--st-ok);}
+  .rulecol.dont h4{color:var(--st-oos);}
+  .rulecol ul{margin:0;padding-left:18px;font-size:14.5px;color:var(--charcoal);}
+  .rulecol li{margin-bottom:7px;}
+
+  .swatch-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:24px;}
+  .swatch{border:1px solid var(--line);border-radius:12px;overflow:hidden;}
+  .swatch .chip{height:100px;}
+  .swatch .meta{padding:12px 14px;}
+  .swatch .nm{font-weight:800;font-size:15px;}
+  .swatch .hex{font-family:var(--mono);font-size:12.5px;color:var(--gray);margin-top:3px;}
+  .swatch .use{font-size:12.5px;color:var(--gray);margin-top:8px;line-height:1.45;}
+
+  .fn-table{width:100%;border-collapse:collapse;margin-top:20px;font-size:14px;}
+  .fn-table th{text-align:left;font-family:var(--mono);font-weight:500;font-size:11.5px;color:var(--gray);padding:8px 12px;border-bottom:1px solid var(--line);}
+  .fn-table td{padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:middle;}
+  .pill{display:inline-flex;align-items:center;gap:7px;padding:4px 11px;border-radius:999px;font-size:12.5px;font-weight:700;}
+  .dot{width:9px;height:9px;border-radius:50%;display:inline-block;}
+  .mono{font-family:var(--mono);font-size:12.5px;color:var(--gray);}
+
+  .type-spec{border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-top:22px;}
+  .type-row{display:grid;grid-template-columns:170px 1fr;gap:20px;padding:22px 24px;border-bottom:1px solid var(--line);align-items:baseline;}
+  .type-row:last-child{border-bottom:none;}
+  .type-row .lbl{font-family:var(--mono);font-size:12px;color:var(--gray);}
+  .type-row .lbl b{display:block;color:var(--ink);font-weight:700;font-size:13px;margin-bottom:3px;}
+  .spec-display{font-weight:900;font-size:32px;color:var(--ink);letter-spacing:-.02em;line-height:1.05;}
+  .spec-sub{font-weight:700;font-size:21px;color:var(--charcoal);}
+  .spec-body{font-size:16px;color:var(--charcoal);max-width:60ch;}
+  .spec-mono{font-family:var(--mono);font-size:15px;color:var(--ink);}
+
+  .voice-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px;}
+  .voice-card{border:1px solid var(--line);border-radius:12px;padding:20px 22px;}
+  .voice-card .tagrow{font-family:var(--mono);font-size:11.5px;margin-bottom:14px;display:flex;align-items:center;gap:7px;text-transform:uppercase;letter-spacing:.03em;}
+  .voice-card.do{border-top:3px solid var(--st-ok);}
+  .voice-card.dont{border-top:3px solid var(--st-oos);}
+  .voice-card.do .tagrow{color:var(--st-ok);}
+  .voice-card.dont .tagrow{color:var(--st-oos);}
+  .msg{background:var(--surface);border-radius:9px;padding:13px 15px;font-size:14.5px;margin-bottom:10px;}
+  .voice-card p{font-size:13.5px;color:var(--gray);margin:6px 0 0;}
+
+  .ui-wrap{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:26px;margin-top:24px;display:grid;grid-template-columns:1.1fr 1fr;gap:20px;}
+  .ui-card{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:18px 20px;}
+  .ui-card .head{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;}
+  .ui-card .head .t{font-weight:800;font-size:14px;color:var(--ink);}
+  .kpi{font-weight:900;font-size:40px;color:var(--ink);letter-spacing:-.02em;}
+  .kpi small{font-size:16px;color:var(--gray);font-weight:600;margin-left:4px;}
+  .kpi-sub{font-size:13px;color:var(--st-ok);margin-top:4px;font-weight:700;}
+  .statlist{display:flex;flex-direction:column;gap:9px;}
+  .statrow{display:flex;align-items:center;justify-content:space-between;font-size:13.5px;}
+  .statrow .sku{font-family:var(--mono);color:var(--ink);}
+  .btn{display:inline-block;background:var(--red);color:#fff;font-weight:800;font-size:13px;padding:9px 16px;border-radius:8px;margin-top:16px;}
+  .aff-legend{display:flex;gap:8px;margin-top:6px;}
+  .aff-tag{font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:6px;}
+
+  footer{background:var(--ink);color:#c9cbc4;padding:34px 28px;}
+  footer .in{max-width:var(--maxw);margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;font-size:13px;}
+  footer .wm{font-size:17px;color:#fff;}
+  footer .wm .r{color:var(--yellow);}
+
+  @media(max-width:900px){
+    .shell{grid-template-columns:1fr;gap:0;}
+    nav.side{display:none;}
+    .principles,.swatch-row,.voice-grid,.ui-wrap,.lock-variants,.rules{grid-template-columns:1fr;}
+    .type-row{grid-template-columns:1fr;gap:8px;}
+    .hero{padding:38px 24px;}
+    .hero h1{font-size:32px;}
+    .cobrand-stage{flex-direction:column;padding:30px;}
+    .cobrand-stage .divider{width:52px;height:2px;}
+    .topbar .endorse{display:none;}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-in">
+    <div class="brandlock">
+      <img src="../../client/assets/brand/medflow-mark.svg" width="32" height="32" alt="MedFlow capsule mark">
+      <span class="wm">MedFlow</span>
+    </div>
+    <span class="endorse">a solution for DHL · Brand Guide v2.0</span>
+  </div>
+</div>
+
+<div class="shell">
+  <nav class="side" aria-label="Sections">
+    <span class="navhead">Guide</span>
+    <a href="#brand" class="active">Brand</a>
+    <a href="#cobrand">Co-branding</a>
+    <a href="#colour">Colour</a>
+    <a href="#type">Typography</a>
+    <a href="#voice">Voice</a>
+    <a href="#ui">In practice</a>
+  </nav>
+
+  <main>
+    <div class="hero">
+      <svg class="speed" viewBox="0 0 340 460" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <g stroke="#D40511" stroke-width="10" stroke-linecap="round" opacity=".16">
+          <line x1="40" y1="120" x2="360" y2="120"/>
+          <line x1="90" y1="230" x2="360" y2="230"/>
+          <line x1="140" y1="340" x2="360" y2="340"/>
+        </g>
+      </svg>
+      <div class="hero-content">
+        <div class="lockup">
+          <div class="dhl-slot"><b>DHL</b>master logo</div>
+          <span class="divider"></span>
+          <img src="../../client/assets/brand/medflow-mark.svg" width="42" height="42" alt="MedFlow capsule mark">
+          <span class="wm">MedFlow</span>
+        </div>
+        <h1>Right stock, <em>shortest path.</em></h1>
+        <p class="lede">MedFlow turns DHL order history into auditable slotting, replenishment and layout decisions for medical warehouses — so the right supplies are always in reach, and never out of stock.</p>
+      </div>
+    </div>
+
+    <section id="brand">
+      <p class="kicker">01 — Brand</p>
+      <h2>MedFlow within the DHL brand</h2>
+      <p class="lead">MedFlow is a decision-support platform built for DHL. It is an endorsed product identity: DHL leads, MedFlow names the solution. The DHL brand carries the trust; MedFlow carries the function.</p>
+      <p class="body">Everything visual defers to DHL's system — yellow and red, the Delivery typeface, DHL's tone of voice. MedFlow adds only what a data product needs on top: a small product mark, a set of functional status colours, and a monospace face for machine-generated values. Nothing here overrides the DHL guidelines; where the two ever conflict, DHL wins.</p>
+
+      <div class="principles">
+        <div class="principle"><span class="num">P1</span><h4>Explainable over clever</h4><p>Every recommendation can be replayed and audited. No black boxes on a medical floor.</p></div>
+        <div class="principle"><span class="num">P2</span><h4>Human in the loop</h4><p>MedFlow proposes; the DHL planner commits. People keep the final say over what moves.</p></div>
+        <div class="principle"><span class="num">P3</span><h4>Measured in seconds</h4><p>Value is picker travel saved and stockouts prevented — reported in real units, not scores.</p></div>
+      </div>
+
+      <div class="note"><b>Source of truth:</b> the DHL Brand Hub is authoritative for the DHL logo, exact colour tokens, the Delivery typeface, and the official Co- and Additional Branding rules. This guide only defines MedFlow's side of the system. Always place official DHL master assets — never recreate the DHL logo.</div>
+    </section>
+
+    <section id="cobrand">
+      <p class="kicker">02 — Co-branding</p>
+      <h2>The lockup</h2>
+      <p class="body">DHL is the lead brand and always sits first, given full clear space per DHL guidelines. A vertical divider separates it from the MedFlow product identity. The MedFlow mark pairs medicine capsules with DHL red and yellow to communicate healthcare logistics and movement.</p>
+
+      <div class="cobrand-stage">
+        <div class="dhl-slot"><b>DHL</b>official master logo<br>(from Brand Hub)</div>
+        <span class="divider"></span>
+        <div class="mfblock">
+          <img src="../../client/assets/brand/medflow-mark.svg" width="46" height="46" alt="MedFlow capsule mark">
+          <span class="wm" style="font-size:30px">MedFlow</span>
+        </div>
+      </div>
+
+      <h3>Approved lockups</h3>
+      <div class="lock-variants">
+        <div class="lv">
+          <div class="frame light">
+            <div class="dhl-slot"><b>DHL</b>logo</div>
+            <span class="divider"></span>
+            <img src="../../client/assets/brand/medflow-mark.svg" width="30" height="30" alt="MedFlow capsule mark">
+            <span class="wm">MedFlow</span>
+          </div>
+          <div class="cap">Horizontal · on light</div>
+        </div>
+        <div class="lv">
+          <div class="frame red">
+            <div class="dhl-slot"><b>DHL</b>logo</div>
+            <span class="divider"></span>
+            <img src="../../client/assets/brand/medflow-mark.svg" width="30" height="30" alt="MedFlow capsule mark" style="box-shadow:0 0 0 2px rgba(255,255,255,.55);border-radius:9px">
+            <span class="wm">MedFlow</span>
+          </div>
+          <div class="cap">Reversed · on DHL Red</div>
+        </div>
+      </div>
+
+      <div class="rules">
+        <div class="rulecol do"><h4>Do</h4>
+          <ul>
+            <li>Lead with the DHL logo; keep its clear space per DHL guidelines.</li>
+            <li>Use the divider to separate DHL from MedFlow.</li>
+            <li>Set MedFlow in Delivery (or the approved substitute) in DHL red or ink.</li>
+          </ul>
+        </div>
+        <div class="rulecol dont"><h4>Don't</h4>
+          <ul>
+            <li>Place MedFlow ahead of, above, or larger than the DHL logo.</li>
+            <li>Recolour, restyle, or crowd the DHL logo.</li>
+            <li>Merge the two into a single combined symbol.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="note"><b>Follow DHL's rules first:</b> exact logo priority, minimum sizes and clear-space ratios live in DHL's <i>Co- and Additional Branding</i> section. This page shows intent, not final spacing measurements.</div>
+    </section>
+
+    <section id="colour">
+      <p class="kicker">03 — Colour</p>
+      <h2>Palette</h2>
+      <p class="body">The brand palette is DHL's. MedFlow adds nothing to it. The neutrals below are for reading long operational content and are drawn from DHL's supporting range.</p>
+
+      <div class="swatch-row">
+        <div class="swatch"><div class="chip" style="background:var(--yellow)"></div>
+          <div class="meta"><div class="nm">DHL Yellow</div><div class="hex">#FFCC00 · rgb(255 204 0)</div><div class="use">Primary. Signature surfaces, hero, highlights.</div></div></div>
+        <div class="swatch"><div class="chip" style="background:var(--red)"></div>
+          <div class="meta"><div class="nm">DHL Red</div><div class="hex">#D40511 · rgb(212 5 17)</div><div class="use">Headlines, primary actions, the MedFlow mark.</div></div></div>
+        <div class="swatch"><div class="chip" style="background:var(--ink)"></div>
+          <div class="meta"><div class="nm">Ink</div><div class="hex">#1C1C1C</div><div class="use">Body text and dark surfaces.</div></div></div>
+        <div class="swatch"><div class="chip" style="background:var(--gray)"></div>
+          <div class="meta"><div class="nm">Grey</div><div class="hex">#5F6B72</div><div class="use">Secondary text, captions, metadata.</div></div></div>
+        <div class="swatch"><div class="chip" style="background:var(--surface);border-bottom:1px solid var(--line)"></div>
+          <div class="meta"><div class="nm">Sand</div><div class="hex">#F7F6F2</div><div class="use">Panels and surface fills.</div></div></div>
+        <div class="swatch"><div class="chip" style="background:var(--line)"></div>
+          <div class="meta"><div class="nm">Line</div><div class="hex">#E6E6E1</div><div class="use">Dividers, borders, table rules.</div></div></div>
+        <div class="swatch"><div class="chip" style="background:var(--white);border-bottom:1px solid var(--line)"></div>
+          <div class="meta"><div class="nm">White</div><div class="hex">#FFFFFF</div><div class="use">Base background, content, cards.</div></div></div>
+        <div class="swatch"><div class="chip" style="background:linear-gradient(135deg,var(--red),var(--yellow))"></div>
+          <div class="meta"><div class="nm">Red + Yellow</div><div class="hex">the DHL pairing</div><div class="use">Red on yellow only at large sizes. Never body text.</div></div></div>
+      </div>
+
+      <div class="note"><b>Confirm before build:</b> #D40511 and #FFCC00 are the widely-published DHL values and match multiple sources (HIGH confidence), but pull the exact tokens — including print/Pantone — from the DHL Brand Hub.</div>
+
+      <h3>Functional extension — stock status <span class="mono">(UC2)</span></h3>
+      <p class="body">A data product needs colours that <em>mean</em> something. These are a deliberate, documented exception to the brand palette: they carry operational meaning, not brand identity, and appear only inside data components (pills, cells, charts) — never as page colour. Red doubles as "critical", which stays consistent with DHL red.</p>
+      <table class="fn-table">
+        <thead><tr><th>Status</th><th>Rule</th><th>Meaning</th><th>Token</th></tr></thead>
+        <tbody>
+          <tr><td><span class="pill" style="background:#fdecec;color:var(--st-oos)"><span class="dot" style="background:var(--st-oos)"></span>Out of stock</span></td>
+            <td class="mono">on_hand ≤ 0</td><td>Urgent. Transfer from central now.</td><td class="mono">#D40511</td></tr>
+          <tr><td><span class="pill" style="background:#fdf3e0;color:#b57500"><span class="dot" style="background:var(--st-low)"></span>Low stock</span></td>
+            <td class="mono">IP &lt; ROP</td><td>Reorder threshold breached.</td><td class="mono">#F5A623</td></tr>
+          <tr><td><span class="pill" style="background:#eaf1fb;color:var(--st-near)"><span class="dot" style="background:var(--st-near)"></span>Near ROP</span></td>
+            <td class="mono">IP ≤ ROP + SS</td><td>Dropping into safety, monitor.</td><td class="mono">#2E77D0</td></tr>
+          <tr><td><span class="pill" style="background:#e6f6ee;color:#0f8a52"><span class="dot" style="background:var(--st-ok)"></span>Available</span></td>
+            <td class="mono">above near-ROP</td><td>Healthy level, no action.</td><td class="mono">#1B9E5A</td></tr>
+        </tbody>
+      </table>
+      <p class="body" style="margin-top:14px"><b>Why amber, not DHL yellow, for Low stock:</b> DHL yellow is a brand surface colour and reads as "neutral / brand", so using it for a warning would be ambiguous. Amber keeps the warning legible and distinct.</p>
+
+      <h3>Functional extension — affinity strength <span class="mono">(UC1)</span></h3>
+      <p class="body">Companion-pair strength uses one teal hue at three saturations — outside the brand and status ranges so it can never be mistaken for either.</p>
+      <div class="swatch-row" style="grid-template-columns:repeat(3,1fr)">
+        <div class="swatch"><div class="chip" style="height:64px;background:var(--aff-strong)"></div><div class="meta"><div class="nm">Strong</div><div class="hex">#0E7C86</div></div></div>
+        <div class="swatch"><div class="chip" style="height:64px;background:var(--aff-mod)"></div><div class="meta"><div class="nm">Moderate</div><div class="hex">#5FB2B8</div></div></div>
+        <div class="swatch"><div class="chip" style="height:64px;background:var(--aff-weak)"></div><div class="meta"><div class="nm">Weak</div><div class="hex">#B9DDDF</div></div></div>
+      </div>
+    </section>
+
+    <section id="type">
+      <p class="kicker">04 — Typography</p>
+      <h2>Type system</h2>
+      <p class="body">DHL's corporate typeface is <strong>Delivery</strong> — use it wherever it is licensed and available. Because Delivery is proprietary and can't be embedded in an open build, MedFlow's dashboard specifies <strong>Mulish</strong> as the approved open-source substitute: a humanist sans with a similar warmth and a full weight range. <strong>IBM Plex Mono</strong> handles machine-generated values.</p>
+
+      <div class="type-spec">
+        <div class="type-row"><div class="lbl"><b>Delivery → Mulish</b>Display · 900</div><div class="spec-display">Slotting recommendations</div></div>
+        <div class="type-row"><div class="lbl"><b>Delivery → Mulish</b>Subhead · 700</div><div class="spec-sub">Reorder point breached in Zone&nbsp;B</div></div>
+        <div class="type-row"><div class="lbl"><b>Delivery → Mulish</b>Body · 400</div><div class="spec-body">The central warehouse supplies DHL medical subsidiaries. MedFlow reviews stock against policy, flags what must move, and proposes where it should sit.</div></div>
+        <div class="type-row"><div class="lbl"><b>IBM Plex Mono</b>Data · 400</div><div class="spec-mono">SKU-04182 · ROP 120 · lift 1.52 · +20s saved</div></div>
+      </div>
+      <div class="note"><b>Substitute, not a match:</b> Mulish approximates Delivery's tone; it isn't identical (MEDIUM confidence on the visual fit). For anything DHL-facing or printed, use licensed Delivery.</div>
+    </section>
+
+    <section id="voice">
+      <p class="kicker">05 — Voice</p>
+      <h2>How MedFlow speaks</h2>
+      <p class="body">MedFlow follows DHL's tone of voice — clear, human, on eye level — and adds the discipline a decision tool needs: state what happened, state what to do, quantify it, don't dramatise. Interface copy is sentence case with active verbs.</p>
+
+      <div class="voice-grid">
+        <div class="voice-card do">
+          <div class="tagrow"><span class="dot" style="background:var(--st-ok)"></span>Write it like this</div>
+          <div class="msg">Stock below reorder point. Transfer 40 units from central to Subsidiary&nbsp;3.</div>
+          <div class="msg">Recommended: move SKU-04182 to B04. Saves ~20s per pick.</div>
+          <p>Specific, quantified, action-first.</p>
+        </div>
+        <div class="voice-card dont">
+          <div class="tagrow"><span class="dot" style="background:var(--st-oos)"></span>Not like this</div>
+          <div class="msg">Uh oh! Looks like you might be running a little low on something 😅</div>
+          <div class="msg">Our smart AI thinks this could maybe be a better spot!</div>
+          <p>Vague, hyped, emoji, hedging.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="ui">
+      <p class="kicker">06 — In practice</p>
+      <h2>The system, applied</h2>
+      <p class="body">The tokens working together on the DHL planner dashboard: DHL red for the primary action, functional colour carrying meaning, mono for machine values. Illustrative figures.</p>
+
+      <div class="ui-wrap">
+        <div class="ui-card">
+          <div class="head"><span class="t">Demand-weighted access time</span><span class="mono">this run</span></div>
+          <div class="kpi">13.3<small>s / pick</small></div>
+          <div class="kpi-sub">↓ 29% vs current layout</div>
+          <div style="height:1px;background:var(--line);margin:16px 0"></div>
+          <div class="statlist">
+            <div class="statrow"><span>Current</span><span class="mono">18.7s</span></div>
+            <div class="statrow"><span>Heuristic</span><span class="mono">15.1s</span></div>
+            <div class="statrow"><span style="color:var(--red);font-weight:800">Simulated annealing</span><span class="mono" style="color:var(--red)">13.3s</span></div>
+          </div>
+          <span class="btn">Apply all moves</span>
+        </div>
+
+        <div class="ui-card">
+          <div class="head"><span class="t">Replenishment alerts</span><span class="mono">WH-CENTRAL</span></div>
+          <div class="statlist">
+            <div class="statrow"><span class="sku">SKU-04182</span><span class="pill" style="background:#fdecec;color:var(--st-oos)"><span class="dot" style="background:var(--st-oos)"></span>Out of stock</span></div>
+            <div class="statrow"><span class="sku">SKU-02910</span><span class="pill" style="background:#fdf3e0;color:#b57500"><span class="dot" style="background:var(--st-low)"></span>Low stock</span></div>
+            <div class="statrow"><span class="sku">SKU-07734</span><span class="pill" style="background:#eaf1fb;color:var(--st-near)"><span class="dot" style="background:var(--st-near)"></span>Near ROP</span></div>
+            <div class="statrow"><span class="sku">SKU-01055</span><span class="pill" style="background:#e6f6ee;color:#0f8a52"><span class="dot" style="background:var(--st-ok)"></span>Available</span></div>
+          </div>
+          <div style="height:1px;background:var(--line);margin:16px 0"></div>
+          <div class="head" style="margin-bottom:8px"><span class="t" style="font-size:13px">Companion pairs</span></div>
+          <div class="aff-legend">
+            <span class="aff-tag" style="background:var(--aff-strong);color:#fff">Strong</span>
+            <span class="aff-tag" style="background:var(--aff-mod);color:#083f3d">Moderate</span>
+            <span class="aff-tag" style="background:var(--aff-weak);color:#083f3d">Weak</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<footer>
+  <div class="in">
+    <span class="wm">Med<span class="r">Flow</span></span>
+    <span>A solution for DHL · Brand Guide v2.0 · MedFlow product identity, aligned to the DHL Brand Hub</span>
+  </div>
+</footer>
+
+<script>
+  const links = [...document.querySelectorAll('nav.side a')];
+  const map = new Map(links.map(a => [a.getAttribute('href').slice(1), a]));
+  const obs = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        links.forEach(l=>l.classList.remove('active'));
+        const a = map.get(e.target.id); if(a) a.classList.add('active');
+      }
+    });
+  },{rootMargin:'-30% 0px -60% 0px',threshold:0});
+  document.querySelectorAll('section[id]').forEach(s=>obs.observe(s));
+</script>
+</body>
+</html>

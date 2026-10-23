@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MedFlow — Design Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --yellow:#FFCC00; --yellow-2:#FFE375; --red:#D40511;
+    --ink:#1C1C1C; --gray:#5F6B72; --gray-2:#9AA3A9; --sand:#F6F5F0; --line:#E3E3DD; --white:#fff;
+    --oos:#D40511; --low:#F5A623; --near:#2E77D0; --ok:#1B9E5A;
+    --aff1:#0E7C86; --aff2:#5FB2B8; --aff3:#B9DDDF;
+    --sans:"Mulish",sans-serif; --mono:"IBM Plex Mono",monospace;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto;}}
+  body{margin:0;font-family:var(--sans);color:var(--ink);background:#fff;font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased;}
+  .wm{font-weight:800;letter-spacing:-.01em;}
+
+  /* ===== guide chrome (DHL Brand Hub feel) ===== */
+  .top{position:sticky;top:0;z-index:40;background:linear-gradient(90deg,var(--yellow) 0%,var(--yellow) 55%,#FFE066 100%);}
+  .top-in{max-width:1280px;margin:0 auto;padding:16px 40px;display:flex;align-items:center;justify-content:space-between;}
+  .lock{display:flex;align-items:center;gap:12px;}
+  .top .wm{font-size:20px;}
+  .top .meta{font-weight:700;font-size:14px;color:var(--ink);}
+  .top .meta b{color:var(--red);}
+
+  .frame{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:250px 1fr;}
+  .sidenav{border-right:1px solid var(--line);padding:56px 40px 56px 40px;position:sticky;top:64px;align-self:start;height:calc(100vh - 64px);}
+  .sidenav .h{font-weight:800;font-size:20px;display:flex;align-items:center;gap:10px;padding-bottom:22px;border-bottom:1px solid var(--line);margin-bottom:18px;}
+  .sidenav .h svg{opacity:.55}
+  .sidenav a{display:block;text-decoration:none;color:var(--ink);font-size:16px;padding:11px 0;}
+  .sidenav a.active{color:var(--red);font-weight:800;}
+  .content{padding:56px 0 140px 72px;min-width:0;}
+
+  /* ===== DHL-style section header ===== */
+  section{margin-bottom:150px;scroll-margin-top:90px;}
+  .cat{color:var(--red);font-weight:500;font-size:19px;text-transform:uppercase;letter-spacing:.04em;margin:0 0 2px;}
+  .ttl{color:var(--red);font-weight:900;font-size:54px;line-height:1;text-transform:uppercase;letter-spacing:-.01em;margin:0 0 26px;}
+  .intro{font-size:19px;line-height:1.6;max-width:66ch;margin:0 0 40px;}
+  .intro b{font-weight:800;}
+  h3{font-weight:800;font-size:22px;margin:56px 0 18px;}
+  p{max-width:66ch;}
+  .rule{color:var(--red);font-weight:800;max-width:66ch;margin:28px 0 0;}
+
+  /* the yellow example field, like the Brand Hub's */
+  .field{background:linear-gradient(180deg,var(--yellow) 0%,#FFD633 60%,var(--yellow-2) 100%);padding:52px;margin:0 0 20px;}
+  .field.tight{padding:40px 52px;}
+  .cap{font-size:14px;color:var(--gray);margin:0 0 0;}
+
+  /* ===== hero ===== */
+  .hero{background:var(--yellow);padding:76px 72px 64px;margin:0 0 120px -72px;position:relative;overflow:hidden;}
+  .hero .lock{gap:16px;margin-bottom:38px;}
+  .hero .wm{font-size:30px;}
+  .hero h1{font-weight:900;font-size:76px;line-height:.98;text-transform:uppercase;color:var(--red);margin:0 0 22px;letter-spacing:-.015em;max-width:12ch;}
+  .hero p{font-size:20px;max-width:56ch;margin:0;}
+  .dhl{font-family:var(--mono);font-size:10px;color:#8b0710;border:1px solid rgba(139,7,16,.35);border-radius:4px;padding:7px 12px;text-align:center;line-height:1.3;background:rgba(255,255,255,.55);}
+  .dhl b{display:block;font-family:var(--sans);font-weight:800;font-size:18px;color:var(--red);letter-spacing:.02em;}
+  .divider{width:2px;height:34px;background:rgba(28,28,28,.28);}
+
+  /* ===== foundations ===== */
+  .ruler{display:flex;align-items:flex-end;gap:28px;margin-top:10px;}
+  .ruler div{display:flex;flex-direction:column;align-items:center;gap:10px;font-size:14px;color:var(--gray);}
+  .ruler i{display:block;background:var(--red);height:40px;}
+  .shapes{display:flex;gap:40px;align-items:flex-end;margin-top:10px;}
+  .shapes .s{display:flex;flex-direction:column;gap:12px;font-size:14px;color:var(--gray);}
+  .shapes .s div{width:150px;height:74px;background:#fff;}
+  .gridviz{display:grid;grid-template-columns:repeat(12,1fr);gap:24px;height:120px;}
+  .gridviz i{background:rgba(212,5,17,.14);border-left:1px solid rgba(212,5,17,.45);border-right:1px solid rgba(212,5,17,.45);}
+
+  /* ===== app shell (the product) ===== */
+  .scrollx{overflow-x:auto;}
+  .app{min-width:780px;background:#fff;box-shadow:0 30px 60px -20px rgba(60,40,0,.35);position:relative;}
+  .a-top{background:linear-gradient(90deg,#FFCC00 0%,#FFCC00 48%,#FFDA4A 100%);height:56px;display:flex;align-items:center;gap:22px;padding:0 20px;box-shadow:0 1px 0 rgba(28,28,28,.08);}
+  .a-top .lock{gap:9px;} .a-top .wm{font-size:17px;letter-spacing:-.02em;}
+  .a-top .dhl{font-size:8px;padding:5px 8px;} .a-top .dhl b{font-size:13px;}
+  .a-top .divider{height:24px;width:1.5px;}
+  .a-search{flex:1;max-width:440px;height:36px;background:rgba(255,255,255,.94);border-radius:8px;display:flex;align-items:center;gap:10px;padding:0 12px;color:var(--gray);font-size:13px;box-shadow:inset 0 0 0 1px rgba(28,28,28,.06);}
+  .a-search span{flex:1;}
+  .a-search kbd{font:11px var(--mono);color:var(--gray-2);background:var(--sand);border:1px solid var(--line);border-radius:4px;padding:1px 6px;}
+  .a-right{margin-left:auto;display:flex;align-items:center;gap:12px;}
+  .runchip{background:rgba(255,255,255,.6);padding:6px 11px 6px 9px;border-radius:999px;font-size:12px;font-weight:800;color:var(--ink);display:flex;align-items:center;gap:7px;}
+  .runchip i{width:8px;height:8px;border-radius:50%;background:var(--ok);display:inline-block;}
+  .runchip em{font-style:normal;font-family:var(--mono);font-weight:500;color:var(--gray);margin-left:2px;}
+  .iconbtn{width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.5);}
+  .user{display:flex;align-items:center;gap:8px;}
+  .uname{font-size:13px;font-weight:800;}
+  .avatar{width:30px;height:30px;border-radius:50%;background:var(--red);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12px;}
+  .a-body{display:grid;grid-template-columns:200px 1fr;min-height:300px;}
+  .a-side{border-right:1px solid var(--line);padding:18px 12px;}
+  .a-nav{display:flex;align-items:center;gap:11px;padding:10px 12px;font-size:14px;color:var(--gray);border-left:3px solid transparent;margin-bottom:2px;}
+  .a-nav.active{color:var(--ink);font-weight:800;border-left-color:var(--red);background:var(--sand);}
+  .a-nav.active svg *{stroke:var(--red);}
+  .a-main{background:var(--sand);padding:24px;}
+  .a-h{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:22px;}
+  .a-h .t{font-weight:900;font-size:22px;line-height:1.1;}
+  .a-h .s{font-size:13px;color:var(--gray);margin-top:3px;}
+  .btn{font-weight:800;font-size:13px;padding:10px 16px;border-radius:6px;border:1.5px solid transparent;font-family:var(--sans);cursor:pointer;}
+  .btn-p{background:var(--red);color:#fff;} .btn-s{background:#fff;color:var(--ink);border-color:var(--line);} .btn-g{background:transparent;color:var(--red);} .btn-y{background:var(--yellow);color:var(--ink);}
+  .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-bottom:14px;}
+  .kpi{background:#fff;padding:16px 18px;}
+  .kpi .l{font-size:12px;color:var(--gray);}
+  .kpi .v{font-weight:900;font-size:30px;letter-spacing:-.02em;line-height:1.1;margin-top:4px;}
+  .kpi .v small{font-size:14px;color:var(--gray);font-weight:700;margin-left:2px;}
+  .kpi .d{font-size:12px;font-weight:700;margin-top:3px;}
+  .work{display:grid;grid-template-columns:1fr 1.2fr;gap:14px;}
+  .panel{background:#fff;border:1px solid var(--line);padding:16px 18px;}
+  .panel .l{font-weight:800;font-size:13px;margin-bottom:8px;}
+
+  /* annotations on the shell */
+  .ann{position:absolute;font-family:var(--mono);font-size:11px;color:var(--red);font-weight:500;background:#fff;padding:2px 7px;border:1px solid var(--red);border-radius:3px;white-space:nowrap;}
+
+  /* ===== specimen sheet for components ===== */
+  .sheet{border-top:1px solid var(--ink);}
+  .row{display:grid;grid-template-columns:220px 1fr;gap:32px;padding:30px 0;border-bottom:1px solid var(--line);align-items:center;}
+  .row .n{font-weight:800;font-size:16px;}
+  .row .n span{display:block;font-weight:400;font-size:13.5px;color:var(--gray);margin-top:3px;}
+  .row .x{display:flex;gap:12px;flex-wrap:wrap;align-items:center;}
+  .pill{display:inline-flex;align-items:center;gap:7px;padding:5px 12px;border-radius:999px;font-size:13px;font-weight:800;}
+  .pill i{width:8px;height:8px;border-radius:50%;display:inline-block;}
+  .tag{font-size:12px;font-weight:800;padding:4px 10px;border-radius:4px;}
+  table.t{width:100%;border-collapse:collapse;font-size:14px;}
+  table.t th{text-align:left;font-weight:800;font-size:12.5px;color:var(--gray);padding:9px 12px;border-bottom:1.5px solid var(--ink);}
+  table.t td{padding:11px 12px;border-bottom:1px solid var(--line);}
+  .mono{font-family:var(--mono);font-size:13px;}
+  .tabs{display:flex;gap:26px;border-bottom:1.5px solid var(--line);}
+  .tab{padding:8px 0 10px;font-size:14px;font-weight:800;color:var(--gray);border-bottom:3px solid transparent;margin-bottom:-1.5px;}
+  .tab.on{color:var(--ink);border-bottom-color:var(--red);}
+  .input{border:1.5px solid var(--line);border-radius:6px;padding:11px 13px;font:14px var(--sans);width:320px;color:var(--ink);}
+  .alert{display:flex;gap:12px;padding:14px 16px;font-size:14px;max-width:560px;border-left:4px solid;}
+  .alert.crit{background:#fdecec;border-color:var(--oos);} .alert.info{background:#eaf1fb;border-color:var(--near);}
+  .alert b{font-weight:800;}
+
+  /* ===== charts (editorial, no card chrome) ===== */
+  .chart{padding:36px 0 30px;border-top:1px solid var(--line);}
+  .chart .ch{font-weight:800;font-size:18px;margin:0 0 2px;}
+  .chart .cs{font-size:14px;color:var(--gray);margin:0 0 22px;}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:56px;}
+  .legend{display:flex;flex-direction:column;}
+  .legend div{display:flex;align-items:center;gap:10px;font-size:14.5px;padding:8px 0;border-bottom:1px solid var(--line);}
+  .legend div:last-child{border-bottom:none;}
+  .legend i{width:12px;height:12px;border-radius:2px;display:inline-block;}
+  .legend b{margin-left:auto;font-family:var(--mono);font-weight:500;font-size:13px;color:var(--gray);}
+  .donut{display:flex;align-items:center;gap:40px;}
+  .dodont{display:grid;grid-template-columns:1fr 1fr;gap:56px;margin-top:56px;}
+  .dodont h4{margin:0 0 10px;font-size:18px;font-weight:800;}
+  .dodont h4.no{color:var(--red);}
+  .dodont ul{margin:0;padding-left:18px;font-size:15.5px;line-height:1.7;}
+
+  /* rhythm steps (a real sequence) */
+  .steps{counter-reset:s;max-width:66ch;margin-top:30px;}
+  .steps div{counter-increment:s;display:grid;grid-template-columns:44px 1fr;gap:14px;padding:14px 0;border-top:1px solid var(--line);font-size:16px;}
+  .steps div::before{content:counter(s);font-weight:900;color:var(--red);font-size:22px;line-height:1;}
+
+  footer{border-top:1px solid var(--line);}
+  footer .in{max-width:1280px;margin:0 auto;padding:40px;display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--gray);flex-wrap:wrap;gap:12px;}
+  footer .wm{color:var(--ink);font-size:16px;}
+
+  @media(max-width:960px){
+    .frame{grid-template-columns:1fr;} .sidenav{display:none;}
+    .content{padding:32px 24px 100px;} .hero{margin-left:-24px;padding:48px 24px;} .hero h1{font-size:44px;}
+    .ttl{font-size:38px;} .two,.dodont{grid-template-columns:1fr;gap:32px;}
+    .row{grid-template-columns:1fr;gap:12px;} .field{padding:24px;} .field.tight{padding:24px;}
+    .top-in{padding:14px 20px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="top"><div class="top-in">
+  <div class="lock">
+    <img src="../../client/assets/brand/medflow-mark.svg" width="30" height="30" alt="MedFlow capsule mark">
+    <span class="wm">MedFlow</span>
+  </div>
+  <div class="meta">Design Guide <b>·</b> a solution for DHL</div>
+</div></div>
+
+<div class="frame">
+  <nav class="sidenav">
+    <div class="h"><svg width="12" height="18" viewBox="0 0 12 18" fill="none" stroke="#1C1C1C" stroke-width="2"><path d="M10 2L3 9l7 7"/></svg>Design Guide</div>
+    <a href="#foundations" class="active">Foundations</a>
+    <a href="#layout">Layout</a>
+    <a href="#navigation">Navigation</a>
+    <a href="#components">Components</a>
+    <a href="#charts">Charts</a>
+    <a href="#pages">Pages</a>
+  </nav>
+
+  <main class="content">
+
+    <div class="hero">
+      <div class="lock">
+        <div class="dhl"><b>DHL</b>master logo</div>
+        <span class="divider"></span>
+        <img src="../../client/assets/brand/medflow-mark.svg" width="40" height="40" alt="MedFlow capsule mark">
+        <span class="wm">MedFlow</span>
+      </div>
+      <h1>Design guide</h1>
+      <p>How the MedFlow planner platform looks and behaves on screen. One shell, five pages — Dashboard, Product Relationships, Replenishment, Layout and Digital Twin — all built on the DHL co-branded palette and type.</p>
+    </div>
+
+    <!-- ================= FOUNDATIONS ================= -->
+    <section id="foundations">
+      <p class="cat">Design system</p>
+      <h2 class="ttl">Foundations</h2>
+      <p class="intro">Colour and type come from the brand guide. The three things below are what keep every screen feeling like the same product: a <b>4-pixel spacing scale</b>, two corner radii, and a twelve-column grid.</p>
+
+      <div class="field">
+        <div class="ruler">
+          <div><i style="width:4px"></i>4</div>
+          <div><i style="width:8px"></i>8</div>
+          <div><i style="width:16px"></i>16</div>
+          <div><i style="width:24px"></i>24</div>
+          <div><i style="width:32px"></i>32</div>
+          <div><i style="width:48px"></i>48</div>
+          <div><i style="width:64px"></i>64</div>
+        </div>
+      </div>
+      <p class="cap">Spacing steps in pixels. Use these; never 10, 15 or 20.</p>
+
+      <h3>Corners</h3>
+      <div class="field tight">
+        <div class="shapes">
+          <div class="s"><div style="border-radius:6px"></div>6&nbsp;px — buttons, pills, inputs</div>
+          <div class="s"><div style="border-radius:0"></div>0 — cards, panels, tables</div>
+        </div>
+      </div>
+      <p class="cap">Panels are square, like DHL's own layout blocks. Only interactive controls are rounded.</p>
+
+      <h3>Grid</h3>
+      <div class="field tight">
+        <div class="gridviz"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+      <p class="cap">12 columns, 24&nbsp;px gutters, content max-width 1280&nbsp;px.</p>
+    </section>
+
+    <!-- ================= LAYOUT ================= -->
+    <section id="layout">
+      <p class="cat">Design system</p>
+      <h2 class="ttl">Layout</h2>
+      <p class="intro">Every screen shares one frame. A <b>DHL-yellow top bar</b> that never scrolls away, a <b>fixed sidebar</b> with one entry per use case, and a sand-coloured working area where white panels carry the data.</p>
+
+      <div class="field">
+        <div class="scrollx"><div class="app">
+          <span class="ann" style="top:14px;right:-1px;transform:translateX(100%);margin-left:12px">56 px</span>
+          <span class="ann" style="top:74px;left:120px">200 px</span>
+          <span class="ann" style="top:74px;right:24px">24 px padding</span>
+          <div class="a-top">
+            <div class="lock"><div class="dhl"><b>DHL</b>logo</div><span class="divider"></span>
+              <img src="../../client/assets/brand/medflow-mark.svg" width="22" height="22" alt="MedFlow capsule mark">
+              <span class="wm">MedFlow</span></div>
+            <div class="a-search"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#5F6B72" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.5-4.5"/></svg><span>Search SKU, zone or order</span><kbd>⌘K</kbd></div>
+            <div class="a-right">
+              <span class="runchip"><i></i>Run OK<em>03:14</em></span>
+              <span class="iconbtn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1C1C1C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 0 1-3.4 0"/></svg></span>
+              <span class="user"><span class="avatar">DO</span><span class="uname">DHL Ops</span></span>
+            </div>
+          </div>
+          <div class="a-body">
+            <aside class="a-side">
+              <div class="a-nav active"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5F6B72" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>Dashboard</div>
+              <div class="a-nav"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5F6B72" stroke-width="2"><circle cx="5" cy="6" r="2.4"/><circle cx="19" cy="7" r="2.4"/><circle cx="12" cy="18" r="2.4"/><path d="M7 7l3.5 9M17 9l-3.5 7.5"/></svg>Product Relationships</div>
+              <div class="a-nav"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5F6B72" stroke-width="2"><path d="M3 8l9-5 9 5v8l-9 5-9-5zM3 8l9 5 9-5M12 13v8"/></svg>Replenishment</div>
+              <div class="a-nav"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5F6B72" stroke-width="2"><rect x="3" y="3" width="18" height="18"/><path d="M9 3v18M15 3v18M3 9h18"/></svg>Layout</div>
+              <div class="a-nav"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5F6B72" stroke-width="2"><path d="M12 2l9 5v10l-9 5-9-5V7zM12 2v20M3 7l9 5 9-5"/></svg>Digital Twin</div>
+            </aside>
+            <div class="a-main">
+              <div class="a-h"><div><div class="t">Dashboard</div><div class="s">Central warehouse · last run 03:14</div></div><button class="btn btn-p">Run engines</button></div>
+              <div class="kpis">
+                <div class="kpi"><div class="l">SKUs tracked</div><div class="v">419</div><div class="d" style="color:var(--gray)">all subsidiaries</div></div>
+                <div class="kpi"><div class="l">Needs reorder</div><div class="v">37</div><div class="d" style="color:var(--oos)">↑ 6 since last run</div></div>
+                <div class="kpi"><div class="l">Access time saved</div><div class="v">29<small>%</small></div><div class="d" style="color:var(--ok)">SA vs current</div></div>
+              </div>
+            </div>
+          </div>
+        </div></div>
+      </div>
+      <p class="cap">The shell, with the three measurements that don't change. Below 1024&nbsp;px the sidebar collapses to icons; the top bar stays.</p>
+    </section>
+
+    <!-- ================= NAVIGATION ================= -->
+    <section id="navigation">
+      <p class="cat">Design system</p>
+      <h2 class="ttl">Navigation</h2>
+      <p class="intro">The top bar is DHL's. It leads with the DHL logo, then the MedFlow product identity, then search and the engine run status. The <b>sidebar is the navigation</b> — one row per page, marked by a red left rule when active.</p>
+
+      <div class="field tight">
+        <div class="scrollx"><div class="app" style="min-width:740px;box-shadow:none">
+          <div class="a-top">
+            <div class="lock"><div class="dhl"><b>DHL</b>logo</div><span class="divider"></span>
+              <img src="../../client/assets/brand/medflow-mark.svg" width="22" height="22" alt="MedFlow capsule mark">
+              <span class="wm">MedFlow</span></div>
+            <div class="a-search"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#5F6B72" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.5-4.5"/></svg><span>Search SKU, zone or order</span><kbd>⌘K</kbd></div>
+            <div class="a-right">
+              <span class="runchip"><i></i>Run OK<em>03:14</em></span>
+              <span class="iconbtn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1C1C1C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 0 1-3.4 0"/></svg></span>
+              <span class="user"><span class="avatar">DO</span><span class="uname">DHL Ops</span></span>
+            </div>
+          </div>
+        </div></div>
+      </div>
+      <p class="cap">Top bar at true size. Run status reuses the status colours: green succeeded, amber running, red failed.</p>
+
+      <h3>Sidebar states</h3>
+      <div class="sheet">
+        <div class="row"><div class="n">Active<span>Red left rule, sand fill, bold label, red icon.</span></div>
+          <div class="x"><div class="a-nav active" style="width:260px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5F6B72" stroke-width="2"><path d="M3 8l9-5 9 5v8l-9 5-9-5zM3 8l9 5 9-5M12 13v8"/></svg>Replenishment</div></div></div>
+        <div class="row"><div class="n">Hover<span>Sand fill only.</span></div>
+          <div class="x"><div class="a-nav" style="width:260px;background:var(--sand)"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5F6B72" stroke-width="2"><rect x="3" y="3" width="18" height="18"/><path d="M9 3v18M15 3v18M3 9h18"/></svg>Layout</div></div></div>
+        <div class="row"><div class="n">Default<span>Grey label and icon.</span></div>
+          <div class="x"><div class="a-nav" style="width:260px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5F6B72" stroke-width="2"><path d="M12 2l9 5v10l-9 5-9-5V7zM12 2v20M3 7l9 5 9-5"/></svg>Digital Twin</div></div></div>
+      </div>
+    </section>
+
+    <!-- ================= COMPONENTS ================= -->
+    <section id="components">
+      <p class="cat">Design system</p>
+      <h2 class="ttl">Components</h2>
+      <p class="intro">Everything the pages are built from, at true size. <b>One red primary action per view.</b> Status and affinity colours mean the same thing on every screen.</p>
+
+      <div class="sheet">
+        <div class="row">
+          <div class="n">Buttons<span>Primary · secondary · ghost (destructive) · yellow (export)</span></div>
+          <div class="x"><button class="btn btn-p">Apply all moves</button><button class="btn btn-s">Adjust</button><button class="btn btn-g">Reject</button><button class="btn btn-y">Export plan</button></div>
+        </div>
+        <div class="row">
+          <div class="n">Status pills<span>Replenishment state, UC2</span></div>
+          <div class="x">
+            <span class="pill" style="background:#fdecec;color:var(--oos)"><i style="background:var(--oos)"></i>Out of stock</span>
+            <span class="pill" style="background:#fdf3e0;color:#a86a00"><i style="background:var(--low)"></i>Low stock</span>
+            <span class="pill" style="background:#eaf1fb;color:var(--near)"><i style="background:var(--near)"></i>Near ROP</span>
+            <span class="pill" style="background:#e6f6ee;color:#0f7a49"><i style="background:var(--ok)"></i>Available</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="n">Affinity tags<span>Companion-pair strength, UC1</span></div>
+          <div class="x"><span class="tag" style="background:var(--aff1);color:#fff">Strong</span><span class="tag" style="background:var(--aff2);color:#083f3d">Moderate</span><span class="tag" style="background:var(--aff3);color:#083f3d">Weak</span></div>
+        </div>
+        <div class="row">
+          <div class="n">Table<span>Machine values in mono</span></div>
+          <div class="x" style="display:block">
+            <table class="t"><thead><tr><th>SKU</th><th>Slot</th><th>Status</th><th>Recommended</th></tr></thead><tbody>
+              <tr><td class="mono">SKU-04182</td><td class="mono">C12</td><td><span class="pill" style="background:#fdecec;color:var(--oos)"><i style="background:var(--oos)"></i>OOS</span></td><td class="mono">→ B04</td></tr>
+              <tr><td class="mono">SKU-02910</td><td class="mono">D07</td><td><span class="pill" style="background:#fdf3e0;color:#a86a00"><i style="background:var(--low)"></i>Low</span></td><td class="mono">→ B09</td></tr>
+              <tr><td class="mono">SKU-01055</td><td class="mono">A02</td><td><span class="pill" style="background:#e6f6ee;color:#0f7a49"><i style="background:var(--ok)"></i>OK</span></td><td class="mono">—</td></tr>
+            </tbody></table>
+          </div>
+        </div>
+        <div class="row">
+          <div class="n">Tabs</div>
+          <div class="x" style="display:block"><div class="tabs"><span class="tab on">Grid view</span><span class="tab">3D view</span><span class="tab">Move list</span></div></div>
+        </div>
+        <div class="row">
+          <div class="n">Input</div>
+          <div class="x"><input class="input" placeholder="Filter by SKU or zone"></div>
+        </div>
+        <div class="row">
+          <div class="n">Alerts<span>State what happened, then what to do</span></div>
+          <div class="x" style="flex-direction:column;align-items:stretch">
+            <div class="alert crit"><div><b>Stockout — SKU-04182.</b> On-hand 0 in Zone C. Transfer 40 units from central to Subsidiary 3.</div></div>
+            <div class="alert info"><div><b>3 SKUs near reorder point.</b> Monitoring; no transfer required yet.</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CHARTS ================= -->
+    <section id="charts">
+      <p class="cat">Design system</p>
+      <h2 class="ttl">Charts</h2>
+      <p class="intro">Colour in a chart carries meaning, never decoration. The functional palette does the work; <b>DHL red marks the one thing that matters</b> — the recommendation, the critical value — and everything else stays grey. DHL yellow is never a data colour.</p>
+
+      <!-- floor heatmap — the signature chart -->
+      <div class="chart">
+        <p class="ch">Warehouse floor — access time</p>
+        <p class="cs">Heatmap of slots by demand-weighted access time. Layout page and Digital Twin grid view.</p>
+        <svg width="100%" viewBox="0 0 900 215" aria-label="Warehouse floor heatmap">
+          <rect x="16" y="40" width="46" height="114" fill="#1C1C1C"/>
+          <text x="39" y="97" transform="rotate(-90 39 97)" text-anchor="middle" font-family="Mulish" font-weight="800" font-size="10" fill="#fff">PACKING</text>
+          <g font-family="Mulish" font-weight="800" font-size="12" fill="#1C1C1C" text-anchor="middle">
+            <text x="155" y="26">Zone A</text><text x="315" y="26">Zone B</text><text x="475" y="26">Zone C</text><text x="635" y="26">Zone D</text><text x="795" y="26">Zone E</text>
+          </g>
+          <g fill="#cfeadb"><rect x="100" y="40" width="52" height="24"/><rect x="158" y="40" width="52" height="24"/><rect x="100" y="70" width="52" height="24"/><rect x="158" y="70" width="52" height="24"/><rect x="100" y="100" width="52" height="24"/><rect x="158" y="100" width="52" height="24"/><rect x="100" y="130" width="52" height="24"/><rect x="158" y="130" width="52" height="24"/></g>
+          <g fill="#e2f0d6"><rect x="260" y="40" width="52" height="24"/><rect x="318" y="40" width="52" height="24"/><rect x="260" y="70" width="52" height="24"/><rect x="318" y="70" width="52" height="24"/><rect x="260" y="100" width="52" height="24"/><rect x="318" y="100" width="52" height="24"/><rect x="260" y="130" width="52" height="24"/><rect x="318" y="130" width="52" height="24"/></g>
+          <g fill="#faefcf"><rect x="420" y="40" width="52" height="24"/><rect x="478" y="40" width="52" height="24"/><rect x="420" y="70" width="52" height="24"/><rect x="478" y="70" width="52" height="24"/><rect x="420" y="100" width="52" height="24"/><rect x="478" y="100" width="52" height="24"/><rect x="420" y="130" width="52" height="24"/><rect x="478" y="130" width="52" height="24"/></g>
+          <g fill="#f9dec4"><rect x="580" y="40" width="52" height="24"/><rect x="638" y="40" width="52" height="24"/><rect x="580" y="70" width="52" height="24"/><rect x="638" y="70" width="52" height="24"/><rect x="580" y="100" width="52" height="24"/><rect x="638" y="100" width="52" height="24"/><rect x="580" y="130" width="52" height="24"/><rect x="638" y="130" width="52" height="24"/></g>
+          <g fill="#f6cbc9"><rect x="740" y="40" width="52" height="24"/><rect x="798" y="40" width="52" height="24"/><rect x="740" y="70" width="52" height="24"/><rect x="798" y="70" width="52" height="24"/><rect x="740" y="100" width="52" height="24"/><rect x="798" y="100" width="52" height="24"/><rect x="740" y="130" width="52" height="24"/><rect x="798" y="130" width="52" height="24"/></g>
+          <rect x="260" y="40" width="52" height="24" fill="none" stroke="#D40511" stroke-width="2.5"/>
+          <path d="M286 64v18" stroke="#D40511" stroke-width="1.5"/>
+          <text x="286" y="98" text-anchor="middle" font-family="IBM Plex Mono" font-size="11" fill="#D40511" font-weight="500">B04 ← SKU-04182</text>
+          <g font-family="Mulish" font-size="12" fill="#5F6B72"><text x="100" y="192">Faster access</text><text x="850" y="192" text-anchor="end">Slower access</text></g>
+          <text x="286" y="192" text-anchor="middle" font-family="Mulish" font-size="12" fill="#5F6B72">walk = 40 m per zone + 3 m per aisle</text>
+        </svg>
+      </div>
+
+      <div class="two">
+        <div class="chart">
+          <p class="ch">Stock status mix</p>
+          <p class="cs">Part-to-whole. Four slices, ordered by size.</p>
+          <div class="donut">
+            <svg width="180" height="180" viewBox="0 0 150 150" aria-label="Status donut">
+              <g transform="rotate(-90 75 75)" fill="none" stroke-width="20">
+                <circle cx="75" cy="75" r="60" stroke="#1B9E5A" stroke-dasharray="218.65 377"/>
+                <circle cx="75" cy="75" r="60" stroke="#2E77D0" stroke-dasharray="75.40 377" stroke-dashoffset="-218.65"/>
+                <circle cx="75" cy="75" r="60" stroke="#F5A623" stroke-dasharray="52.78 377" stroke-dashoffset="-294.05"/>
+                <circle cx="75" cy="75" r="60" stroke="#D40511" stroke-dasharray="30.16 377" stroke-dashoffset="-346.83"/>
+              </g>
+              <text x="75" y="73" text-anchor="middle" font-family="Mulish" font-weight="900" font-size="30" fill="#1C1C1C">419</text>
+              <text x="75" y="92" text-anchor="middle" font-family="Mulish" font-size="11" fill="#5F6B72">SKUs</text>
+            </svg>
+            <div class="legend" style="flex:1">
+              <div><i style="background:#1B9E5A"></i>Available<b>58%</b></div>
+              <div><i style="background:#2E77D0"></i>Near ROP<b>20%</b></div>
+              <div><i style="background:#F5A623"></i>Low stock<b>14%</b></div>
+              <div><i style="background:#D40511"></i>Out of stock<b>8%</b></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chart">
+          <p class="ch">Access time by layout</p>
+          <p class="cs">Seconds per pick, lower is better. The recommended layout is red.</p>
+          <svg width="100%" viewBox="0 0 360 200" aria-label="Bar chart">
+            <line x1="44" y1="150" x2="350" y2="150" stroke="#1C1C1C" stroke-width="1"/>
+            <g stroke="#E3E3DD"><line x1="44" y1="20" x2="350" y2="20"/><line x1="44" y1="85" x2="350" y2="85"/></g>
+            <g font-family="Mulish" font-size="11" fill="#9AA3A9" text-anchor="end"><text x="36" y="24">20</text><text x="36" y="89">10</text><text x="36" y="154">0</text></g>
+            <rect x="80"  y="28.4" width="60" height="121.6" fill="#C9CDC9"/>
+            <rect x="166" y="51.8" width="60" height="98.2"  fill="#C9CDC9"/>
+            <rect x="252" y="63.5" width="60" height="86.5"  fill="#D40511"/>
+            <g font-family="IBM Plex Mono" font-size="12" text-anchor="middle" font-weight="500" fill="#1C1C1C"><text x="110" y="20">18.7</text><text x="196" y="44">15.1</text><text x="282" y="56" fill="#D40511">13.3</text></g>
+            <g font-family="Mulish" font-size="12" fill="#5F6B72" text-anchor="middle"><text x="110" y="172">Current</text><text x="196" y="172">Heuristic</text><text x="282" y="172" font-weight="800" fill="#1C1C1C">Simulated annealing</text></g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="chart">
+        <p class="ch">Inventory position against reorder point</p>
+        <p class="cs">One SKU over ten days. Blue is inventory; the amber line is ROP, the band beneath it is safety stock.</p>
+        <svg width="100%" viewBox="0 0 900 230" aria-label="Line chart">
+          <line x1="50" y1="185" x2="870" y2="185" stroke="#1C1C1C"/>
+          <g stroke="#E3E3DD"><line x1="50" y1="30" x2="870" y2="30"/><line x1="50" y1="108" x2="870" y2="108"/></g>
+          <g font-family="Mulish" font-size="11" fill="#9AA3A9" text-anchor="end"><text x="42" y="34">240</text><text x="42" y="112">120</text><text x="42" y="189">0</text></g>
+          <rect x="50" y="108" width="820" height="19" fill="#fdf3e0"/>
+          <line x1="50" y1="108" x2="870" y2="108" stroke="#F5A623" stroke-width="1.5" stroke-dasharray="6 5"/>
+          <text x="866" y="103" text-anchor="end" font-family="Mulish" font-weight="800" font-size="11" fill="#a86a00">ROP 120</text>
+          <polygon fill="rgba(46,119,208,.08)" points="50,56 141,68 232,77 323,89 414,98 505,107 596,53 687,63 778,72 870,82 870,185 50,185"/>
+          <polyline fill="none" stroke="#2E77D0" stroke-width="2.5" stroke-linejoin="round" points="50,56 141,68 232,77 323,89 414,98 505,107 596,53 687,63 778,72 870,82"/>
+          <circle cx="505" cy="107" r="4" fill="#2E77D0"/><circle cx="596" cy="53" r="4" fill="#2E77D0"/>
+          <text x="552" y="140" text-anchor="middle" font-family="Mulish" font-size="12" fill="#5F6B72">reorder to OUTL</text>
+          <g font-family="Mulish" font-size="11" fill="#9AA3A9" text-anchor="middle"><text x="50" y="205">Day 0</text><text x="505" y="205">Day 5</text><text x="870" y="205">Day 9</text></g>
+        </svg>
+      </div>
+
+      <div class="chart">
+        <p class="ch">Product relationships</p>
+        <p class="cs">Companion SKUs from association-rule mining. Edge weight is the affinity band; node size is pick velocity; the red node is a critical SKU.</p>
+        <svg width="100%" viewBox="0 0 900 250" aria-label="Network chart">
+          <line x1="450" y1="125" x2="250" y2="60"  stroke="#0E7C86" stroke-width="7"/>
+          <line x1="450" y1="125" x2="650" y2="60"  stroke="#5FB2B8" stroke-width="4"/>
+          <line x1="450" y1="125" x2="210" y2="195" stroke="#5FB2B8" stroke-width="4"/>
+          <line x1="450" y1="125" x2="690" y2="190" stroke="#B9DDDF" stroke-width="2.5"/>
+          <line x1="250" y1="60"  x2="450" y2="225" stroke="#B9DDDF" stroke-width="2.5"/>
+          <line x1="650" y1="60"  x2="690" y2="190" stroke="#0E7C86" stroke-width="7"/>
+          <g font-family="IBM Plex Mono" font-size="11" fill="#fff" text-anchor="middle" font-weight="500">
+            <circle cx="450" cy="125" r="30" fill="#1C1C1C"/><text x="450" y="129">4182</text>
+            <circle cx="250" cy="60"  r="22" fill="#D40511"/><text x="250" y="64">2910</text>
+            <circle cx="650" cy="60"  r="19" fill="#5F6B72"/><text x="650" y="64">7734</text>
+            <circle cx="210" cy="195" r="18" fill="#5F6B72"/><text x="210" y="199">1055</text>
+            <circle cx="690" cy="190" r="20" fill="#5F6B72"/><text x="690" y="194">3320</text>
+            <circle cx="450" cy="225" r="15" fill="#5F6B72"/><text x="450" y="229">0641</text>
+          </g>
+          <g font-family="Mulish" font-size="12" fill="#5F6B72">
+            <text x="800" y="70">Strong</text><line x1="760" y1="66" x2="792" y2="66" stroke="#0E7C86" stroke-width="7"/>
+            <text x="800" y="100">Moderate</text><line x1="760" y1="96" x2="792" y2="96" stroke="#5FB2B8" stroke-width="4"/>
+            <text x="800" y="130">Weak</text><line x1="760" y1="126" x2="792" y2="126" stroke="#B9DDDF" stroke-width="2.5"/>
+          </g>
+        </svg>
+      </div>
+
+      <div class="dodont">
+        <div><h4>Do</h4><ul><li>Label axes and units.</li><li>One meaningful colour per series.</li><li>Sort bars and slices by value.</li><li>Put numbers on the chart when they matter.</li></ul></div>
+        <div><h4 class="no">Don't</h4><ul><li>Use DHL yellow for data.</li><li>Stack more than five categories.</li><li>Add 3D, gradients or shadows to data.</li><li>Leave gridlines heavier than the data.</li></ul></div>
+      </div>
+    </section>
+
+    <!-- ================= PAGES ================= -->
+    <section id="pages">
+      <p class="cat">Design system</p>
+      <h2 class="ttl">Pages</h2>
+      <p class="intro">Every page follows the same rhythm, so a planner always knows where to look. Shown here: <b>Replenishment</b>, the UC2 page.</p>
+
+      <div class="field">
+        <div class="scrollx"><div class="app">
+          <div class="a-top">
+            <div class="lock"><div class="dhl"><b>DHL</b>logo</div><span class="divider"></span>
+              <img src="../../client/assets/brand/medflow-mark.svg" width="22" height="22" alt="MedFlow capsule mark">
+              <span class="wm">MedFlow</span></div>
+            <div class="a-search"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#5F6B72" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.5-4.5"/></svg><span>Search SKU, zone or order</span><kbd>⌘K</kbd></div>
+            <div class="a-right">
+              <span class="runchip"><i></i>Run OK<em>03:14</em></span>
+              <span class="iconbtn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1C1C1C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 0 1-3.4 0"/></svg></span>
+              <span class="user"><span class="avatar">DO</span><span class="uname">DHL Ops</span></span>
+            </div>
+          </div>
+          <div class="a-body">
+            <aside class="a-side">
+              <div class="a-nav"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5F6B72" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>Dashboard</div>
+              <div class="a-nav"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5F6B72" stroke-width="2"><circle cx="5" cy="6" r="2.4"/><circle cx="19" cy="7" r="2.4"/><circle cx="12" cy="18" r="2.4"/><path d="M7 7l3.5 9M17 9l-3.5 7.5"/></svg>Product Relationships</div>
+              <div class="a-nav active"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5F6B72" stroke-width="2"><path d="M3 8l9-5 9 5v8l-9 5-9-5zM3 8l9 5 9-5M12 13v8"/></svg>Replenishment</div>
+              <div class="a-nav"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5F6B72" stroke-width="2"><rect x="3" y="3" width="18" height="18"/><path d="M9 3v18M15 3v18M3 9h18"/></svg>Layout</div>
+              <div class="a-nav"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5F6B72" stroke-width="2"><path d="M12 2l9 5v10l-9 5-9-5V7zM12 2v20M3 7l9 5 9-5"/></svg>Digital Twin</div>
+            </aside>
+            <div class="a-main">
+              <div class="a-h"><div><div class="t">Replenishment</div><div class="s">WH-CENTRAL → subsidiaries · (s,S) continuous review</div></div><button class="btn btn-p">Create transfer orders</button></div>
+              <div class="kpis">
+                <div class="kpi"><div class="l">Out of stock</div><div class="v" style="color:var(--oos)">3</div><div class="d" style="color:var(--oos)">urgent transfer</div></div>
+                <div class="kpi"><div class="l">Below reorder point</div><div class="v">34</div><div class="d" style="color:var(--gray)">reorder now</div></div>
+                <div class="kpi"><div class="l">Fulfillable from central</div><div class="v">31<small>/37</small></div><div class="d" style="color:var(--ok)">84% coverage</div></div>
+              </div>
+              <div class="work">
+                <div class="panel">
+                  <div class="l">Status mix</div>
+                  <div style="display:flex;align-items:center;gap:16px">
+                    <svg width="110" height="110" viewBox="0 0 150 150"><g transform="rotate(-90 75 75)" fill="none" stroke-width="22">
+                      <circle cx="75" cy="75" r="60" stroke="#1B9E5A" stroke-dasharray="218.65 377"/>
+                      <circle cx="75" cy="75" r="60" stroke="#2E77D0" stroke-dasharray="75.40 377" stroke-dashoffset="-218.65"/>
+                      <circle cx="75" cy="75" r="60" stroke="#F5A623" stroke-dasharray="52.78 377" stroke-dashoffset="-294.05"/>
+                      <circle cx="75" cy="75" r="60" stroke="#D40511" stroke-dasharray="30.16 377" stroke-dashoffset="-346.83"/></g>
+                      <text x="75" y="82" text-anchor="middle" font-family="Mulish" font-weight="900" font-size="24" fill="#1C1C1C">419</text></svg>
+                    <div class="legend" style="flex:1;font-size:12px">
+                      <div style="padding:5px 0;font-size:12px"><i style="background:#1B9E5A"></i>Available<b>58%</b></div>
+                      <div style="padding:5px 0;font-size:12px"><i style="background:#2E77D0"></i>Near ROP<b>20%</b></div>
+                      <div style="padding:5px 0;font-size:12px"><i style="background:#F5A623"></i>Low<b>14%</b></div>
+                      <div style="padding:5px 0;font-size:12px"><i style="background:#D40511"></i>OOS<b>8%</b></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel" style="padding:0">
+                  <table class="t" style="font-size:13px"><thead><tr><th style="padding-left:16px">SKU</th><th>Status</th><th>Qty</th><th>Companions</th></tr></thead><tbody>
+                    <tr><td class="mono" style="padding-left:16px">SKU-04182</td><td><span class="pill" style="background:#fdecec;color:var(--oos);font-size:11px;padding:3px 9px"><i style="background:var(--oos)"></i>OOS</span></td><td class="mono">40</td><td><span class="tag" style="background:var(--aff1);color:#fff;font-size:10px">2910</span></td></tr>
+                    <tr><td class="mono" style="padding-left:16px">SKU-02910</td><td><span class="pill" style="background:#fdf3e0;color:#a86a00;font-size:11px;padding:3px 9px"><i style="background:var(--low)"></i>Low</span></td><td class="mono">18</td><td><span class="tag" style="background:var(--aff2);color:#083f3d;font-size:10px">7734</span></td></tr>
+                    <tr><td class="mono" style="padding-left:16px">SKU-07734</td><td><span class="pill" style="background:#eaf1fb;color:var(--near);font-size:11px;padding:3px 9px"><i style="background:var(--near)"></i>Near</span></td><td class="mono">0</td><td class="mono" style="color:var(--gray-2)">—</td></tr>
+                  </tbody></table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div></div>
+      </div>
+      <p class="cap">Illustrative figures. The companions column comes from UC1's strong and moderate pairs.</p>
+
+      <h3>Page rhythm</h3>
+      <div class="steps">
+        <div>Page header: title, context line, and the one primary action.</div>
+        <div>Metric row: three or four numbers that answer "how bad is it right now?"</div>
+        <div>Working area: chart on the left, the actionable list on the right.</div>
+        <div>Detail: selecting a row opens its rationale — the values a planner can audit.</div>
+      </div>
+      <p class="rule">Same rhythm on all five pages. A planner should never have to hunt for the number or the button.</p>
+    </section>
+
+  </main>
+</div>
+
+<footer><div class="in">
+  <span class="wm">MedFlow</span>
+  <span>Design Guide · a solution for DHL · built on the MedFlow brand guide</span>
+</div></footer>
+
+<script>
+  const L=[...document.querySelectorAll('.sidenav a')];
+  const M=new Map(L.map(a=>[a.getAttribute('href').slice(1),a]));
+  const io=new IntersectionObserver(es=>es.forEach(e=>{
+    if(e.isIntersecting){L.forEach(l=>l.classList.remove('active'));const a=M.get(e.target.id);if(a)a.classList.add('active');}
+  }),{rootMargin:'-25% 0px -65% 0px'});
+  document.querySelectorAll('section[id]').forEach(s=>io.observe(s));
+</script>
+</body>
+</html>

@@ -1,0 +1,1001 @@
+productid,productname,current_manualbasedemand,current_velocityclass,proposed_manualbasedemand,proposed_velocityclass
+MED0001,Panadol Paracetamol Original 500mg,480000,Super High,1196000,Super High
+MED0002,Panadol Extra Paracetamol+Caffeine Original 650mg,410000,Super High,1053000,Super High
+MED0003,Panadol Children Paracetamol Susp Children 120mg/5ml,195000,Super High,273000,High
+MED0004,Panadol Osteo Paracetamol MR Senior 665mg,275000,High,523000,Super High
+MED0005,Nurofen Ibuprofen Original 200mg,355000,Super High,900000,Super High
+MED0006,Nurofen Children Ibuprofen Susp Children 100mg,175000,High,188000,High
+MED0007,Voltaren Diclofenac Sodium Original 50mg,155000,High,132000,High
+MED0008,Voltaren Emulgel Diclofenac Gel Original 1%,140000,High,92000,Medium
+MED0009,Disprin Aspirin Original 500mg,195000,High,272000,High
+MED0010,Ponstan Mefenamic Acid Original 250mg,145000,High,115000,Medium
+MED0011,Naprosyn Naproxen Original 500mg,110000,Medium,63000,Medium
+MED0012,Celebrex Celecoxib Original 200mg,85000,Medium,26000,Low
+MED0013,Arcoxia Etoricoxib Original 90mg,95000,Medium,49000,Medium
+MED0014,Tramal Tramadol Original 50mg,75000,Medium,20000,Low
+MED0015,MST Continus Morphine Sulfate Original 30mg,40000,Low,5000,Low
+MED0016,Codeine Codeine Phosphate Original 30mg,88000,Medium,35000,Medium
+MED0017,Colgout Colchicine Original 500mg,55000,Medium,8000,Low
+MED0018,Imigran Sumatriptan Original 50mg,65000,Medium,11000,Low
+MED0019,Amoxil Amoxicillin Original 500mg,295000,Super High,717000,Super High
+MED0020,Augmentin Amox+Clavulanate Original 625mg,185000,High,213000,High
+MED0021,Zithromax Azithromycin Original 500mg,145000,High,114000,Medium
+MED0022,Zinnat Cefuroxime Original 500mg,95000,Medium,49000,Medium
+MED0023,Suprax Cefixime Original 400mg,85000,Medium,26000,Low
+MED0024,Keflex Cephalexin Original 500mg,132000,High,90000,Medium
+MED0025,Klacid Clarithromycin Original 500mg,110000,Medium,63000,Medium
+MED0026,Eryc Erythromycin Original 250mg,95000,Medium,49000,Medium
+MED0027,Vibramycin Doxycycline Original 100mg,142000,High,110000,Medium
+MED0028,Achromycin Tetracycline Original 250mg,75000,Medium,20000,Low
+MED0029,Ciprobay Ciprofloxacin Original 500mg,165000,High,163000,High
+MED0030,Levaquin Levofloxacin Original 500mg,95000,Medium,49000,Medium
+MED0031,Flagyl Metronidazole Original 400mg,175000,High,187000,High
+MED0032,Monotrim Trimethoprim Original 200mg,88000,Medium,35000,Medium
+MED0033,Macrodantin Nitrofurantoin Original 100mg,65000,Medium,11000,Low
+MED0034,Dalacin Clindamycin Original 300mg,75000,Medium,20000,Low
+MED0035,Zovirax Acyclovir Original 400mg,122000,High,74000,Medium
+MED0036,Zovirax Acyclovir Cream Original 5%,95000,High,48000,Medium
+MED0037,Tamiflu Oseltamivir Original 75mg,42000,Medium,6000,Low
+MED0038,Valtrex Valacyclovir Original 500mg,75000,Medium,20000,Low
+MED0039,Canesten Clotrimazole Original 1%,132000,High,89000,Medium
+MED0040,Daktarin Miconazole Original 2%,110000,High,63000,Medium
+MED0041,Lamisil Terbinafine Original 250mg,65000,Medium,11000,Low
+MED0042,Lamisil Terbinafine Cream Original 1%,95000,Medium,48000,Medium
+MED0043,Nizoral Ketoconazole Original 200mg,55000,Medium,8000,Low
+MED0044,Nizoral Ketoconazole Shampoo Original 2%,85000,Medium,26000,Low
+MED0045,Diflucan Fluconazole Original 150mg,88000,Medium,35000,Medium
+MED0046,Mycostatin Nystatin Original 100mg,65000,Medium,11000,Low
+MED0047,Zyrtec Cetirizine Original 10mg,295000,Super High,691000,Super High
+MED0048,Claritin Loratadine Original 10mg,262000,Super High,396000,Super High
+MED0049,Telfast Fexofenadine Original 180mg,155000,High,132000,High
+MED0050,Piriton Chlorpheniramine Original 4mg,242000,High,357000,High
+MED0051,Benadryl Diphenhydramine Original 25mg,165000,High,160000,High
+MED0052,Aerius Desloratadine Original 5mg,132000,High,89000,Medium
+MED0053,Xyzal Levocetirizine Original 5mg,110000,Medium,63000,Medium
+MED0054,Phenergan Promethazine Original 25mg,88000,Medium,35000,Medium
+MED0055,Zyrtec Cetirizine Syrup Original 5mg,142000,High,109000,Medium
+MED0056,Claritin Loratadine Syrup Original 5mg,120000,High,65000,Medium
+MED0057,Ventolin Salbutamol Inhaler Original 100mg,195000,Super High,272000,High
+MED0058,Ventolin Salbutamol Nebule Original 5mg,155000,High,131000,High
+MED0059,Pulmicort Budesonide Inhaler Original 200mg,95000,Medium,48000,Medium
+MED0060,Qvar Beclomethasone Inhaler Original 100mg,85000,Medium,25000,Low
+MED0061,Singulair Montelukast Original 10mg,132000,High,88000,Medium
+MED0062,Atrovent Ipratropium Nebule Original 0.5mg,75000,Medium,20000,Low
+MED0063,Prednisolone Prednisolone Original 5mg,175000,High,187000,High
+MED0064,Decadron Dexamethasone Original 4mg,122000,High,73000,Medium
+MED0065,Flixonase Fluticasone Nasal Original 50mg,110000,High,62000,Medium
+MED0066,Iliadin Oxymetazoline Spray Original 0.05%,142000,High,109000,Medium
+MED0067,Otrivin Xylometazoline Spray Original 0.1%,165000,High,159000,High
+MED0068,Sterimar Sodium Chloride Nasal Original 0.9%,85000,Medium,25000,Low
+MED0069,Losec Omeprazole Original 20mg,195000,Super High,271000,High
+MED0070,Nexium Esomeprazole Original 40mg,165000,High,158000,High
+MED0071,Protonix Pantoprazole Original 40mg,142000,High,108000,Medium
+MED0072,Zantac Ranitidine Original 150mg,155000,High,131000,High
+MED0073,Pepcid Famotidine Original 20mg,122000,Medium,72000,Medium
+MED0074,Motilium Domperidone Original 10mg,132000,High,88000,Medium
+MED0075,Maxolon Metoclopramide Original 10mg,95000,Medium,47000,Medium
+MED0076,Zofran Ondansetron Original 8mg,110000,High,62000,Medium
+MED0077,Imodium Loperamide Original 2mg,185000,High,212000,High
+MED0078,Dulcolax Bisacodyl Original 5mg,155000,High,131000,High
+MED0079,Duphalac Lactulose Original 10g,95000,Medium,47000,Medium
+MED0080,Smecta Diosmectite Original 3g,132000,High,88000,Medium
+MED0081,Buscopan Hyoscine Original 10mg,110000,Medium,62000,Medium
+MED0082,Maalox Al/Mg Hydroxide Original 200mg,132000,High,88000,Medium
+MED0083,Gaviscon Sodium Alginate Original 500mg,310000,Super High,759000,Super High
+MED0084,Actal Calcium Carbonate Original 500mg,95000,Medium,47000,Medium
+MED0085,Norvasc Amlodipine Original 5mg,275000,Super High,505000,Super High
+MED0086,Cozaar Losartan Original 50mg,242000,Super High,349000,High
+MED0087,Diovan Valsartan Original 80mg,195000,High,270000,High
+MED0088,Avapro Irbesartan Original 150mg,165000,High,158000,High
+MED0089,Tenormin Atenolol Original 50mg,220000,High,292000,High
+MED0090,Betaloc Metoprolol Original 50mg,195000,High,268000,High
+MED0091,Concor Bisoprolol Original 5mg,175000,High,185000,High
+MED0092,Dilatrend Carvedilol Original 12.5mg,132000,High,88000,Medium
+MED0093,Renitec Enalapril Original 10mg,155000,High,130000,High
+MED0094,Coversyl Perindopril Original 4mg,142000,High,108000,Medium
+MED0095,Tritace Ramipril Original 5mg,132000,High,87000,Medium
+MED0096,Adalat Nifedipine Original 10mg,142000,High,108000,Medium
+MED0097,HCTZ Hydrochlorothiazide Original 25mg,195000,High,266000,High
+MED0098,Lasix Furosemide Original 40mg,175000,High,185000,High
+MED0099,Aldactone Spironolactone Original 25mg,122000,High,72000,Medium
+MED0100,Natrilix Indapamide Original 2.5mg,110000,Medium,62000,Medium
+MED0101,Lipitor Atorvastatin Original 10mg,295000,Super High,685000,Super High
+MED0102,Zocor Simvastatin Original 20mg,242000,Super High,347000,High
+MED0103,Crestor Rosuvastatin Original 10mg,185000,High,212000,High
+MED0104,Plavix Clopidogrel Original 75mg,220000,Super High,292000,High
+MED0105,Cardiprin Aspirin Low-Dose Original 100mg,355000,Super High,890000,Super High
+MED0106,Coumadin Warfarin Original 5mg,88000,Medium,34000,Medium
+MED0107,Xarelto Rivaroxaban Original 20mg,95000,Medium,47000,Medium
+MED0108,Eliquis Apixaban Original 5mg,85000,Medium,25000,Low
+MED0109,Glucophage Metformin Original 500mg,410000,Super High,1037000,Super High
+MED0110,Glucophage SR Metformin MR Original 500mg,295000,Super High,681000,Super High
+MED0111,Diamicron Gliclazide Original 80mg,242000,Super High,346000,High
+MED0112,Amaryl Glimepiride Original 2mg,195000,High,265000,High
+MED0113,Minidiab Glipizide Original 5mg,142000,High,108000,Medium
+MED0114,Januvia Sitagliptin Original 100mg,110000,Medium,61000,Medium
+MED0115,Jardiance Empagliflozin Original 10mg,95000,Medium,46000,Medium
+MED0116,Valium Diazepam Original 5mg,88000,Medium,34000,Medium
+MED0117,Ativan Lorazepam Original 1mg,75000,Medium,20000,Low
+MED0118,Xanax Alprazolam Original 0.5mg,95000,Medium,46000,Medium
+MED0119,Imovane Zopiclone Original 7.5mg,85000,Medium,24000,Low
+MED0120,Stilnox Zolpidem Original 10mg,75000,Medium,20000,Low
+MED0121,Prozac Fluoxetine Original 20mg,165000,High,157000,High
+MED0122,Zoloft Sertraline Original 50mg,195000,High,265000,High
+MED0123,Seroxat Paroxetine Original 20mg,122000,High,72000,Medium
+MED0124,Lexapro Escitalopram Original 10mg,142000,High,107000,Medium
+MED0125,Celexa Citalopram Original 20mg,110000,High,61000,Medium
+MED0126,Elavil Amitriptyline Original 25mg,132000,High,87000,Medium
+MED0127,Effexor Venlafaxine Original 75mg,95000,Medium,46000,Medium
+MED0128,Risperdal Risperidone Original 2mg,75000,Medium,20000,Low
+MED0129,Zyprexa Olanzapine Original 10mg,65000,Medium,11000,Low
+MED0130,Seroquel Quetiapine Original 100mg,88000,Medium,34000,Medium
+MED0131,Haldol Haloperidol Original 5mg,55000,Medium,8000,Low
+MED0132,Tegretol Carbamazepine Original 200mg,95000,High,46000,Medium
+MED0133,Epilim Valproate Sodium Original 200mg,110000,High,61000,Medium
+MED0134,Dilantin Phenytoin Original 100mg,75000,Medium,19000,Low
+MED0135,Keppra Levetiracetam Original 500mg,88000,Medium,34000,Medium
+MED0136,Lamictal Lamotrigine Original 100mg,75000,Medium,19000,Low
+MED0137,Neurontin Gabapentin Original 300mg,142000,High,107000,Medium
+MED0138,Lyrica Pregabalin Original 75mg,165000,High,157000,High
+MED0139,Sinemet Levodopa/Carbidopa Original 250mg,65000,Medium,11000,Low
+MED0140,Sifrol Pramipexole Original 0.25mg,42000,Medium,6000,Low
+MED0141,Aricept Donepezil Original 5mg,55000,Medium,8000,Low
+MED0142,Ebixa Memantine Original 10mg,42000,Medium,6000,Low
+MED0143,Maxalt Rizatriptan Original 10mg,55000,Medium,8000,Low
+MED0144,Euthyrox Levothyroxine Original 50mg,242000,Super High,346000,High
+MED0145,Neo-Mercazole Carbimazole Original 5mg,88000,Medium,34000,Medium
+MED0146,Medrol Methylprednisolone Original 4mg,75000,Medium,19000,Low
+MED0147,Zyloric Allopurinol Original 100mg,122000,High,71000,Medium
+MED0148,Proscar Finasteride Original 5mg,65000,Medium,11000,Low
+MED0149,Harnal Tamsulosin Original 0.4mg,88000,Medium,34000,Medium
+MED0150,Viagra Sildenafil Original 50mg,75000,Medium,19000,Low
+MED0151,Cialis Tadalafil Original 20mg,55000,Medium,8000,Low
+MED0152,Plan B Levonorgestrel Extra 1.5mg,42000,Medium,6000,Low
+MED0153,Microgynon Ethinylestradiol/Levonorgestrel Extra 30mg,110000,High,60000,Medium
+MED0154,Provera Medroxyprogesterone Extra 10mg,65000,Medium,11000,Low
+MED0155,Progynova Estradiol Extra 1mg,75000,Medium,19000,Low
+MED0156,Chloramphenicol Chloramphenicol Eye Drops Extra 0.5%,65000,Medium,10000,Low
+MED0157,Gentamicin Gentamicin Eye Drops Extra 0.3%,55000,Medium,8000,Low
+MED0158,Timoptol Timolol Eye Drops Extra 0.25%,75000,Medium,19000,Low
+MED0159,Xalatan Latanoprost Eye Drops Extra 0.005%,55000,Medium,8000,Low
+MED0160,Isopto Tears Hypromellose Eye Drops Extra 0.3%,95000,High,46000,Medium
+MED0161,Opticrom Sodium Cromoglycate Eye Drops Extra 2%,65000,Medium,10000,Low
+MED0162,Ofloxacin Ofloxacin Ear Drops Extra 0.3%,45000,Low,6000,Low
+MED0163,Panadol Paracetamol Regular 200mg,480000,Super High,1171000,Super High
+MED0164,Panadol Extra Paracetamol+Caffeine Regular 500mg,410000,Super High,1033000,Super High
+MED0165,Panadol Children Paracetamol Susp Regular 250mg/5ml,195000,Super High,265000,High
+MED0166,Panadol Osteo Paracetamol MR Regular 500mg,275000,High,503000,Super High
+MED0167,Nurofen Ibuprofen Regular 400mg,355000,Super High,889000,Super High
+MED0168,Nurofen Children Ibuprofen Susp Regular 200mg,175000,High,185000,High
+MED0169,Voltaren Diclofenac Sodium Regular 25mg,155000,High,130000,High
+MED0170,Voltaren Emulgel Diclofenac Gel Regular 2%,140000,High,92000,Medium
+MED0171,Disprin Aspirin Regular 300mg,195000,High,262000,High
+MED0172,Ponstan Mefenamic Acid Regular 500mg,145000,High,114000,Medium
+MED0173,Naprosyn Naproxen Regular 250mg,110000,Medium,60000,Medium
+MED0174,Celebrex Celecoxib Regular 100mg,85000,Medium,24000,Low
+MED0175,Arcoxia Etoricoxib Regular 60mg,95000,Medium,46000,Medium
+MED0176,Tramal Tramadol Regular 100mg,75000,Medium,19000,Low
+MED0177,MST Continus Morphine Sulfate Regular 10mg,40000,Low,5000,Low
+MED0178,Codeine Codeine Phosphate Regular 15mg,88000,Medium,34000,Medium
+MED0179,Colgout Colchicine Regular 500mg,55000,Medium,7000,Low
+MED0180,Imigran Sumatriptan Regular 100mg,65000,Medium,10000,Low
+MED0181,Amoxil Amoxicillin Regular 250mg,295000,Super High,659000,Super High
+MED0182,Augmentin Amox+Clavulanate Regular 1g,185000,High,208000,High
+MED0183,Zithromax Azithromycin Regular 250mg,145000,High,113000,Medium
+MED0184,Zinnat Cefuroxime Regular 250mg,95000,Medium,46000,Medium
+MED0185,Suprax Cefixime Regular 200mg,85000,Medium,24000,Low
+MED0186,Keflex Cephalexin Regular 250mg,132000,High,87000,Medium
+MED0187,Klacid Clarithromycin Regular 250mg,110000,Medium,60000,Medium
+MED0188,Eryc Erythromycin Regular 500mg,95000,Medium,46000,Medium
+MED0189,Vibramycin Doxycycline Regular 50mg,142000,High,106000,Medium
+MED0190,Achromycin Tetracycline Regular 500mg,75000,Medium,19000,Low
+MED0191,Ciprobay Ciprofloxacin Regular 250mg,165000,High,156000,High
+MED0192,Levaquin Levofloxacin Regular 750mg,95000,Medium,46000,Medium
+MED0193,Flagyl Metronidazole Regular 200mg,175000,High,184000,High
+MED0194,Monotrim Trimethoprim Regular 100mg,88000,Medium,33000,Medium
+MED0195,Macrodantin Nitrofurantoin Regular 50mg,65000,Medium,10000,Low
+MED0196,Dalacin Clindamycin Regular 150mg,75000,Medium,19000,Low
+MED0197,Zovirax Acyclovir Regular 200mg,122000,High,71000,Medium
+MED0198,Zovirax Acyclovir Cream Regular 5%,95000,High,45000,Medium
+MED0199,Tamiflu Oseltamivir Regular 30mg,42000,Medium,6000,Low
+MED0200,Valtrex Valacyclovir Regular 1g,75000,Medium,19000,Low
+MED0201,Canesten Clotrimazole Regular 2%,132000,High,87000,Medium
+MED0202,Daktarin Miconazole Regular 1%,110000,High,60000,Medium
+MED0203,Lamisil Terbinafine Regular 125mg,65000,Medium,10000,Low
+MED0204,Lamisil Terbinafine Cream Regular 2%,95000,Medium,45000,Medium
+MED0205,Nizoral Ketoconazole Regular 100mg,55000,Medium,7000,Low
+MED0206,Nizoral Ketoconazole Shampoo Regular 1%,85000,Medium,24000,Low
+MED0207,Diflucan Fluconazole Regular 50mg,88000,Medium,33000,Medium
+MED0208,Mycostatin Nystatin Regular 500mg,65000,Medium,10000,Low
+MED0209,Zyrtec Cetirizine Regular 5mg,295000,Super High,647000,Super High
+MED0210,Claritin Loratadine Regular 5mg,262000,Super High,377000,Super High
+MED0211,Telfast Fexofenadine Regular 120mg,155000,High,129000,High
+MED0212,Piriton Chlorpheniramine Regular 8mg,242000,High,343000,High
+MED0213,Benadryl Diphenhydramine Regular 50mg,165000,High,156000,High
+MED0214,Aerius Desloratadine Regular 2.5mg,132000,High,87000,Medium
+MED0215,Xyzal Levocetirizine Regular 2.5mg,110000,Medium,60000,Medium
+MED0216,Phenergan Promethazine Regular 10mg,88000,Medium,33000,Medium
+MED0217,Zyrtec Cetirizine Syrup Regular 1mg,142000,High,106000,Medium
+MED0218,Claritin Loratadine Syrup Regular 1mg,120000,High,64000,Medium
+MED0219,Ventolin Salbutamol Inhaler Regular 200mg,195000,Super High,262000,High
+MED0220,Ventolin Salbutamol Nebule Regular 2.5mg,155000,High,129000,High
+MED0221,Pulmicort Budesonide Inhaler Regular 100mg,95000,Medium,45000,Medium
+MED0222,Qvar Beclomethasone Inhaler Regular 50mg,85000,Medium,24000,Low
+MED0223,Singulair Montelukast Regular 5mg,132000,High,86000,Medium
+MED0224,Atrovent Ipratropium Nebule Regular 0.25mg,75000,Medium,18000,Low
+MED0225,Prednisolone Prednisolone Regular 10mg,175000,High,184000,High
+MED0226,Decadron Dexamethasone Regular 0.5mg,122000,High,71000,Medium
+MED0227,Flixonase Fluticasone Nasal Regular 100mg,110000,High,59000,Medium
+MED0228,Iliadin Oxymetazoline Spray Regular 0.025%,142000,High,106000,Medium
+MED0229,Otrivin Xylometazoline Spray Regular 0.05%,165000,High,155000,High
+MED0230,Sterimar Sodium Chloride Nasal Regular 0.9%,85000,Medium,24000,Low
+MED0231,Losec Omeprazole Regular 10mg,195000,Super High,260000,High
+MED0232,Nexium Esomeprazole Regular 20mg,165000,High,153000,High
+MED0233,Protonix Pantoprazole Regular 20mg,142000,High,105000,Medium
+MED0234,Zantac Ranitidine Regular 300mg,155000,High,129000,High
+MED0235,Pepcid Famotidine Regular 40mg,122000,Medium,71000,Medium
+MED0236,Motilium Domperidone Regular 5mg,132000,High,86000,Medium
+MED0237,Maxolon Metoclopramide Regular 5mg,95000,Medium,45000,Medium
+MED0238,Zofran Ondansetron Regular 4mg,110000,High,59000,Medium
+MED0239,Imodium Loperamide Regular 1mg,185000,High,208000,High
+MED0240,Dulcolax Bisacodyl Regular 10mg,155000,High,128000,High
+MED0241,Duphalac Lactulose Regular 5g,95000,Medium,45000,Medium
+MED0242,Smecta Diosmectite Regular 1.5g,132000,High,86000,Medium
+MED0243,Buscopan Hyoscine Regular 20mg,110000,Medium,58000,Medium
+MED0244,Maalox Al/Mg Hydroxide Regular 400mg,132000,High,86000,Medium
+MED0245,Gaviscon Sodium Alginate Regular 250mg,310000,Super High,750000,Super High
+MED0246,Actal Calcium Carbonate Regular 250mg,95000,Medium,45000,Medium
+MED0247,Norvasc Amlodipine Regular 10mg,275000,Super High,502000,Super High
+MED0248,Cozaar Losartan Regular 100mg,242000,Super High,343000,High
+MED0249,Diovan Valsartan Regular 160mg,195000,High,260000,High
+MED0250,Avapro Irbesartan Regular 300mg,165000,High,153000,High
+MED0251,Tenormin Atenolol Regular 100mg,220000,High,291000,High
+MED0252,Betaloc Metoprolol Regular 100mg,195000,High,257000,High
+MED0253,Concor Bisoprolol Regular 10mg,175000,High,183000,High
+MED0254,Dilatrend Carvedilol Regular 25mg,132000,High,85000,Medium
+MED0255,Renitec Enalapril Regular 20mg,155000,High,127000,High
+MED0256,Coversyl Perindopril Regular 8mg,142000,High,105000,Medium
+MED0257,Tritace Ramipril Regular 10mg,132000,High,85000,Medium
+MED0258,Adalat Nifedipine Regular 20mg,142000,High,104000,Medium
+MED0259,HCTZ Hydrochlorothiazide Regular 50mg,195000,High,256000,High
+MED0260,Lasix Furosemide Regular 20mg,175000,High,182000,High
+MED0261,Aldactone Spironolactone Regular 100mg,122000,High,70000,Medium
+MED0262,Natrilix Indapamide Regular 1.5mg,110000,Medium,58000,Medium
+MED0263,Lipitor Atorvastatin Regular 20mg,295000,Super High,643000,Super High
+MED0264,Zocor Simvastatin Regular 40mg,242000,Super High,338000,High
+MED0265,Crestor Rosuvastatin Regular 20mg,185000,High,201000,High
+MED0266,Plavix Clopidogrel Regular 300mg,220000,Super High,289000,High
+MED0267,Cardiprin Aspirin Low-Dose Regular 75mg,355000,Super High,879000,Super High
+MED0268,Coumadin Warfarin Regular 1mg,88000,Medium,33000,Medium
+MED0269,Xarelto Rivaroxaban Regular 10mg,95000,Medium,44000,Medium
+MED0270,Eliquis Apixaban Regular 2.5mg,85000,Medium,23000,Low
+MED0271,Glucophage Metformin Regular 850mg,410000,Super High,1025000,Super High
+MED0272,Glucophage SR Metformin MR Regular 1000mg,295000,Super High,640000,Super High
+MED0273,Diamicron Gliclazide Regular 30mg,242000,Super High,338000,High
+MED0274,Amaryl Glimepiride Regular 4mg,195000,High,255000,High
+MED0275,Minidiab Glipizide Regular 10mg,142000,High,104000,Medium
+MED0276,Januvia Sitagliptin Regular 50mg,110000,Medium,58000,Medium
+MED0277,Jardiance Empagliflozin Regular 25mg,95000,Medium,44000,Medium
+MED0278,Valium Diazepam Regular 2mg,88000,Medium,33000,Medium
+MED0279,Ativan Lorazepam Regular 2mg,75000,Medium,18000,Low
+MED0280,Xanax Alprazolam Regular 1mg,95000,Medium,44000,Medium
+MED0281,Imovane Zopiclone Regular 3.75mg,85000,Medium,23000,Low
+MED0282,Stilnox Zolpidem Regular 5mg,75000,Medium,18000,Low
+MED0283,Prozac Fluoxetine Regular 10mg,165000,High,149000,High
+MED0284,Zoloft Sertraline Regular 100mg,195000,High,254000,High
+MED0285,Seroxat Paroxetine Regular 10mg,122000,High,70000,Medium
+MED0286,Lexapro Escitalopram Regular 5mg,142000,High,104000,Medium
+MED0287,Celexa Citalopram Regular 10mg,110000,High,58000,Medium
+MED0288,Elavil Amitriptyline Regular 10mg,132000,High,85000,Medium
+MED0289,Effexor Venlafaxine Regular 37.5mg,95000,Medium,44000,Medium
+MED0290,Risperdal Risperidone Regular 1mg,75000,Medium,18000,Low
+MED0291,Zyprexa Olanzapine Regular 5mg,65000,Medium,10000,Low
+MED0292,Seroquel Quetiapine Regular 25mg,88000,Medium,33000,Medium
+MED0293,Haldol Haloperidol Regular 1.5mg,55000,Medium,7000,Low
+MED0294,Tegretol Carbamazepine Regular 100mg,95000,High,44000,Medium
+MED0295,Epilim Valproate Sodium Regular 500mg,110000,High,58000,Medium
+MED0296,Dilantin Phenytoin Regular 50mg,75000,Medium,18000,Low
+MED0297,Keppra Levetiracetam Regular 250mg,88000,Medium,33000,Medium
+MED0298,Lamictal Lamotrigine Regular 25mg,75000,Medium,18000,Low
+MED0299,Neurontin Gabapentin Regular 100mg,142000,High,103000,Medium
+MED0300,Lyrica Pregabalin Regular 25mg,165000,High,149000,High
+MED0301,Sinemet Levodopa/Carbidopa Regular 100mg,65000,Medium,10000,Low
+MED0302,Sifrol Pramipexole Regular 1mg,42000,Medium,6000,Low
+MED0303,Aricept Donepezil Regular 10mg,55000,Medium,7000,Low
+MED0304,Ebixa Memantine Regular 20mg,42000,Medium,6000,Low
+MED0305,Maxalt Rizatriptan Regular 5mg,55000,Medium,7000,Low
+MED0306,Euthyrox Levothyroxine Regular 100mg,242000,Super High,337000,High
+MED0307,Neo-Mercazole Carbimazole Regular 10mg,88000,Medium,32000,Medium
+MED0308,Medrol Methylprednisolone Regular 8mg,75000,Medium,18000,Low
+MED0309,Zyloric Allopurinol Regular 300mg,122000,High,69000,Medium
+MED0310,Proscar Finasteride Regular 1mg,65000,Medium,10000,Low
+MED0311,Harnal Tamsulosin Regular 0.2mg,88000,Medium,32000,Medium
+MED0312,Viagra Sildenafil Regular 100mg,75000,Medium,18000,Low
+MED0313,Cialis Tadalafil Regular 10mg,55000,Medium,7000,Low
+MED0314,Plan B Levonorgestrel Rapid 0.75mg,42000,Medium,6000,Low
+MED0315,Microgynon Ethinylestradiol/Levonorgestrel Rapid 20mg,110000,High,58000,Medium
+MED0316,Provera Medroxyprogesterone Rapid 5mg,65000,Medium,10000,Low
+MED0317,Progynova Estradiol Rapid 2mg,75000,Medium,17000,Low
+MED0318,Chloramphenicol Chloramphenicol Eye Drops Rapid 0.5%,65000,Medium,10000,Low
+MED0319,Gentamicin Gentamicin Eye Drops Rapid 0.3%,55000,Medium,7000,Low
+MED0320,Timoptol Timolol Eye Drops Rapid 0.5%,75000,Medium,17000,Low
+MED0321,Xalatan Latanoprost Eye Drops Rapid 0.005%,55000,Medium,7000,Low
+MED0322,Isopto Tears Hypromellose Eye Drops Rapid 0.3%,95000,High,44000,Medium
+MED0323,Opticrom Sodium Cromoglycate Eye Drops Rapid 2%,65000,Medium,10000,Low
+MED0324,Ofloxacin Ofloxacin Ear Drops Rapid 0.3%,45000,Low,6000,Low
+MED0325,Panadol Paracetamol Maximum 500mg,480000,Super High,1139000,Super High
+MED0326,Panadol Extra Paracetamol+Caffeine Maximum 650mg,410000,Super High,999000,Super High
+MED0327,Panadol Children Paracetamol Susp Maximum 120mg/5ml,195000,Super High,253000,High
+MED0328,Panadol Osteo Paracetamol MR Maximum 665mg,275000,High,492000,Super High
+MED0329,Nurofen Ibuprofen Maximum 200mg,355000,Super High,873000,Super High
+MED0330,Nurofen Children Ibuprofen Susp Maximum 100mg,175000,High,178000,High
+MED0331,Voltaren Diclofenac Sodium Maximum 50mg,155000,High,127000,High
+MED0332,Voltaren Emulgel Diclofenac Gel Maximum 1%,140000,High,91000,Medium
+MED0333,Disprin Aspirin Maximum 500mg,195000,High,251000,High
+MED0334,Ponstan Mefenamic Acid Maximum 250mg,145000,High,113000,Medium
+MED0335,Naprosyn Naproxen Maximum 500mg,110000,Medium,58000,Medium
+MED0336,Celebrex Celecoxib Maximum 200mg,85000,Medium,23000,Low
+MED0337,Arcoxia Etoricoxib Maximum 90mg,95000,Medium,44000,Medium
+MED0338,Tramal Tramadol Maximum 50mg,75000,Medium,17000,Low
+MED0339,MST Continus Morphine Sulfate Maximum 60mg,40000,Low,5000,Low
+MED0340,Codeine Codeine Phosphate Maximum 60mg,88000,Medium,32000,Medium
+MED0341,Colgout Colchicine Maximum 500mg,55000,Medium,7000,Low
+MED0342,Imigran Sumatriptan Maximum 50mg,65000,Medium,10000,Low
+MED0343,Amoxil Amoxicillin Maximum 500mg,295000,Super High,640000,Super High
+MED0344,Augmentin Amox+Clavulanate Maximum 625mg,185000,High,201000,High
+MED0345,Zithromax Azithromycin Maximum 500mg,145000,High,113000,Medium
+MED0346,Zinnat Cefuroxime Maximum 500mg,95000,Medium,44000,Medium
+MED0347,Suprax Cefixime Maximum 400mg,85000,Medium,23000,Low
+MED0348,Keflex Cephalexin Maximum 500mg,132000,High,85000,Medium
+MED0349,Klacid Clarithromycin Maximum 500mg,110000,Medium,58000,Medium
+MED0350,Eryc Erythromycin Maximum 250mg,95000,Medium,44000,Medium
+MED0351,Vibramycin Doxycycline Maximum 100mg,142000,High,103000,Medium
+MED0352,Achromycin Tetracycline Maximum 250mg,75000,Medium,17000,Low
+MED0353,Ciprobay Ciprofloxacin Maximum 500mg,165000,High,148000,High
+MED0354,Levaquin Levofloxacin Maximum 500mg,95000,Medium,44000,Medium
+MED0355,Flagyl Metronidazole Maximum 400mg,175000,High,177000,High
+MED0356,Monotrim Trimethoprim Maximum 200mg,88000,Medium,32000,Medium
+MED0357,Macrodantin Nitrofurantoin Maximum 100mg,65000,Medium,10000,Low
+MED0358,Dalacin Clindamycin Maximum 300mg,75000,Medium,17000,Low
+MED0359,Zovirax Acyclovir Maximum 400mg,122000,High,69000,Medium
+MED0360,Zovirax Acyclovir Cream Maximum 5%,95000,High,43000,Medium
+MED0361,Tamiflu Oseltamivir Maximum 75mg,42000,Medium,6000,Low
+MED0362,Valtrex Valacyclovir Maximum 500mg,75000,Medium,17000,Low
+MED0363,Canesten Clotrimazole Maximum 1%,132000,High,84000,Medium
+MED0364,Daktarin Miconazole Maximum 2%,110000,High,58000,Medium
+MED0365,Lamisil Terbinafine Maximum 250mg,65000,Medium,10000,Low
+MED0366,Lamisil Terbinafine Cream Maximum 1%,95000,Medium,43000,Medium
+MED0367,Nizoral Ketoconazole Maximum 200mg,55000,Medium,7000,Low
+MED0368,Nizoral Ketoconazole Shampoo Maximum 2%,85000,Medium,23000,Low
+MED0369,Diflucan Fluconazole Maximum 150mg,88000,Medium,32000,Medium
+MED0370,Mycostatin Nystatin Maximum 100mg,65000,Medium,10000,Low
+MED0371,Zyrtec Cetirizine Maximum 10mg,295000,Super High,632000,Super High
+MED0372,Claritin Loratadine Maximum 10mg,262000,Super High,375000,Super High
+MED0373,Telfast Fexofenadine Maximum 180mg,155000,High,127000,High
+MED0374,Piriton Chlorpheniramine Maximum 4mg,242000,High,329000,High
+MED0375,Benadryl Diphenhydramine Maximum 25mg,165000,High,147000,High
+MED0376,Aerius Desloratadine Maximum 5mg,132000,High,84000,Medium
+MED0377,Xyzal Levocetirizine Maximum 5mg,110000,Medium,58000,Medium
+MED0378,Phenergan Promethazine Maximum 25mg,88000,Medium,32000,Medium
+MED0379,Zyrtec Cetirizine Syrup Maximum 5mg,142000,High,103000,Medium
+MED0380,Claritin Loratadine Syrup Maximum 5mg,120000,High,64000,Medium
+MED0381,Ventolin Salbutamol Inhaler Maximum 100mg,195000,Super High,250000,High
+MED0382,Ventolin Salbutamol Nebule Maximum 5mg,155000,High,126000,High
+MED0383,Pulmicort Budesonide Inhaler Maximum 200mg,95000,Medium,43000,Medium
+MED0384,Qvar Beclomethasone Inhaler Maximum 100mg,85000,Medium,23000,Low
+MED0385,Singulair Montelukast Maximum 10mg,132000,High,84000,Medium
+MED0386,Atrovent Ipratropium Nebule Maximum 0.5mg,75000,Medium,17000,Low
+MED0387,Prednisolone Prednisolone Maximum 25mg,175000,High,177000,High
+MED0388,Decadron Dexamethasone Maximum 4mg,122000,High,69000,Medium
+MED0389,Flixonase Fluticasone Nasal Maximum 50mg,110000,High,58000,Medium
+MED0390,Iliadin Oxymetazoline Spray Maximum 0.05%,142000,High,102000,Medium
+MED0391,Otrivin Xylometazoline Spray Maximum 0.1%,165000,High,147000,High
+MED0392,Sterimar Sodium Chloride Nasal Maximum 0.9%,85000,Medium,23000,Low
+MED0393,Losec Omeprazole Maximum 20mg,195000,Super High,250000,High
+MED0394,Nexium Esomeprazole Maximum 40mg,165000,High,147000,High
+MED0395,Protonix Pantoprazole Maximum 40mg,142000,High,102000,Medium
+MED0396,Zantac Ranitidine Maximum 150mg,155000,High,126000,High
+MED0397,Pepcid Famotidine Maximum 20mg,122000,Medium,69000,Medium
+MED0398,Motilium Domperidone Maximum 10mg,132000,High,84000,Medium
+MED0399,Maxolon Metoclopramide Maximum 10mg,95000,Medium,43000,Medium
+MED0400,Zofran Ondansetron Maximum 8mg,110000,High,58000,Medium
+MED0401,Imodium Loperamide Maximum 2mg,185000,High,200000,High
+MED0402,Dulcolax Bisacodyl Maximum 5mg,155000,High,126000,High
+MED0403,Duphalac Lactulose Maximum 10g,95000,Medium,43000,Medium
+MED0404,Smecta Diosmectite Maximum 3g,132000,High,84000,Medium
+MED0405,Buscopan Hyoscine Maximum 10mg,110000,Medium,57000,Medium
+MED0406,Maalox Al/Mg Hydroxide Maximum 200mg,132000,High,83000,Medium
+MED0407,Gaviscon Sodium Alginate Maximum 500mg,310000,Super High,743000,Super High
+MED0408,Actal Calcium Carbonate Maximum 500mg,95000,Medium,42000,Medium
+MED0409,Norvasc Amlodipine Maximum 5mg,275000,Super High,472000,Super High
+MED0410,Cozaar Losartan Maximum 50mg,242000,Super High,328000,High
+MED0411,Diovan Valsartan Maximum 80mg,195000,High,250000,High
+MED0412,Avapro Irbesartan Maximum 150mg,165000,High,146000,High
+MED0413,Tenormin Atenolol Maximum 50mg,220000,High,288000,High
+MED0414,Betaloc Metoprolol Maximum 50mg,195000,High,248000,High
+MED0415,Concor Bisoprolol Maximum 5mg,175000,High,174000,High
+MED0416,Dilatrend Carvedilol Maximum 12.5mg,132000,High,83000,Medium
+MED0417,Renitec Enalapril Maximum 10mg,155000,High,126000,High
+MED0418,Coversyl Perindopril Maximum 4mg,142000,High,102000,Medium
+MED0419,Tritace Ramipril Maximum 5mg,132000,High,83000,Medium
+MED0420,Adalat Nifedipine Maximum 10mg,142000,High,101000,Medium
+MED0421,HCTZ Hydrochlorothiazide Maximum 25mg,195000,High,246000,High
+MED0422,Lasix Furosemide Maximum 40mg,175000,High,174000,High
+MED0423,Aldactone Spironolactone Maximum 25mg,122000,High,69000,Medium
+MED0424,Natrilix Indapamide Maximum 2.5mg,110000,Medium,57000,Medium
+MED0425,Lipitor Atorvastatin Maximum 10mg,295000,Super High,628000,Super High
+MED0426,Zocor Simvastatin Maximum 20mg,242000,Super High,328000,High
+MED0427,Crestor Rosuvastatin Maximum 10mg,185000,High,200000,High
+MED0428,Plavix Clopidogrel Maximum 75mg,220000,Super High,286000,High
+MED0429,Cardiprin Aspirin Low-Dose Maximum 100mg,355000,Super High,871000,Super High
+MED0430,Coumadin Warfarin Maximum 5mg,88000,Medium,32000,Medium
+MED0431,Xarelto Rivaroxaban Maximum 20mg,95000,Medium,42000,Medium
+MED0432,Eliquis Apixaban Maximum 5mg,85000,Medium,23000,Low
+MED0433,Glucophage Metformin Maximum 500mg,410000,Super High,995000,Super High
+MED0434,Glucophage SR Metformin MR Maximum 500mg,295000,Super High,615000,Super High
+MED0435,Diamicron Gliclazide Maximum 80mg,242000,Super High,327000,High
+MED0436,Amaryl Glimepiride Maximum 2mg,195000,High,246000,High
+MED0437,Minidiab Glipizide Maximum 5mg,142000,High,101000,Medium
+MED0438,Januvia Sitagliptin Maximum 100mg,110000,Medium,57000,Medium
+MED0439,Jardiance Empagliflozin Maximum 10mg,95000,Medium,42000,Medium
+MED0440,Valium Diazepam Maximum 5mg,88000,Medium,31000,Medium
+MED0441,Ativan Lorazepam Maximum 1mg,75000,Medium,17000,Low
+MED0442,Xanax Alprazolam Maximum 0.5mg,95000,Medium,42000,Medium
+MED0443,Imovane Zopiclone Maximum 7.5mg,85000,Medium,22000,Low
+MED0444,Stilnox Zolpidem Maximum 10mg,75000,Medium,17000,Low
+MED0445,Prozac Fluoxetine Maximum 20mg,165000,High,145000,High
+MED0446,Zoloft Sertraline Maximum 50mg,195000,High,245000,High
+MED0447,Seroxat Paroxetine Maximum 20mg,122000,High,68000,Medium
+MED0448,Lexapro Escitalopram Maximum 10mg,142000,High,100000,Medium
+MED0449,Celexa Citalopram Maximum 20mg,110000,High,57000,Medium
+MED0450,Elavil Amitriptyline Maximum 25mg,132000,High,82000,Medium
+MED0451,Effexor Venlafaxine Maximum 75mg,95000,Medium,42000,Medium
+MED0452,Risperdal Risperidone Maximum 2mg,75000,Medium,17000,Low
+MED0453,Zyprexa Olanzapine Maximum 10mg,65000,Medium,10000,Low
+MED0454,Seroquel Quetiapine Maximum 100mg,88000,Medium,31000,Medium
+MED0455,Haldol Haloperidol Maximum 5mg,55000,Medium,7000,Low
+MED0456,Tegretol Carbamazepine Maximum 200mg,95000,High,42000,Medium
+MED0457,Epilim Valproate Sodium Maximum 200mg,110000,High,57000,Medium
+MED0458,Dilantin Phenytoin Maximum 100mg,75000,Medium,17000,Low
+MED0459,Keppra Levetiracetam Maximum 500mg,88000,Medium,31000,Medium
+MED0460,Lamictal Lamotrigine Maximum 100mg,75000,Medium,17000,Low
+MED0461,Neurontin Gabapentin Maximum 300mg,142000,High,100000,Medium
+MED0462,Lyrica Pregabalin Maximum 75mg,165000,High,145000,High
+MED0463,Sinemet Levodopa/Carbidopa Maximum 250mg,65000,Medium,10000,Low
+MED0464,Sifrol Pramipexole Maximum 0.25mg,42000,Medium,6000,Low
+MED0465,Aricept Donepezil Maximum 5mg,55000,Medium,7000,Low
+MED0466,Ebixa Memantine Maximum 10mg,42000,Medium,5000,Low
+MED0467,Maxalt Rizatriptan Maximum 10mg,55000,Medium,7000,Low
+MED0468,Euthyrox Levothyroxine Maximum 50mg,242000,Super High,326000,High
+MED0469,Neo-Mercazole Carbimazole Maximum 5mg,88000,Medium,31000,Medium
+MED0470,Medrol Methylprednisolone Maximum 4mg,75000,Medium,17000,Low
+MED0471,Zyloric Allopurinol Maximum 100mg,122000,High,68000,Medium
+MED0472,Proscar Finasteride Maximum 5mg,65000,Medium,9000,Low
+MED0473,Harnal Tamsulosin Maximum 0.4mg,88000,Medium,31000,Medium
+MED0474,Viagra Sildenafil Maximum 50mg,75000,Medium,16000,Low
+MED0475,Cialis Tadalafil Maximum 20mg,55000,Medium,7000,Low
+MED0476,Plan B Levonorgestrel Children 1.5mg,42000,Medium,5000,Low
+MED0477,Microgynon Ethinylestradiol/Levonorgestrel Children 30mg,110000,High,57000,Medium
+MED0478,Provera Medroxyprogesterone Children 10mg,65000,Medium,9000,Low
+MED0479,Progynova Estradiol Children 1mg,75000,Medium,16000,Low
+MED0480,Chloramphenicol Chloramphenicol Eye Drops Children 0.5%,65000,Medium,9000,Low
+MED0481,Gentamicin Gentamicin Eye Drops Children 0.3%,55000,Medium,7000,Low
+MED0482,Timoptol Timolol Eye Drops Children 0.25%,75000,Medium,16000,Low
+MED0483,Xalatan Latanoprost Eye Drops Children 0.005%,55000,Medium,7000,Low
+MED0484,Isopto Tears Hypromellose Eye Drops Children 0.3%,95000,High,42000,Medium
+MED0485,Opticrom Sodium Cromoglycate Eye Drops Children 2%,65000,Medium,9000,Low
+MED0486,Ofloxacin Ofloxacin Ear Drops Children 0.3%,45000,Low,6000,Low
+MED0487,Panadol Paracetamol Adult 500mg,480000,Super High,1103000,Super High
+MED0488,Panadol Extra Paracetamol+Caffeine Adult 650mg,410000,Super High,967000,Super High
+MED0489,Panadol Children Paracetamol Susp Adult 120mg/5ml,195000,Super High,244000,High
+MED0490,Panadol Osteo Paracetamol MR Adult 665mg,275000,High,465000,Super High
+MED0491,Nurofen Ibuprofen Adult 200mg,355000,Super High,845000,Super High
+MED0492,Nurofen Children Ibuprofen Susp Adult 100mg,175000,High,173000,High
+MED0493,Voltaren Diclofenac Sodium Adult 50mg,155000,High,126000,High
+MED0494,Voltaren Emulgel Diclofenac Gel Adult 1%,140000,High,90000,Medium
+MED0495,Disprin Aspirin Adult 500mg,195000,High,241000,High
+MED0496,Ponstan Mefenamic Acid Adult 250mg,145000,High,113000,Medium
+MED0497,Naprosyn Naproxen Adult 500mg,110000,Medium,56000,Medium
+MED0498,Celebrex Celecoxib Adult 200mg,85000,Medium,22000,Low
+MED0499,Arcoxia Etoricoxib Adult 90mg,95000,Medium,42000,Medium
+MED0500,Tramal Tramadol Adult 50mg,75000,Medium,16000,Low
+MED0501,MST Continus Morphine Sulfate Adult 30mg,40000,Low,5000,Low
+MED0502,Codeine Codeine Phosphate Adult 30mg,88000,Medium,31000,Medium
+MED0503,Colgout Colchicine Adult 500mg,55000,Medium,7000,Low
+MED0504,Imigran Sumatriptan Adult 50mg,65000,Medium,9000,Low
+MED0505,Amoxil Amoxicillin Adult 500mg,295000,Super High,606000,Super High
+MED0506,Augmentin Amox+Clavulanate Adult 625mg,185000,High,200000,High
+MED0507,Zithromax Azithromycin Adult 500mg,145000,High,113000,Medium
+MED0508,Zinnat Cefuroxime Adult 500mg,95000,Medium,42000,Medium
+MED0509,Suprax Cefixime Adult 400mg,85000,Medium,22000,Low
+MED0510,Keflex Cephalexin Adult 500mg,132000,High,82000,Medium
+MED0511,Klacid Clarithromycin Adult 500mg,110000,Medium,55000,Medium
+MED0512,Eryc Erythromycin Adult 250mg,95000,Medium,41000,Medium
+MED0513,Vibramycin Doxycycline Adult 100mg,142000,High,100000,Medium
+MED0514,Achromycin Tetracycline Adult 250mg,75000,Medium,16000,Low
+MED0515,Ciprobay Ciprofloxacin Adult 500mg,165000,High,145000,High
+MED0516,Levaquin Levofloxacin Adult 500mg,95000,Medium,41000,Medium
+MED0517,Flagyl Metronidazole Adult 400mg,175000,High,172000,High
+MED0518,Monotrim Trimethoprim Adult 200mg,88000,Medium,31000,Medium
+MED0519,Macrodantin Nitrofurantoin Adult 100mg,65000,Medium,9000,Low
+MED0520,Dalacin Clindamycin Adult 300mg,75000,Medium,16000,Low
+MED0521,Zovirax Acyclovir Adult 400mg,122000,High,68000,Medium
+MED0522,Zovirax Acyclovir Cream Adult 5%,95000,High,41000,Medium
+MED0523,Tamiflu Oseltamivir Adult 75mg,42000,Medium,5000,Low
+MED0524,Valtrex Valacyclovir Adult 500mg,75000,Medium,15000,Low
+MED0525,Canesten Clotrimazole Adult 1%,132000,High,81000,Medium
+MED0526,Daktarin Miconazole Adult 2%,110000,High,55000,Medium
+MED0527,Lamisil Terbinafine Adult 250mg,65000,Medium,9000,Low
+MED0528,Lamisil Terbinafine Cream Adult 1%,95000,Medium,40000,Medium
+MED0529,Nizoral Ketoconazole Adult 200mg,55000,Medium,7000,Low
+MED0530,Nizoral Ketoconazole Shampoo Adult 2%,85000,Medium,22000,Low
+MED0531,Diflucan Fluconazole Adult 150mg,88000,Medium,31000,Medium
+MED0532,Mycostatin Nystatin Adult 100mg,65000,Medium,9000,Low
+MED0533,Zyrtec Cetirizine Adult 10mg,295000,Super High,603000,Super High
+MED0534,Claritin Loratadine Adult 10mg,262000,Super High,359000,High
+MED0535,Telfast Fexofenadine Adult 180mg,155000,High,125000,High
+MED0536,Piriton Chlorpheniramine Adult 4mg,242000,High,322000,High
+MED0537,Benadryl Diphenhydramine Adult 25mg,165000,High,144000,High
+MED0538,Aerius Desloratadine Adult 5mg,132000,High,81000,Medium
+MED0539,Xyzal Levocetirizine Adult 5mg,110000,Medium,55000,Medium
+MED0540,Phenergan Promethazine Adult 25mg,88000,Medium,31000,Medium
+MED0541,Zyrtec Cetirizine Syrup Adult 5mg,142000,High,99000,Medium
+MED0542,Claritin Loratadine Syrup Adult 5mg,120000,High,64000,Medium
+MED0543,Ventolin Salbutamol Inhaler Adult 100mg,195000,Super High,241000,High
+MED0544,Ventolin Salbutamol Nebule Adult 5mg,155000,High,125000,High
+MED0545,Pulmicort Budesonide Inhaler Adult 200mg,95000,Medium,40000,Medium
+MED0546,Qvar Beclomethasone Inhaler Adult 100mg,85000,Medium,22000,Low
+MED0547,Singulair Montelukast Adult 10mg,132000,High,81000,Medium
+MED0548,Atrovent Ipratropium Nebule Adult 0.5mg,75000,Medium,15000,Low
+MED0549,Prednisolone Prednisolone Adult 5mg,175000,High,172000,High
+MED0550,Decadron Dexamethasone Adult 4mg,122000,High,68000,Medium
+MED0551,Flixonase Fluticasone Nasal Adult 50mg,110000,High,55000,Medium
+MED0552,Iliadin Oxymetazoline Spray Adult 0.05%,142000,High,99000,Medium
+MED0553,Otrivin Xylometazoline Spray Adult 0.1%,165000,High,144000,High
+MED0554,Sterimar Sodium Chloride Nasal Adult 0.9%,85000,Medium,22000,Low
+MED0555,Losec Omeprazole Adult 20mg,195000,Super High,238000,High
+MED0556,Nexium Esomeprazole Adult 40mg,165000,High,144000,High
+MED0557,Protonix Pantoprazole Adult 40mg,142000,High,99000,Medium
+MED0558,Zantac Ranitidine Adult 150mg,155000,High,125000,High
+MED0559,Pepcid Famotidine Adult 20mg,122000,Medium,67000,Medium
+MED0560,Motilium Domperidone Adult 10mg,132000,High,81000,Medium
+MED0561,Maxolon Metoclopramide Adult 10mg,95000,Medium,40000,Medium
+MED0562,Zofran Ondansetron Adult 8mg,110000,High,55000,Medium
+MED0563,Imodium Loperamide Adult 2mg,185000,High,198000,High
+MED0564,Dulcolax Bisacodyl Adult 5mg,155000,High,124000,High
+MED0565,Duphalac Lactulose Adult 10g,95000,Medium,40000,Medium
+MED0566,Smecta Diosmectite Adult 3g,132000,High,81000,Medium
+MED0567,Buscopan Hyoscine Adult 10mg,110000,Medium,55000,Medium
+MED0568,Maalox Al/Mg Hydroxide Adult 200mg,132000,High,81000,Medium
+MED0569,Gaviscon Sodium Alginate Adult 500mg,310000,Super High,732000,Super High
+MED0570,Actal Calcium Carbonate Adult 500mg,95000,Medium,40000,Medium
+MED0571,Norvasc Amlodipine Adult 5mg,275000,Super High,463000,Super High
+MED0572,Cozaar Losartan Adult 50mg,242000,Super High,322000,High
+MED0573,Diovan Valsartan Adult 80mg,195000,High,238000,High
+MED0574,Avapro Irbesartan Adult 150mg,165000,High,144000,High
+MED0575,Tenormin Atenolol Adult 50mg,220000,High,280000,High
+MED0576,Betaloc Metoprolol Adult 50mg,195000,High,236000,High
+MED0577,Concor Bisoprolol Adult 5mg,175000,High,171000,High
+MED0578,Dilatrend Carvedilol Adult 12.5mg,132000,High,80000,Medium
+MED0579,Renitec Enalapril Adult 10mg,155000,High,123000,High
+MED0580,Coversyl Perindopril Adult 4mg,142000,High,99000,Medium
+MED0581,Tritace Ramipril Adult 5mg,132000,High,80000,Medium
+MED0582,Adalat Nifedipine Adult 10mg,142000,High,98000,Medium
+MED0583,HCTZ Hydrochlorothiazide Adult 25mg,195000,High,236000,High
+MED0584,Lasix Furosemide Adult 40mg,175000,High,171000,High
+MED0585,Aldactone Spironolactone Adult 25mg,122000,High,67000,Medium
+MED0586,Natrilix Indapamide Adult 2.5mg,110000,Medium,55000,Medium
+MED0587,Lipitor Atorvastatin Adult 10mg,295000,Super High,591000,Super High
+MED0588,Zocor Simvastatin Adult 20mg,242000,Super High,320000,High
+MED0589,Crestor Rosuvastatin Adult 10mg,185000,High,198000,High
+MED0590,Plavix Clopidogrel Adult 75mg,220000,Super High,280000,High
+MED0591,Cardiprin Aspirin Low-Dose Adult 100mg,355000,Super High,836000,Super High
+MED0592,Coumadin Warfarin Adult 5mg,88000,Medium,31000,Medium
+MED0593,Xarelto Rivaroxaban Adult 20mg,95000,Medium,40000,Medium
+MED0594,Eliquis Apixaban Adult 5mg,85000,Medium,22000,Low
+MED0595,Glucophage Metformin Adult 500mg,410000,Super High,956000,Super High
+MED0596,Glucophage SR Metformin MR Adult 500mg,295000,Super High,583000,Super High
+MED0597,Diamicron Gliclazide Adult 80mg,242000,Super High,317000,High
+MED0598,Amaryl Glimepiride Adult 2mg,195000,High,236000,High
+MED0599,Minidiab Glipizide Adult 5mg,142000,High,98000,Medium
+MED0600,Januvia Sitagliptin Adult 100mg,110000,Medium,54000,Medium
+MED0601,Jardiance Empagliflozin Adult 10mg,95000,Medium,40000,Medium
+MED0602,Valium Diazepam Adult 5mg,88000,Medium,30000,Medium
+MED0603,Ativan Lorazepam Adult 1mg,75000,Medium,15000,Low
+MED0604,Xanax Alprazolam Adult 0.5mg,95000,Medium,40000,Medium
+MED0605,Imovane Zopiclone Adult 7.5mg,85000,Medium,22000,Low
+MED0606,Stilnox Zolpidem Adult 10mg,75000,Medium,15000,Low
+MED0607,Prozac Fluoxetine Adult 20mg,165000,High,143000,High
+MED0608,Zoloft Sertraline Adult 50mg,195000,High,235000,High
+MED0609,Seroxat Paroxetine Adult 20mg,122000,High,67000,Medium
+MED0610,Lexapro Escitalopram Adult 10mg,142000,High,98000,Medium
+MED0611,Celexa Citalopram Adult 20mg,110000,High,54000,Medium
+MED0612,Elavil Amitriptyline Adult 25mg,132000,High,80000,Medium
+MED0613,Effexor Venlafaxine Adult 75mg,95000,Medium,39000,Medium
+MED0614,Risperdal Risperidone Adult 2mg,75000,Medium,15000,Low
+MED0615,Zyprexa Olanzapine Adult 10mg,65000,Medium,9000,Low
+MED0616,Seroquel Quetiapine Adult 100mg,88000,Medium,30000,Medium
+MED0617,Haldol Haloperidol Adult 5mg,55000,Medium,7000,Low
+MED0618,Tegretol Carbamazepine Adult 200mg,95000,High,39000,Medium
+MED0619,Epilim Valproate Sodium Adult 200mg,110000,High,54000,Medium
+MED0620,Dilantin Phenytoin Adult 100mg,75000,Medium,15000,Low
+MED0621,Keppra Levetiracetam Adult 500mg,88000,Medium,30000,Medium
+MED0622,Lamictal Lamotrigine Adult 100mg,75000,Medium,15000,Low
+MED0623,Neurontin Gabapentin Adult 300mg,142000,High,98000,Medium
+MED0624,Lyrica Pregabalin Adult 75mg,165000,High,143000,High
+MED0625,Sinemet Levodopa/Carbidopa Adult 250mg,65000,Medium,9000,Low
+MED0626,Sifrol Pramipexole Adult 0.25mg,42000,Medium,5000,Low
+MED0627,Aricept Donepezil Adult 5mg,55000,Medium,7000,Low
+MED0628,Ebixa Memantine Adult 10mg,42000,Medium,5000,Low
+MED0629,Maxalt Rizatriptan Adult 10mg,55000,Medium,7000,Low
+MED0630,Euthyrox Levothyroxine Adult 50mg,242000,Super High,314000,High
+MED0631,Neo-Mercazole Carbimazole Adult 5mg,88000,Medium,30000,Low
+MED0632,Medrol Methylprednisolone Adult 4mg,75000,Medium,15000,Low
+MED0633,Zyloric Allopurinol Adult 100mg,122000,High,66000,Medium
+MED0634,Proscar Finasteride Adult 5mg,65000,Medium,9000,Low
+MED0635,Harnal Tamsulosin Adult 0.4mg,88000,Medium,30000,Low
+MED0636,Viagra Sildenafil Adult 50mg,75000,Medium,15000,Low
+MED0637,Cialis Tadalafil Adult 20mg,55000,Medium,7000,Low
+MED0638,Plan B Levonorgestrel Senior 1.5mg,42000,Medium,5000,Low
+MED0639,Microgynon Ethinylestradiol/Levonorgestrel Senior 30mg,110000,High,54000,Medium
+MED0640,Provera Medroxyprogesterone Senior 10mg,65000,Medium,9000,Low
+MED0641,Progynova Estradiol Senior 1mg,75000,Medium,15000,Low
+MED0642,Chloramphenicol Chloramphenicol Eye Drops Senior 0.5%,65000,Medium,9000,Low
+MED0643,Gentamicin Gentamicin Eye Drops Senior 0.3%,55000,Medium,7000,Low
+MED0644,Timoptol Timolol Eye Drops Senior 0.25%,75000,Medium,15000,Low
+MED0645,Xalatan Latanoprost Eye Drops Senior 0.005%,55000,Medium,7000,Low
+MED0646,Isopto Tears Hypromellose Eye Drops Senior 0.3%,95000,High,39000,Medium
+MED0647,Opticrom Sodium Cromoglycate Eye Drops Senior 2%,65000,Medium,9000,Low
+MED0648,Ofloxacin Ofloxacin Ear Drops Senior 0.3%,45000,Low,6000,Low
+MED0649,Panadol Paracetamol Daily 500mg,480000,Super High,1074000,Super High
+MED0650,Panadol Extra Paracetamol+Caffeine Daily 650mg,410000,Super High,950000,Super High
+MED0651,Panadol Children Paracetamol Susp Daily 120mg/5ml,195000,Super High,235000,High
+MED0652,Panadol Osteo Paracetamol MR Daily 665mg,275000,High,457000,Super High
+MED0653,Nurofen Ibuprofen Daily 200mg,355000,Super High,812000,Super High
+MED0654,Nurofen Children Ibuprofen Susp Daily 100mg,175000,High,170000,High
+MED0655,Voltaren Diclofenac Sodium Daily 50mg,155000,High,122000,High
+MED0656,Voltaren Emulgel Diclofenac Gel Daily 1%,140000,High,90000,Medium
+MED0657,Disprin Aspirin Daily 500mg,195000,High,234000,High
+MED0658,Ponstan Mefenamic Acid Daily 250mg,145000,High,112000,Medium
+MED0659,Naprosyn Naproxen Daily 500mg,110000,Medium,54000,Medium
+MED0660,Celebrex Celecoxib Daily 200mg,85000,Medium,22000,Low
+MED0661,Arcoxia Etoricoxib Daily 90mg,95000,Medium,39000,Medium
+MED0662,Tramal Tramadol Daily 50mg,75000,Medium,15000,Low
+MED0663,MST Continus Morphine Sulfate Daily 30mg,40000,Low,5000,Low
+MED0664,Codeine Codeine Phosphate Daily 30mg,88000,Medium,30000,Low
+MED0665,Colgout Colchicine Daily 500mg,55000,Medium,6000,Low
+MED0666,Imigran Sumatriptan Daily 50mg,65000,Medium,9000,Low
+MED0667,Amoxil Amoxicillin Daily 500mg,295000,Super High,563000,Super High
+MED0668,Augmentin Amox+Clavulanate Daily 625mg,185000,High,195000,High
+MED0669,Zithromax Azithromycin Daily 500mg,145000,High,112000,Medium
+MED0670,Zinnat Cefuroxime Daily 500mg,95000,Medium,39000,Medium
+MED0671,Suprax Cefixime Daily 400mg,85000,Medium,22000,Low
+MED0672,Keflex Cephalexin Daily 500mg,132000,High,80000,Medium
+MED0673,Klacid Clarithromycin Daily 500mg,110000,Medium,54000,Medium
+MED0674,Eryc Erythromycin Daily 250mg,95000,Medium,39000,Medium
+MED0675,Vibramycin Doxycycline Daily 100mg,142000,High,98000,Medium
+MED0676,Achromycin Tetracycline Daily 250mg,75000,Medium,14000,Low
+MED0677,Ciprobay Ciprofloxacin Daily 500mg,165000,High,143000,High
+MED0678,Levaquin Levofloxacin Daily 500mg,95000,Medium,39000,Medium
+MED0679,Flagyl Metronidazole Daily 400mg,175000,High,170000,High
+MED0680,Monotrim Trimethoprim Daily 200mg,88000,Medium,30000,Low
+MED0681,Macrodantin Nitrofurantoin Daily 100mg,65000,Medium,8000,Low
+MED0682,Dalacin Clindamycin Daily 300mg,75000,Medium,14000,Low
+MED0683,Zovirax Acyclovir Daily 400mg,122000,High,66000,Medium
+MED0684,Zovirax Acyclovir Cream Daily 5%,95000,High,39000,Medium
+MED0685,Tamiflu Oseltamivir Daily 75mg,42000,Medium,5000,Low
+MED0686,Valtrex Valacyclovir Daily 500mg,75000,Medium,14000,Low
+MED0687,Canesten Clotrimazole Daily 1%,132000,High,79000,Medium
+MED0688,Daktarin Miconazole Daily 2%,110000,High,54000,Medium
+MED0689,Lamisil Terbinafine Daily 250mg,65000,Medium,8000,Low
+MED0690,Lamisil Terbinafine Cream Daily 1%,95000,Medium,39000,Medium
+MED0691,Nizoral Ketoconazole Daily 200mg,55000,Medium,6000,Low
+MED0692,Nizoral Ketoconazole Shampoo Daily 2%,85000,Medium,22000,Low
+MED0693,Diflucan Fluconazole Daily 150mg,88000,Medium,29000,Low
+MED0694,Mycostatin Nystatin Daily 100mg,65000,Medium,8000,Low
+MED0695,Zyrtec Cetirizine Daily 10mg,295000,Super High,554000,Super High
+MED0696,Claritin Loratadine Daily 10mg,262000,Super High,358000,High
+MED0697,Telfast Fexofenadine Daily 180mg,155000,High,122000,High
+MED0698,Piriton Chlorpheniramine Daily 4mg,242000,High,312000,High
+MED0699,Benadryl Diphenhydramine Daily 25mg,165000,High,141000,High
+MED0700,Aerius Desloratadine Daily 5mg,132000,High,79000,Medium
+MED0701,Xyzal Levocetirizine Daily 5mg,110000,Medium,54000,Medium
+MED0702,Phenergan Promethazine Daily 25mg,88000,Medium,29000,Low
+MED0703,Zyrtec Cetirizine Syrup Daily 5mg,142000,High,97000,Medium
+MED0704,Claritin Loratadine Syrup Daily 5mg,120000,High,64000,Medium
+MED0705,Ventolin Salbutamol Inhaler Daily 100mg,195000,Super High,232000,High
+MED0706,Ventolin Salbutamol Nebule Daily 5mg,155000,High,122000,High
+MED0707,Pulmicort Budesonide Inhaler Daily 200mg,95000,Medium,39000,Medium
+MED0708,Qvar Beclomethasone Inhaler Daily 100mg,85000,Medium,22000,Low
+MED0709,Singulair Montelukast Daily 10mg,132000,High,79000,Medium
+MED0710,Atrovent Ipratropium Nebule Daily 0.5mg,75000,Medium,14000,Low
+MED0711,Prednisolone Prednisolone Daily 5mg,175000,High,169000,High
+MED0712,Decadron Dexamethasone Daily 4mg,122000,High,66000,Medium
+MED0713,Flixonase Fluticasone Nasal Daily 50mg,110000,High,53000,Medium
+MED0714,Iliadin Oxymetazoline Spray Daily 0.05%,142000,High,97000,Medium
+MED0715,Otrivin Xylometazoline Spray Daily 0.1%,165000,High,140000,High
+MED0716,Sterimar Sodium Chloride Nasal Daily 0.9%,85000,Medium,22000,Low
+MED0717,Losec Omeprazole Daily 20mg,195000,Super High,231000,High
+MED0718,Nexium Esomeprazole Daily 40mg,165000,High,139000,High
+MED0719,Protonix Pantoprazole Daily 40mg,142000,High,97000,Medium
+MED0720,Zantac Ranitidine Daily 150mg,155000,High,121000,Medium
+MED0721,Pepcid Famotidine Daily 20mg,122000,Medium,66000,Medium
+MED0722,Motilium Domperidone Daily 10mg,132000,High,79000,Medium
+MED0723,Maxolon Metoclopramide Daily 10mg,95000,Medium,38000,Medium
+MED0724,Zofran Ondansetron Daily 8mg,110000,High,53000,Medium
+MED0725,Imodium Loperamide Daily 2mg,185000,High,195000,High
+MED0726,Dulcolax Bisacodyl Daily 5mg,155000,High,120000,Medium
+MED0727,Duphalac Lactulose Daily 10g,95000,Medium,38000,Medium
+MED0728,Smecta Diosmectite Daily 3g,132000,High,79000,Medium
+MED0729,Buscopan Hyoscine Daily 10mg,110000,Medium,53000,Medium
+MED0730,Maalox Al/Mg Hydroxide Daily 200mg,132000,High,79000,Medium
+MED0731,Gaviscon Sodium Alginate Daily 500mg,310000,Super High,729000,Super High
+MED0732,Actal Calcium Carbonate Daily 500mg,95000,Medium,38000,Medium
+MED0733,Norvasc Amlodipine Daily 5mg,275000,Super High,455000,Super High
+MED0734,Cozaar Losartan Daily 50mg,242000,Super High,312000,High
+MED0735,Diovan Valsartan Daily 80mg,195000,High,230000,High
+MED0736,Avapro Irbesartan Daily 150mg,165000,High,138000,High
+MED0737,Tenormin Atenolol Daily 50mg,220000,High,277000,High
+MED0738,Betaloc Metoprolol Daily 50mg,195000,High,230000,High
+MED0739,Concor Bisoprolol Daily 5mg,175000,High,169000,High
+MED0740,Dilatrend Carvedilol Daily 12.5mg,132000,High,78000,Medium
+MED0741,Renitec Enalapril Daily 10mg,155000,High,120000,Medium
+MED0742,Coversyl Perindopril Daily 4mg,142000,High,97000,Medium
+MED0743,Tritace Ramipril Daily 5mg,132000,High,78000,Medium
+MED0744,Adalat Nifedipine Daily 10mg,142000,High,97000,Medium
+MED0745,HCTZ Hydrochlorothiazide Daily 25mg,195000,High,230000,High
+MED0746,Lasix Furosemide Daily 40mg,175000,High,169000,High
+MED0747,Aldactone Spironolactone Daily 25mg,122000,High,66000,Medium
+MED0748,Natrilix Indapamide Daily 2.5mg,110000,Medium,53000,Medium
+MED0749,Lipitor Atorvastatin Daily 10mg,295000,Super High,551000,Super High
+MED0750,Zocor Simvastatin Daily 20mg,242000,Super High,311000,High
+MED0751,Crestor Rosuvastatin Daily 10mg,185000,High,194000,High
+MED0752,Plavix Clopidogrel Daily 75mg,220000,Super High,274000,High
+MED0753,Cardiprin Aspirin Low-Dose Daily 100mg,355000,Super High,809000,Super High
+MED0754,Coumadin Warfarin Daily 5mg,88000,Medium,29000,Low
+MED0755,Xarelto Rivaroxaban Daily 20mg,95000,Medium,38000,Medium
+MED0756,Eliquis Apixaban Daily 5mg,85000,Medium,22000,Low
+MED0757,Glucophage Metformin Daily 500mg,410000,Super High,949000,Super High
+MED0758,Glucophage SR Metformin MR Daily 500mg,295000,Super High,544000,Super High
+MED0759,Diamicron Gliclazide Daily 80mg,242000,Super High,308000,High
+MED0760,Amaryl Glimepiride Daily 2mg,195000,High,229000,High
+MED0761,Minidiab Glipizide Daily 5mg,142000,High,96000,Medium
+MED0762,Januvia Sitagliptin Daily 100mg,110000,Medium,53000,Medium
+MED0763,Jardiance Empagliflozin Daily 10mg,95000,Medium,38000,Medium
+MED0764,Valium Diazepam Daily 5mg,88000,Medium,29000,Low
+MED0765,Ativan Lorazepam Daily 1mg,75000,Medium,13000,Low
+MED0766,Xanax Alprazolam Daily 0.5mg,95000,Medium,37000,Medium
+MED0767,Imovane Zopiclone Daily 7.5mg,85000,Medium,22000,Low
+MED0768,Stilnox Zolpidem Daily 10mg,75000,Medium,13000,Low
+MED0769,Prozac Fluoxetine Daily 20mg,165000,High,138000,High
+MED0770,Zoloft Sertraline Daily 50mg,195000,High,228000,High
+MED0771,Seroxat Paroxetine Daily 20mg,122000,High,66000,Medium
+MED0772,Lexapro Escitalopram Daily 10mg,142000,High,96000,Medium
+MED0773,Celexa Citalopram Daily 20mg,110000,High,52000,Medium
+MED0774,Elavil Amitriptyline Daily 25mg,132000,High,78000,Medium
+MED0775,Effexor Venlafaxine Daily 75mg,95000,Medium,37000,Medium
+MED0776,Risperdal Risperidone Daily 2mg,75000,Medium,13000,Low
+MED0777,Zyprexa Olanzapine Daily 10mg,65000,Medium,8000,Low
+MED0778,Seroquel Quetiapine Daily 100mg,88000,Medium,28000,Low
+MED0779,Haldol Haloperidol Daily 5mg,55000,Medium,6000,Low
+MED0780,Tegretol Carbamazepine Daily 200mg,95000,High,37000,Medium
+MED0781,Epilim Valproate Sodium Daily 200mg,110000,High,52000,Medium
+MED0782,Dilantin Phenytoin Daily 100mg,75000,Medium,13000,Low
+MED0783,Keppra Levetiracetam Daily 500mg,88000,Medium,28000,Low
+MED0784,Lamictal Lamotrigine Daily 100mg,75000,Medium,13000,Low
+MED0785,Neurontin Gabapentin Daily 300mg,142000,High,95000,Medium
+MED0786,Lyrica Pregabalin Daily 75mg,165000,High,138000,High
+MED0787,Sinemet Levodopa/Carbidopa Daily 250mg,65000,Medium,8000,Low
+MED0788,Sifrol Pramipexole Daily 0.25mg,42000,Medium,5000,Low
+MED0789,Aricept Donepezil Daily 5mg,55000,Medium,6000,Low
+MED0790,Ebixa Memantine Daily 10mg,42000,Medium,5000,Low
+MED0791,Maxalt Rizatriptan Daily 10mg,55000,Medium,6000,Low
+MED0792,Euthyrox Levothyroxine Daily 50mg,242000,Super High,306000,High
+MED0793,Neo-Mercazole Carbimazole Daily 5mg,88000,Medium,28000,Low
+MED0794,Medrol Methylprednisolone Daily 4mg,75000,Medium,13000,Low
+MED0795,Zyloric Allopurinol Daily 100mg,122000,High,65000,Medium
+MED0796,Proscar Finasteride Daily 5mg,65000,Medium,8000,Low
+MED0797,Harnal Tamsulosin Daily 0.4mg,88000,Medium,28000,Low
+MED0798,Viagra Sildenafil Daily 50mg,75000,Medium,13000,Low
+MED0799,Cialis Tadalafil Daily 20mg,55000,Medium,6000,Low
+MED0800,Plan B Levonorgestrel Night 1.5mg,42000,Medium,5000,Low
+MED0801,Microgynon Ethinylestradiol/Levonorgestrel Night 30mg,110000,High,52000,Medium
+MED0802,Provera Medroxyprogesterone Night 10mg,65000,Medium,8000,Low
+MED0803,Progynova Estradiol Night 1mg,75000,Medium,13000,Low
+MED0804,Chloramphenicol Chloramphenicol Eye Drops Night 0.5%,65000,Medium,8000,Low
+MED0805,Gentamicin Gentamicin Eye Drops Night 0.3%,55000,Medium,6000,Low
+MED0806,Timoptol Timolol Eye Drops Night 0.25%,75000,Medium,13000,Low
+MED0807,Xalatan Latanoprost Eye Drops Night 0.005%,55000,Medium,6000,Low
+MED0808,Isopto Tears Hypromellose Eye Drops Night 0.3%,95000,High,37000,Medium
+MED0809,Opticrom Sodium Cromoglycate Eye Drops Night 2%,65000,Medium,8000,Low
+MED0810,Ofloxacin Ofloxacin Ear Drops Night 0.3%,45000,Low,6000,Low
+MED0811,Panadol Paracetamol Day 500mg,480000,Super High,1065000,Super High
+MED0812,Panadol Extra Paracetamol+Caffeine Day 650mg,410000,Super High,946000,Super High
+MED0813,Panadol Children Paracetamol Susp Day 120mg/5ml,195000,Super High,224000,High
+MED0814,Panadol Osteo Paracetamol MR Day 665mg,275000,High,452000,Super High
+MED0815,Nurofen Ibuprofen Day 200mg,355000,Super High,799000,Super High
+MED0816,Nurofen Children Ibuprofen Susp Day 100mg,175000,High,169000,High
+MED0817,Voltaren Diclofenac Sodium Day 50mg,155000,High,120000,Medium
+MED0818,Voltaren Emulgel Diclofenac Gel Day 1%,140000,High,90000,Medium
+MED0819,Disprin Aspirin Day 500mg,195000,High,223000,High
+MED0820,Ponstan Mefenamic Acid Day 250mg,145000,High,112000,Medium
+MED0821,Naprosyn Naproxen Day 500mg,110000,Medium,52000,Medium
+MED0822,Celebrex Celecoxib Day 200mg,85000,Medium,21000,Low
+MED0823,Arcoxia Etoricoxib Day 90mg,95000,Medium,37000,Medium
+MED0824,Tramal Tramadol Day 50mg,75000,Medium,13000,Low
+MED0825,MST Continus Morphine Sulfate Day 30mg,40000,Low,5000,Low
+MED0826,Codeine Codeine Phosphate Day 30mg,88000,Medium,28000,Low
+MED0827,Colgout Colchicine Day 500mg,55000,Medium,6000,Low
+MED0828,Imigran Sumatriptan Day 50mg,65000,Medium,8000,Low
+MED0829,Amoxil Amoxicillin Day 500mg,295000,Super High,542000,Super High
+MED0830,Augmentin Amox+Clavulanate Day 625mg,185000,High,191000,High
+MED0831,Zithromax Azithromycin Day 500mg,145000,High,112000,Medium
+MED0832,Zinnat Cefuroxime Day 500mg,95000,Medium,37000,Medium
+MED0833,Suprax Cefixime Day 400mg,85000,Medium,21000,Low
+MED0834,Keflex Cephalexin Day 500mg,132000,High,77000,Medium
+MED0835,Klacid Clarithromycin Day 500mg,110000,Medium,52000,Medium
+MED0836,Eryc Erythromycin Day 250mg,95000,Medium,37000,Medium
+MED0837,Vibramycin Doxycycline Day 100mg,142000,High,95000,Medium
+MED0838,Achromycin Tetracycline Day 250mg,75000,Medium,13000,Low
+MED0839,Ciprobay Ciprofloxacin Day 500mg,165000,High,137000,High
+MED0840,Levaquin Levofloxacin Day 500mg,95000,Medium,36000,Medium
+MED0841,Flagyl Metronidazole Day 400mg,175000,High,166000,High
+MED0842,Monotrim Trimethoprim Day 200mg,88000,Medium,28000,Low
+MED0843,Macrodantin Nitrofurantoin Day 100mg,65000,Medium,8000,Low
+MED0844,Dalacin Clindamycin Day 300mg,75000,Medium,12000,Low
+MED0845,Zovirax Acyclovir Day 400mg,122000,High,65000,Medium
+MED0846,Zovirax Acyclovir Cream Day 5%,95000,High,36000,Medium
+MED0847,Tamiflu Oseltamivir Day 75mg,42000,Medium,5000,Low
+MED0848,Valtrex Valacyclovir Day 500mg,75000,Medium,12000,Low
+MED0849,Canesten Clotrimazole Day 1%,132000,High,77000,Medium
+MED0850,Daktarin Miconazole Day 2%,110000,High,51000,Medium
+MED0851,Lamisil Terbinafine Day 250mg,65000,Medium,8000,Low
+MED0852,Lamisil Terbinafine Cream Day 1%,95000,Medium,36000,Medium
+MED0853,Nizoral Ketoconazole Day 200mg,55000,Medium,6000,Low
+MED0854,Nizoral Ketoconazole Shampoo Day 2%,85000,Medium,21000,Low
+MED0855,Diflucan Fluconazole Day 150mg,88000,Medium,27000,Low
+MED0856,Mycostatin Nystatin Day 100mg,65000,Medium,8000,Low
+MED0857,Zyrtec Cetirizine Day 10mg,295000,Super High,542000,Super High
+MED0858,Claritin Loratadine Day 10mg,262000,Super High,357000,High
+MED0859,Telfast Fexofenadine Day 180mg,155000,High,119000,Medium
+MED0860,Piriton Chlorpheniramine Day 4mg,242000,High,305000,High
+MED0861,Benadryl Diphenhydramine Day 25mg,165000,High,136000,High
+MED0862,Aerius Desloratadine Day 5mg,132000,High,76000,Medium
+MED0863,Xyzal Levocetirizine Day 5mg,110000,Medium,51000,Medium
+MED0864,Phenergan Promethazine Day 25mg,88000,Medium,27000,Low
+MED0865,Zyrtec Cetirizine Syrup Day 5mg,142000,High,94000,Medium
+MED0866,Claritin Loratadine Syrup Day 5mg,120000,High,63000,Medium
+MED0867,Ventolin Salbutamol Inhaler Day 100mg,195000,Super High,222000,High
+MED0868,Ventolin Salbutamol Nebule Day 5mg,155000,High,119000,Medium
+MED0869,Pulmicort Budesonide Inhaler Day 200mg,95000,Medium,36000,Medium
+MED0870,Qvar Beclomethasone Inhaler Day 100mg,85000,Medium,21000,Low
+MED0871,Singulair Montelukast Day 10mg,132000,High,76000,Medium
+MED0872,Atrovent Ipratropium Nebule Day 0.5mg,75000,Medium,12000,Low
+MED0873,Prednisolone Prednisolone Day 5mg,175000,High,165000,High
+MED0874,Decadron Dexamethasone Day 4mg,122000,High,65000,Medium
+MED0875,Flixonase Fluticasone Nasal Day 50mg,110000,High,51000,Medium
+MED0876,Iliadin Oxymetazoline Spray Day 0.05%,142000,High,94000,Medium
+MED0877,Otrivin Xylometazoline Spray Day 0.1%,165000,High,136000,High
+MED0878,Sterimar Sodium Chloride Nasal Day 0.9%,85000,Medium,21000,Low
+MED0879,Losec Omeprazole Day 20mg,195000,Super High,220000,High
+MED0880,Nexium Esomeprazole Day 40mg,165000,High,135000,High
+MED0881,Protonix Pantoprazole Day 40mg,142000,High,94000,Medium
+MED0882,Zantac Ranitidine Day 150mg,155000,High,117000,Medium
+MED0883,Pepcid Famotidine Day 20mg,122000,Medium,65000,Medium
+MED0884,Motilium Domperidone Day 10mg,132000,High,76000,Medium
+MED0885,Maxolon Metoclopramide Day 10mg,95000,Medium,36000,Medium
+MED0886,Zofran Ondansetron Day 8mg,110000,High,50000,Medium
+MED0887,Imodium Loperamide Day 2mg,185000,High,190000,High
+MED0888,Dulcolax Bisacodyl Day 5mg,155000,High,116000,Medium
+MED0889,Duphalac Lactulose Day 10g,95000,Medium,35000,Medium
+MED0890,Smecta Diosmectite Day 3g,132000,High,76000,Medium
+MED0891,Buscopan Hyoscine Day 10mg,110000,Medium,50000,Medium
+MED0892,Maalox Al/Mg Hydroxide Day 200mg,132000,High,76000,Medium
+MED0893,Gaviscon Sodium Alginate Day 500mg,310000,Super High,721000,Super High
+MED0894,Actal Calcium Carbonate Day 500mg,95000,Medium,35000,Medium
+MED0895,Norvasc Amlodipine Day 5mg,275000,Super High,451000,Super High
+MED0896,Cozaar Losartan Day 50mg,242000,Super High,304000,High
+MED0897,Diovan Valsartan Day 80mg,195000,High,219000,High
+MED0898,Avapro Irbesartan Day 150mg,165000,High,133000,High
+MED0899,Tenormin Atenolol Day 50mg,220000,High,274000,High
+MED0900,Betaloc Metoprolol Day 50mg,195000,High,217000,High
+MED0901,Concor Bisoprolol Day 5mg,175000,High,164000,High
+MED0902,Dilatrend Carvedilol Day 12.5mg,132000,High,76000,Medium
+MED0903,Renitec Enalapril Day 10mg,155000,High,116000,Medium
+MED0904,Coversyl Perindopril Day 4mg,142000,High,94000,Medium
+MED0905,Tritace Ramipril Day 5mg,132000,High,74000,Medium
+MED0906,Adalat Nifedipine Day 10mg,142000,High,93000,Medium
+MED0907,HCTZ Hydrochlorothiazide Day 25mg,195000,High,217000,High
+MED0908,Lasix Furosemide Day 40mg,175000,High,164000,High
+MED0909,Aldactone Spironolactone Day 25mg,122000,High,65000,Medium
+MED0910,Natrilix Indapamide Day 2.5mg,110000,Medium,50000,Medium
+MED0911,Lipitor Atorvastatin Day 10mg,295000,Super High,541000,Super High
+MED0912,Zocor Simvastatin Day 20mg,242000,Super High,301000,High
+MED0913,Crestor Rosuvastatin Day 10mg,185000,High,189000,High
+MED0914,Plavix Clopidogrel Day 75mg,220000,Super High,274000,High
+MED0915,Cardiprin Aspirin Low-Dose Day 100mg,355000,Super High,785000,Super High
+MED0916,Coumadin Warfarin Day 5mg,88000,Medium,27000,Low
+MED0917,Xarelto Rivaroxaban Day 20mg,95000,Medium,35000,Medium
+MED0918,Eliquis Apixaban Day 5mg,85000,Medium,21000,Low
+MED0919,Glucophage Metformin Day 500mg,410000,Super High,929000,Super High
+MED0920,Glucophage SR Metformin MR Day 500mg,295000,Super High,538000,Super High
+MED0921,Diamicron Gliclazide Day 80mg,242000,Super High,299000,High
+MED0922,Amaryl Glimepiride Day 2mg,195000,High,217000,High
+MED0923,Minidiab Glipizide Day 5mg,142000,High,93000,Medium
+MED0924,Januvia Sitagliptin Day 100mg,110000,Medium,50000,Medium
+MED0925,Jardiance Empagliflozin Day 10mg,95000,Medium,35000,Medium
+MED0926,Valium Diazepam Day 5mg,88000,Medium,27000,Low
+MED0927,Ativan Lorazepam Day 1mg,75000,Medium,12000,Low
+MED0928,Xanax Alprazolam Day 0.5mg,95000,Medium,35000,Medium
+MED0929,Imovane Zopiclone Day 7.5mg,85000,Medium,21000,Low
+MED0930,Stilnox Zolpidem Day 10mg,75000,Medium,12000,Low
+MED0931,Prozac Fluoxetine Day 20mg,165000,High,133000,High
+MED0932,Zoloft Sertraline Day 50mg,195000,High,217000,High
+MED0933,Seroxat Paroxetine Day 20mg,122000,High,65000,Medium
+MED0934,Lexapro Escitalopram Day 10mg,142000,High,93000,Medium
+MED0935,Celexa Citalopram Day 20mg,110000,High,49000,Medium
+MED0936,Elavil Amitriptyline Day 25mg,132000,High,74000,Medium
+MED0937,Effexor Venlafaxine Day 75mg,95000,Medium,35000,Medium
+MED0938,Risperdal Risperidone Day 2mg,75000,Medium,12000,Low
+MED0939,Zyprexa Olanzapine Day 10mg,65000,Medium,8000,Low
+MED0940,Seroquel Quetiapine Day 100mg,88000,Medium,27000,Low
+MED0941,Haldol Haloperidol Day 5mg,55000,Medium,6000,Low
+MED0942,Tegretol Carbamazepine Day 200mg,95000,High,35000,Medium
+MED0943,Epilim Valproate Sodium Day 200mg,110000,High,49000,Medium
+MED0944,Dilantin Phenytoin Day 100mg,75000,Medium,12000,Low
+MED0945,Keppra Levetiracetam Day 500mg,88000,Medium,26000,Low
+MED0946,Lamictal Lamotrigine Day 100mg,75000,Medium,12000,Low
+MED0947,Neurontin Gabapentin Day 300mg,142000,High,92000,Medium
+MED0948,Lyrica Pregabalin Day 75mg,165000,High,132000,High
+MED0949,Sinemet Levodopa/Carbidopa Day 250mg,65000,Medium,8000,Low
+MED0950,Sifrol Pramipexole Day 0.25mg,42000,Medium,5000,Low
+MED0951,Aricept Donepezil Day 5mg,55000,Medium,6000,Low
+MED0952,Ebixa Memantine Day 10mg,42000,Medium,5000,Low
+MED0953,Maxalt Rizatriptan Day 10mg,55000,Medium,6000,Low
+MED0954,Euthyrox Levothyroxine Day 50mg,242000,Super High,295000,High
+MED0955,Neo-Mercazole Carbimazole Day 5mg,88000,Medium,26000,Low
+MED0956,Medrol Methylprednisolone Day 4mg,75000,Medium,12000,Low
+MED0957,Zyloric Allopurinol Day 100mg,122000,High,65000,Medium
+MED0958,Proscar Finasteride Day 5mg,65000,Medium,8000,Low
+MED0959,Harnal Tamsulosin Day 0.4mg,88000,Medium,26000,Low
+MED0960,Viagra Sildenafil Day 50mg,75000,Medium,12000,Low
+MED0961,Cialis Tadalafil Day 20mg,55000,Medium,6000,Low
+MED0962,Plan B Levonorgestrel Cool 1.5mg,42000,Medium,5000,Low
+MED0963,Microgynon Ethinylestradiol/Levonorgestrel Cool 30mg,110000,High,49000,Medium
+MED0964,Provera Medroxyprogesterone Cool 10mg,65000,Medium,8000,Low
+MED0965,Progynova Estradiol Cool 1mg,75000,Medium,12000,Low
+MED0966,Chloramphenicol Chloramphenicol Eye Drops Cool 0.5%,65000,Medium,8000,Low
+MED0967,Gentamicin Gentamicin Eye Drops Cool 0.3%,55000,Medium,6000,Low
+MED0968,Timoptol Timolol Eye Drops Cool 0.25%,75000,Medium,12000,Low
+MED0969,Xalatan Latanoprost Eye Drops Cool 0.005%,55000,Medium,6000,Low
+MED0970,Isopto Tears Hypromellose Eye Drops Cool 0.3%,95000,High,35000,Medium
+MED0971,Opticrom Sodium Cromoglycate Eye Drops Cool 2%,65000,Medium,8000,Low
+MED0972,Ofloxacin Ofloxacin Ear Drops Cool 0.3%,45000,Low,6000,Low
+MED0973,Panadol Paracetamol Honey 500mg,480000,Super High,1054000,Super High
+MED0974,Panadol Extra Paracetamol+Caffeine Honey 650mg,410000,Super High,927000,Super High
+MED0975,Panadol Children Paracetamol Susp Honey 120mg/5ml,195000,Super High,216000,High
+MED0976,Panadol Osteo Paracetamol MR Honey 665mg,275000,High,417000,Super High
+MED0977,Nurofen Ibuprofen Honey 200mg,355000,Super High,769000,Super High
+MED0978,Nurofen Children Ibuprofen Susp Honey 100mg,175000,High,164000,High
+MED0979,Voltaren Diclofenac Sodium Honey 50mg,155000,High,116000,Medium
+MED0980,Voltaren Emulgel Diclofenac Gel Honey 1%,140000,High,90000,Medium
+MED0981,Disprin Aspirin Honey 500mg,195000,High,215000,High
+MED0982,Ponstan Mefenamic Acid Honey 250mg,145000,High,112000,Medium
+MED0983,Naprosyn Naproxen Honey 500mg,110000,Medium,49000,Medium
+MED0984,Celebrex Celecoxib Honey 200mg,85000,Medium,21000,Low
+MED0985,Arcoxia Etoricoxib Honey 90mg,95000,Medium,35000,Medium
+MED0986,Tramal Tramadol Honey 50mg,75000,Medium,11000,Low
+MED0987,MST Continus Morphine Sulfate Honey 30mg,40000,Low,5000,Low
+MED0988,Codeine Codeine Phosphate Honey 30mg,88000,Medium,26000,Low
+MED0989,Colgout Colchicine Honey 500mg,55000,Medium,6000,Low
+MED0990,Imigran Sumatriptan Honey 50mg,65000,Medium,8000,Low
+MED0991,Amoxil Amoxicillin Honey 500mg,295000,Super High,524000,Super High
+MED0992,Augmentin Amox+Clavulanate Honey 625mg,185000,High,189000,High
+MED0993,Zithromax Azithromycin Honey 500mg,145000,High,112000,Medium
+MED0994,Zinnat Cefuroxime Honey 500mg,95000,Medium,35000,Medium
+MED0995,Suprax Cefixime Honey 400mg,85000,Medium,21000,Low
+MED0996,Keflex Cephalexin Honey 500mg,132000,High,74000,Medium
+MED0997,Klacid Clarithromycin Honey 500mg,110000,Medium,49000,Medium
+MED0998,Eryc Erythromycin Honey 250mg,95000,Medium,35000,Medium
+MED0999,Vibramycin Doxycycline Honey 100mg,142000,High,92000,Medium
+MED1000,Achromycin Tetracycline Honey 250mg,75000,Medium,11000,Low

@@ -1,0 +1,519 @@
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  height: var(--topbar-h);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0 22px 0 20px;
+  background:
+    linear-gradient(110deg, rgba(255, 255, 255, 0.12), transparent 42%),
+    var(--yellow);
+  border-bottom: 1px solid rgba(168, 4, 16, 0.16);
+  box-shadow: none;
+}
+
+.lockup {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  flex-shrink: 0;
+}
+
+.dhl-logo-wrap {
+  position: relative;
+  width: 100px;
+  height: 38px;
+  overflow: hidden;
+  flex: 0 0 100px;
+}
+
+.dhl-logo {
+  position: absolute;
+  width: 108px;
+  height: auto;
+  left: -4px;
+  top: 50%;
+  transform: translateY(-50%);
+  mix-blend-mode: multiply;
+}
+
+.lockup-divider {
+  width: 1.5px;
+  height: 34px;
+  background: rgba(168, 4, 16, 0.28);
+  margin: 0 2px;
+}
+
+.medflow-mark {
+  width: 36px;
+  height: 36px;
+  flex: 0 0 36px;
+  overflow: visible;
+  filter: drop-shadow(0 3px 6px rgba(168, 4, 16, 0.16));
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.lockup:hover .medflow-mark {
+  transform: translateY(-1px) rotate(-2deg);
+  filter: drop-shadow(0 7px 12px rgba(168, 4, 16, 0.27));
+}
+
+.product-lockup {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.05;
+}
+
+.wordmark {
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: -0.045em;
+}
+
+.wordmark strong {
+  color: var(--red);
+  font-weight: 900;
+}
+
+.product-lockup small {
+  margin-top: 4px;
+  color: rgba(28, 28, 28, 0.64);
+  font-size: 8.5px;
+  font-weight: 800;
+  letter-spacing: 0.095em;
+  text-transform: uppercase;
+}
+
+.search {
+  flex: 1;
+  max-width: 520px;
+  height: 38px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: var(--radius-ctrl);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 14px;
+  color: var(--gray);
+  border: 1px solid rgba(28, 28, 28, 0.08);
+  box-shadow: 0 2px 8px rgba(82, 63, 0, 0.06);
+  transition: background 0.18s ease, box-shadow 0.18s ease;
+}
+
+.search:focus-within {
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(212, 5, 17, 0.1);
+}
+
+.search input {
+  flex: 1;
+  border: 0;
+  background: transparent;
+  outline: none;
+  font-size: 13px;
+  color: var(--ink);
+  min-width: 0;
+}
+
+.search kbd {
+  font: 11px var(--mono);
+  color: var(--gray-2);
+  background: var(--sand);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 1px 6px;
+}
+
+.topbar-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.runchip {
+  background: rgba(255, 255, 255, 0.72);
+  padding: 7px 11px 7px 9px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+}
+
+.runchip i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--ok);
+  display: inline-block;
+}
+
+.runchip[data-state="loading"] i {
+  background: var(--low);
+}
+.runchip[data-state="error"] i,
+.runchip[data-state="permission"] i {
+  background: var(--oos);
+}
+.runchip[data-state="empty"] i {
+  background: var(--gray-2);
+}
+
+.runchip em {
+  font-style: normal;
+  font-family: var(--mono);
+  font-weight: 500;
+  color: var(--gray);
+  margin-left: 2px;
+}
+
+.iconbtn {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-ctrl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.5);
+  border: 0;
+  cursor: pointer;
+  transition: background 0.18s ease, transform 0.18s ease;
+}
+
+.iconbtn:hover {
+  background: #fff;
+  transform: translateY(-1px);
+}
+
+.topbar-separator {
+  width: 1px;
+  height: 30px;
+  background: rgba(28, 28, 28, 0.17);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 7px 5px 5px;
+  border-radius: var(--radius-ctrl);
+  transition: background 0.18s ease;
+}
+
+.user:hover {
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.user-copy {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.uname {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.user-copy small {
+  margin-top: 3px;
+  color: rgba(28, 28, 28, 0.6);
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.user-chevron {
+  margin-left: 2px;
+  opacity: 0.52;
+}
+
+.avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--red);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 12px;
+  box-shadow: 0 3px 10px rgba(168, 4, 16, 0.2);
+}
+
+.app-body {
+  display: grid;
+  grid-template-columns: var(--sidebar-w) 1fr;
+  min-height: calc(100vh - var(--topbar-h));
+  min-height: calc(100dvh - var(--topbar-h));
+}
+
+#sidebar {
+  position: sticky;
+  top: var(--topbar-h);
+  min-height: calc(100vh - var(--topbar-h));
+  min-height: calc(100dvh - var(--topbar-h));
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--line);
+  background: #fff;
+  padding: 20px 12px 16px;
+}
+
+.sidebar-heading {
+  padding: 0 12px 18px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+
+.nav-kicker {
+  display: block;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--gray-2);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.sidebar-site {
+  display: block;
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--ink);
+}
+
+#sidebar a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  min-height: 42px;
+  padding: 8px 9px;
+  font-size: 13px;
+  color: var(--gray);
+  text-decoration: none;
+  border-radius: 9px;
+  margin-bottom: 3px;
+  transition: color 0.16s ease, background 0.16s ease, transform 0.16s ease;
+}
+
+#sidebar a:hover {
+  background: #f7f7f5;
+  color: var(--ink);
+  transform: none;
+}
+
+#sidebar a.is-active {
+  color: var(--ink);
+  font-weight: 800;
+  background: #fff1f2;
+  box-shadow: none;
+}
+
+#sidebar a.is-active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 11px;
+  bottom: 11px;
+  width: 3px;
+  border-radius: 3px;
+  background: var(--red);
+}
+
+#sidebar a.is-active svg * {
+  stroke: var(--red);
+}
+
+.nav-icon {
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  background: #f6f6f3;
+}
+
+#sidebar a.is-active .nav-icon {
+  background: #fff;
+  box-shadow: 0 2px 7px rgba(212, 5, 17, 0.08);
+}
+
+.nav-label {
+  flex: 1;
+  min-width: 0;
+}
+
+.nav-code {
+  font: 500 9px var(--mono);
+  color: var(--gray-2);
+  letter-spacing: 0.04em;
+}
+
+.nav-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 18px 10px 8px;
+  color: var(--gray-2);
+  font: 500 9px var(--mono);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.nav-section::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: var(--line);
+}
+
+#content {
+  background: #f6f6f4;
+  padding: 24px;
+  min-width: 0;
+}
+
+#content > section {
+  width: 100%;
+  max-width: 1420px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .topbar {
+    gap: 14px;
+    padding-inline: 16px;
+  }
+
+  .dhl-logo-wrap {
+    width: 82px;
+    flex-basis: 82px;
+  }
+
+  .dhl-logo {
+    width: 90px;
+  }
+
+  .product-lockup small,
+  .search kbd,
+  .runchip em,
+  .user-copy,
+  .user-chevron,
+  .topbar-separator {
+    display: none;
+  }
+
+  .search {
+    min-width: 120px;
+  }
+
+  #sidebar .nav-label,
+  #sidebar .nav-code,
+  .sidebar-heading,
+  .nav-section {
+    display: none;
+  }
+
+  .app-body {
+    grid-template-columns: 64px 1fr;
+  }
+
+  #sidebar {
+    padding-inline: 10px;
+  }
+
+  #sidebar a {
+    justify-content: center;
+    padding-inline: 6px;
+  }
+
+  #sidebar a.is-active::before {
+    left: 0;
+  }
+
+  .uc-grid,
+  .kpis,
+  .states-grid,
+  .work {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .topbar {
+    gap: 10px;
+    padding-inline: 12px;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .topbar-right {
+    gap: 7px;
+  }
+
+  .app-body {
+    grid-template-columns: 56px minmax(0, 1fr);
+  }
+
+  #sidebar {
+    padding-inline: 6px;
+  }
+
+  #content {
+    padding: 16px;
+  }
+
+  .kpis,
+  .uc-grid,
+  .states-grid,
+  .work {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .lockup {
+    gap: 7px;
+  }
+
+  .dhl-logo-wrap {
+    width: 68px;
+    flex-basis: 68px;
+  }
+
+  .dhl-logo {
+    width: 76px;
+  }
+
+  .lockup-divider,
+  .product-lockup,
+  .iconbtn {
+    display: none;
+  }
+
+  .medflow-mark {
+    width: 32px;
+    height: 32px;
+    flex-basis: 32px;
+  }
+
+  .runchip {
+    font-size: 11px;
+  }
+
+  #content {
+    padding: 12px;
+  }
+}

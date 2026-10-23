@@ -1,0 +1,161 @@
+{
+  "project": {
+    "name": "MedFlow",
+    "central_warehouse_id": "WH001",
+    "subsidiary_warehouse_id": "WH002",
+    "schema_profile": "current"
+  },
+  "arm": {
+    "min_support": 0.06,
+    "min_confidence": 0.45,
+    "min_lift": 1.15,
+    "max_itemset_len": 2,
+    "lookback_days": 90
+  },
+  "replenishment": {
+    "lead_time_days": 2,
+    "lead_time_std_days": 0.45,
+    "ledger_through": null,
+    "review_period_days": 1,
+    "service_level_z": 1.65,
+    "coverage_period_days": 4,
+    "lookback_tiers": [
+      30,
+      60,
+      90
+    ]
+  },
+  "warehouse": {
+    "zone_types": [
+      {
+        "zonetype": "FAST",
+        "label": "Fast moving",
+        "metres_from_dock": 8
+      },
+      {
+        "zonetype": "MEDIUM",
+        "label": "Medium",
+        "metres_from_dock": 25
+      },
+      {
+        "zonetype": "SLOW",
+        "label": "Slow",
+        "metres_from_dock": 40
+      },
+      {
+        "zonetype": "BULK",
+        "label": "Bulky PPE",
+        "metres_from_dock": 48
+      },
+      {
+        "zonetype": "PICK",
+        "label": "Dispatch pick",
+        "metres_from_dock": 4
+      }
+    ]
+  },
+  "uc3": {
+    "mode": "2.5d",
+    "zone_distance_m": 40,
+    "aisle_distance_m": 3,
+    "walking_speed_mps": 1,
+    "trip_factor": 2,
+    "affinity_weight": 1,
+    "available_bin_statuses": [
+      "ACTIVE"
+    ],
+    "shelf_level_bands": {
+      "1": "LOW",
+      "2": "MID",
+      "3": "HIGH",
+      "4": "LADDER",
+      "5": "LADDER"
+    },
+    "shelf_penalties_seconds": {
+      "LOW": 0,
+      "MID": 0,
+      "HIGH": 0,
+      "LADDER": 20
+    },
+    "affinity_band_weights": {
+      "STRONG": 1,
+      "MODERATE": 0.5
+    },
+    "_about": "UC3 slotting (uc3-slotting-2.0): scores layouts in seconds per day. Walking: zone_distance_m per zone and aisle_distance_m per aisle from the dock at walking_speed_mps, times trip_factor (2 = out and back); ladder levels add shelf_penalties_seconds.LADDER. A move costs one-off labour (walk out and back per bin + handling_seconds_per_carton) spread over the payback preset the planner picks. One model run per preset.",
+    "handling_seconds_per_carton": 8,
+    "payback_presets_days": [
+      7,
+      30,
+      60,
+      90
+    ],
+    "max_moves": null,
+    "annealing": {
+      "iterations": 20000,
+      "seeds": 8,
+      "cooling": 0.995
+    },
+    "velocity_class_shares": {
+      "Super High": 0.08,
+      "High": 0.22,
+      "Medium": 0.4
+    }
+  },
+  "service_levels": {
+    "_about": "Per-product service level by criticality (WHO Vital / Essential / Non-essential). engines/uc2/service_levels.py maps each product's category (and productclassification) to a class, and writes the class's z-score as a product-scoped override in uc2_settings. Vital: a stockout risks acute harm within days. Essential: needed for ongoing treatment, short gaps tolerable. Desirable: substitutable over-the-counter items.",
+    "classes": {
+      "Vital": {
+        "service_level": 0.995,
+        "z": 2.576
+      },
+      "Essential": {
+        "service_level": 0.975,
+        "z": 1.96
+      },
+      "Desirable": {
+        "service_level": 0.93,
+        "z": 1.476
+      }
+    },
+    "by_category": {
+      "Anticoagulants": "Vital",
+      "Antiplatelets": "Vital",
+      "Antiepileptics": "Vital",
+      "Antidiabetics": "Vital",
+      "Cardiovascular": "Vital",
+      "Diuretics": "Vital",
+      "Antibiotics": "Vital",
+      "Antipsychotics": "Vital",
+      "Thyroid": "Vital",
+      "Parkinsons": "Vital",
+      "Corticosteroids": "Vital",
+      "Opioid Analgesics": "Vital",
+      "Antivirals": "Essential",
+      "Antidepressants": "Essential",
+      "Anxiolytics": "Essential",
+      "Hypnotics": "Essential",
+      "Lipid-Lowering": "Essential",
+      "Gastrointestinal": "Essential",
+      "Alzheimers": "Essential",
+      "Hormones": "Essential",
+      "Contraceptives": "Essential",
+      "Urology": "Essential",
+      "Migraine": "Essential",
+      "Gout": "Essential",
+      "Antifungals": "Essential",
+      "Respiratory": "Essential",
+      "Eye Care": "Essential",
+      "Ear Care": "Essential",
+      "Analgesics": "Desirable",
+      "NSAIDs": "Desirable",
+      "Antihistamines": "Desirable",
+      "Antacids": "Desirable"
+    },
+    "_by_classification": "overrides the category for these product forms (product.productclassification)",
+    "by_classification": {
+      "INHALER": "Vital",
+      "NEBULE": "Vital"
+    },
+    "default_class": "Essential"
+  }
+}

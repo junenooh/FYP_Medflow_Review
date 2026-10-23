@@ -1,0 +1,461 @@
+/* UC2 history: stat tiles, status calendar, activity feed */
+
+.uc2-page {
+  /* Status scale for the calendar. In stock and Getting low are normal, so they are quiet greys;
+     only Low stock (amber) and Out of stock (red) carry colour, so problems are what the eye lands on. */
+  --hc-0: #e4e7e3;
+  --hc-1: #bcc5cd;
+  --hc-2: #cc7a00;
+  --hc-3: #d40511;
+}
+
+/* ---- stat tiles ---- */
+
+.hist-tiles {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.hist-tile {
+  display: grid;
+  gap: 10px;
+  padding: 16px 18px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-panel);
+  background: #fff;
+  box-shadow: var(--shadow-sm);
+}
+
+.ht-label {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--gray);
+}
+
+.ht-main {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.ht-value {
+  display: block;
+  font: 800 32px/1.05 var(--sans);
+  letter-spacing: -0.03em;
+}
+
+.ht-value small {
+  margin-left: 3px;
+  font: 700 14px var(--sans);
+  letter-spacing: 0;
+  color: var(--gray);
+}
+
+.ht-sub {
+  display: block;
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--gray);
+  white-space: nowrap;
+}
+
+.ht-delta {
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--gray);
+}
+
+.ht-delta.is-good {
+  color: #13774a;
+}
+
+.ht-delta.is-bad {
+  color: #b0040f;
+}
+
+.ht-delta.is-none {
+  font-weight: 500;
+}
+
+.hist-tile .spark {
+  flex: 0 0 auto;
+  overflow: visible;
+}
+
+.spark-line {
+  fill: none;
+  stroke: var(--gray-2);
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.spark-dot {
+  fill: var(--near);
+  stroke: #fff;
+  stroke-width: 2;
+}
+
+/* ---- layout ---- */
+
+.hist-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+}
+
+.hist-cal,
+.hist-feed {
+  position: relative;
+  padding: 0;
+  overflow: visible;
+}
+
+.hist-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 18px 10px;
+}
+
+.hist-more {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 18px 14px;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+  color: var(--gray);
+}
+
+.hist-more .board-more {
+  padding: 0;
+}
+
+/* ---- status cells and calendar ---- */
+
+.hist-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  padding: 0 18px 12px;
+  font-size: 12px;
+  color: var(--gray);
+}
+
+.hist-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Severity is also encoded as height (healthy is a thin bar), so risk stands out and the scale survives colour-blindness. */
+.hc {
+  display: block;
+  height: 8px;
+  border-radius: 3px;
+  background: var(--hc-0);
+}
+
+.hist-legend .hc {
+  width: 14px;
+  height: 14px;
+}
+
+.hist-legend-note {
+  margin-left: auto;
+  color: var(--gray);
+}
+
+.hc-1 {
+  height: 12px;
+  background: var(--hc-1);
+}
+
+.hc-2 {
+  height: 17px;
+  background: var(--hc-2);
+}
+
+.hc-3 {
+  height: 22px;
+  background: var(--hc-3);
+}
+
+.hc.is-today {
+  box-shadow: 0 0 0 1.5px #fff, 0 0 0 3px rgba(28, 28, 28, 0.28);
+}
+
+.hc-strip {
+  display: grid;
+  grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+  align-items: end;
+  height: 22px;
+  gap: 2px;
+}
+
+.cal {
+  padding: 0 14px 6px;
+}
+
+.cal-head,
+.cal-row {
+  display: grid;
+  grid-template-columns: 148px minmax(0, 1fr) 54px;
+  align-items: center;
+  gap: 12px;
+}
+
+.cal-head {
+  padding: 0 4px 6px;
+}
+
+.cal-axis {
+  position: relative;
+  height: 16px;
+  font: 500 11px var(--mono);
+  color: var(--gray);
+}
+
+.cal-mark {
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.cal-mark.is-start {
+  transform: none;
+}
+
+.cal-mark.is-mid {
+  transform: translateX(-50%);
+}
+
+.cal-mark.is-end {
+  transform: translateX(-100%);
+}
+
+.cal-risk-head,
+.cal-risk {
+  white-space: nowrap;
+  text-align: right;
+  font: 500 11px var(--mono);
+  color: var(--gray);
+}
+
+.cal-risk {
+  font-size: 12px;
+  color: var(--charcoal);
+}
+
+.cal-row {
+  padding: 5px 4px;
+  border-radius: 8px;
+  transition: background 0.14s ease;
+}
+
+.cal-row.is-linked {
+  cursor: pointer;
+}
+
+.cal-row.is-linked:hover {
+  background: var(--sand);
+}
+
+.cal-row:focus-visible {
+  outline: 2px solid var(--near);
+  outline-offset: -2px;
+}
+
+.cal-name {
+  display: grid;
+  min-width: 0;
+  line-height: 1.25;
+}
+
+.cal-name b {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.cal-name small {
+  font: 500 11px var(--mono);
+  color: var(--gray);
+}
+
+.hist-table {
+  padding: 0 0 4px;
+}
+
+.hist-table table.data {
+  min-width: 0;
+}
+
+/* ---- tooltip ---- */
+
+.hist-tip {
+  position: absolute;
+  z-index: 6;
+  display: grid;
+  gap: 1px;
+  padding: 7px 10px;
+  border-radius: 8px;
+  background: var(--ink);
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.35;
+  white-space: nowrap;
+  pointer-events: none;
+  transform: translate(-50%, calc(-100% - 6px));
+  box-shadow: var(--shadow-md);
+}
+
+.hist-tip[hidden] {
+  display: none;
+}
+
+.hist-tip b {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.hist-tip span {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+/* ---- activity feed ---- */
+
+.hist-chips {
+  padding: 0 18px 10px;
+  margin-left: 0;
+}
+
+.hist-chips .uc2-chip {
+  padding: 5px 10px;
+  font-size: 12.5px;
+}
+
+.feed-day {
+  margin: 0;
+  padding: 12px 18px 6px;
+  font: 800 12px var(--sans);
+  letter-spacing: 0.02em;
+  color: var(--gray);
+}
+
+.feed-item {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 10px;
+  padding: 9px 18px;
+  border-top: 1px solid var(--line);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.feed-day + .feed-item {
+  border-top: 0;
+}
+
+.feed-item.is-linked {
+  cursor: pointer;
+  transition: background 0.14s ease;
+}
+
+.feed-item.is-linked:hover {
+  background: #fbfaf7;
+}
+
+.feed-item:focus-visible {
+  outline: 2px solid var(--near);
+  outline-offset: -2px;
+}
+
+.feed-mark {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  margin-top: -1px;
+  border-radius: 50%;
+  background: var(--gray-2);
+  color: #fff;
+  font: 800 12px/1 var(--sans);
+  font-style: normal;
+}
+
+.ev-order .feed-mark {
+  background: var(--near);
+}
+
+.ev-delivered .feed-mark {
+  background: var(--ok);
+}
+
+.ev-stockout .feed-mark,
+.ev-hold .feed-mark {
+  background: var(--oos);
+}
+
+.ev-short .feed-mark {
+  background: var(--hc-2);
+}
+
+.feed-text b {
+  display: block;
+  font-weight: 700;
+}
+
+.feed-text small {
+  display: block;
+  margin-top: 1px;
+  font-size: 12px;
+  color: var(--gray);
+}
+
+.feed-time {
+  font: 500 11.5px var(--mono);
+  color: var(--gray);
+  white-space: nowrap;
+}
+
+@media (max-width: 1100px) {
+  .hist-tiles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hist-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  .hist-tiles {
+    grid-template-columns: 1fr;
+  }
+
+  .cal-head,
+  .cal-row {
+    grid-template-columns: 96px minmax(0, 1fr) 36px;
+  }
+}
+
+/* one line under the tiles (how long restocks took) */
+.hist-note {
+  grid-column: 1 / -1;
+  margin: -2px 2px 0;
+  font-size: 12.5px;
+  color: var(--gray);
+}
